@@ -1,0 +1,1966 @@
+{
+	"_id": "choux",
+	"index": 90,
+	"id": "c1101",
+	"base_id": null,
+	"specialty_id": null,
+	"name": "Choux",
+	"moonlight": false,
+	"rarity": 5,
+	"attribute": "ice",
+	"role": "warrior",
+	"zodiac": "goat",
+	"description": "An adorable girl who wishes to become Suin",
+	"story": "Choux is a Human child who was rescued from a cold, snowy mountain by an old Mouse Suin couple fifteen years ago. Having been adopted by the couple, she grew up as the only Human in her village.",
+	"get_line": "Let me know anytime if you need my help! But of course, I don't work for free!",
+	"stats": {
+		"bra": 90,
+		"int": 109,
+		"fai": 77,
+		"des": 68
+	},
+	"relationships": [
+		{
+			"name": null,
+			"description": null,
+			"relations": [
+				{
+					"id": "c3061",
+					"slot": 1,
+					"description": "Choux thinks she is sweet and pretty. She often brings presents when she visits Choux's village.",
+					"relation": "Love",
+					"upgrade": {},
+					"relation_id": "re_love_tx"
+				},
+				{
+					"id": "c1003",
+					"slot": 2,
+					"description": "A strange and arrogant person. Choux will never forgive Rose for bullying Nemunas.",
+					"relation": "Grudge",
+					"upgrade": {},
+					"relation_id": "re_grudge_tx"
+				},
+				{
+					"id": "c1100",
+					"slot": 3,
+					"description": "A girl who left after asking Choux to look for someone called Yufine. She wonders what happened.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				}
+			]
+		}
+	],
+	"self_devotion": {
+		"type": "cri",
+		"grades": {
+			"B": 0.056,
+			"A": 0.084,
+			"S": 0.112,
+			"SS": 0.14,
+			"SSS": 0.168
+		}
+	},
+	"devotion": {
+		"type": "res",
+		"grades": {
+			"B": 0.048,
+			"A": 0.072,
+			"S": 0.096,
+			"SS": 0.12,
+			"SSS": 0.144
+		},
+		"slots": {
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true
+		}
+	},
+	"specialty": {
+		"name": "Hide-and-Seek",
+		"description": "No one can find her when she hides in the snow-covered fields.",
+		"effect_type": "reward_bonus",
+		"effect_value": 0.06,
+		"command": 72,
+		"charm": 38,
+		"politics": 46,
+		"type": {
+			"name": "Intelligence",
+			"description": null
+		},
+		"assets": {
+			"icon": "https://assets.epicsevendb.com/_source/skill/smt_search.png"
+		}
+	},
+	"camping": {
+		"personalities": [
+			"Cherub",
+			"Altruistic"
+		],
+		"topics": [
+			"Food Story",
+			"Sad Memory"
+		],
+		"values": {
+			"Criticism": -5,
+			"Reality Check": -5,
+			"Heroic Tale": -1,
+			"Comforting Cheer": 5,
+			"Cute Cheer": 5,
+			"Heroic Cheer": 4,
+			"Sad Memory": 7,
+			"Joyful Memory": 5,
+			"Happy Memories": 5,
+			"Unique Comment": 0,
+			"Self-Indulgent": 0,
+			"Occult": -2,
+			"Myth": 3,
+			"Bizarre Story": -2,
+			"Food Story": 4,
+			"Horror Story": -7,
+			"Gossip": 2,
+			"Dream": 5,
+			"Advice": 6,
+			"Complain": 2,
+			"Belief": -3,
+			"Interesting Story": 2
+		}
+	},
+	"zodiac_tree": [
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runeice1",
+					"count": 10,
+					"_id": "frost-rune",
+					"identifier": "ma_runeice1",
+					"name": "Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "max_hp_rate",
+					"value": 0.03,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_0"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runeice1",
+					"count": 15,
+					"_id": "frost-rune",
+					"identifier": "ma_runeice1",
+					"name": "Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				},
+				{
+					"item": "ma_runeice2",
+					"count": 2,
+					"_id": "greater-frost-rune",
+					"identifier": "ma_runeice2",
+					"name": "Greater Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "max_hp_rate",
+					"value": 0.03,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_1"
+		},
+		{
+			"name": "Ability Stone",
+			"description": "Enhances skills more powerfully.",
+			"skill_enhanced": 3,
+			"costs": [
+				{
+					"item": "ma_runeice1",
+					"count": 20,
+					"_id": "frost-rune",
+					"identifier": "ma_runeice1",
+					"name": "Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				},
+				{
+					"item": "ma_runeice2",
+					"count": 10,
+					"_id": "greater-frost-rune",
+					"identifier": "ma_runeice2",
+					"name": "Greater Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_2"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runeice2",
+					"count": 10,
+					"_id": "greater-frost-rune",
+					"identifier": "ma_runeice2",
+					"name": "Greater Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				},
+				{
+					"item": "ma_runeice3",
+					"count": 2,
+					"_id": "epic-frost-rune",
+					"identifier": "ma_runeice3",
+					"name": "Epic Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "def_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_3"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runeice3",
+					"count": 6,
+					"_id": "epic-frost-rune",
+					"identifier": "ma_runeice3",
+					"name": "Epic Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_candle_es",
+					"count": 15,
+					"_id": "cursed-ashes",
+					"identifier": "ma_candle_es",
+					"name": "Cursed Ashes",
+					"description": "Ashes left behind from a scorching flame, said to be used in curse magic.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 3,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_candle_es.png"
+					},
+					"request_count": 2,
+					"support_count": 1,
+					"shops": [
+						{
+							"chapter": "10. East Taranor",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "8S. Breezy Plain",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "1. Jerdun Borderlands",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "2S. Scorned Lands",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "10. Distorted Dimension",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "10. East Taranor World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "8S. Breezy Plain World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "max_hp_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_4"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runeice3",
+					"count": 10,
+					"_id": "epic-frost-rune",
+					"identifier": "ma_runeice3",
+					"name": "Epic Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_wyvern_es",
+					"count": 10,
+					"_id": "dragons-wrath",
+					"identifier": "ma_wyvern_es",
+					"name": "Dragon's Wrath",
+					"description": "A scale fragment emanating incredible power. It is said that if the weak touch it, they will be killed instantly in an explosion of energy.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 5,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_wyvern_es.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": [
+						{
+							"chapter": "4. Dragon Valley",
+							"continent": "Eureka",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "3. Savara World",
+							"continent": "Ritania",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "max_hp_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_5"
+		}
+	],
+	"skills": [
+		{
+			"name": "Chop",
+			"can_enhance": false,
+			"description": "Attacks the enemy with a spear before increasing the caster's Combat Readiness by {{variable}}. A critical hit will double the amount of Focus gained. Damage dealt increases proportional to the caster's max Health.",
+			"values": [
+				0.15
+			],
+			"passive": false,
+			"cooldown": 0,
+			"soul_gain": 1,
+			"pow": 1,
+			"att_rate": 0.5,
+			"buff": [],
+			"debuff": [],
+			"common": [],
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_0_enh_0"
+				},
+				{
+					"string": "+2% Combat Readiness",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_0_enh_1"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 14000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_slime_es",
+							"count": 2,
+							"_id": "slime-jelly",
+							"identifier": "ma_slime_es",
+							"name": "Slime Jelly",
+							"description": "When a slime is killed, it melts away and leaves behind jelly. It can be eaten in times of emergency.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_slime_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "1. Ezera",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Wintenberg of the Past",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4. City of Sorcerers Witchaven",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1. Ezera World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_2"
+				},
+				{
+					"string": "+3% Combat Readiness",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 28000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 2,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_slime_es",
+							"count": 4,
+							"_id": "slime-jelly",
+							"identifier": "ma_slime_es",
+							"name": "Slime Jelly",
+							"description": "When a slime is killed, it melts away and leaves behind jelly. It can be eaten in times of emergency.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_slime_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "1. Ezera",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Wintenberg of the Past",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4. City of Sorcerers Witchaven",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1. Ezera World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_3"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 45000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 4,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_slime_es",
+							"count": 5,
+							"_id": "slime-jelly",
+							"identifier": "ma_slime_es",
+							"name": "Slime Jelly",
+							"description": "When a slime is killed, it melts away and leaves behind jelly. It can be eaten in times of emergency.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_slime_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "1. Ezera",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Wintenberg of the Past",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4. City of Sorcerers Witchaven",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1. Ezera World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_4"
+				},
+				{
+					"string": "+15% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 80000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 4,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_wyvern_es",
+							"count": 2,
+							"_id": "dragons-wrath",
+							"identifier": "ma_wyvern_es",
+							"name": "Dragon's Wrath",
+							"description": "A scale fragment emanating incredible power. It is said that if the weak touch it, they will be killed instantly in an explosion of energy.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 5,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_wyvern_es.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": [
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_5"
+				}
+			],
+			"_id": "skill_0",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c1101_1.png"
+			}
+		},
+		{
+			"name": "Fwoooosh!",
+			"can_enhance": false,
+			"description": "Attacks the enemy by wildly swinging a spear. Penetrates the enemy's Defense by 50%. When the caster's stacked Focus is 5, consumes all Focus, resetting the cooldown of Fwoooosh! and recovering Health proportional to damage dealt. Damage dealt increases proportional to the caster's max Health.",
+			"values": [],
+			"passive": false,
+			"cooldown": 3,
+			"soul_gain": 1,
+			"pow": 1,
+			"att_rate": 0.5,
+			"buff": [],
+			"debuff": [],
+			"common": [
+				34
+			],
+			"soul_description": "Increases damage dealt.",
+			"soul_requirement": 10,
+			"soul_pow": 1,
+			"soul_att_rate": 0.5,
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 19000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_slime_es",
+							"count": 3,
+							"_id": "slime-jelly",
+							"identifier": "ma_slime_es",
+							"name": "Slime Jelly",
+							"description": "When a slime is killed, it melts away and leaves behind jelly. It can be eaten in times of emergency.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_slime_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "1. Ezera",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Wintenberg of the Past",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4. City of Sorcerers Witchaven",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1. Ezera World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_0"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 33000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 2,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_slime_es",
+							"count": 5,
+							"_id": "slime-jelly",
+							"identifier": "ma_slime_es",
+							"name": "Slime Jelly",
+							"description": "When a slime is killed, it melts away and leaves behind jelly. It can be eaten in times of emergency.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_slime_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "1. Ezera",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Wintenberg of the Past",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4. City of Sorcerers Witchaven",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1. Ezera World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_1"
+				},
+				{
+					"string": "+15% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 110000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 4,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_wyvern_es",
+							"count": 3,
+							"_id": "dragons-wrath",
+							"identifier": "ma_wyvern_es",
+							"name": "Dragon's Wrath",
+							"description": "A scale fragment emanating incredible power. It is said that if the weak touch it, they will be killed instantly in an explosion of energy.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 5,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_wyvern_es.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": [
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_2"
+				}
+			],
+			"_id": "skill_1",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c1101_2.png"
+			}
+		},
+		{
+			"name": "Help Me, Cream!",
+			"can_enhance": true,
+			"description": "Freezes all enemies before attacking with Cream. Increases Critical Hit Resistance of all allies for 2 turns. Damage dealt increases proportional to the caster's max Health.",
+			"values": [],
+			"passive": false,
+			"cooldown": 5,
+			"soul_gain": 3,
+			"pow": 1,
+			"att_rate": 0.5,
+			"buff": [
+				40,
+				12
+			],
+			"debuff": [],
+			"common": [],
+			"enhanced_description": "Freezes all enemies before attacking with Cream. Increases Critical Hit Resistance of all allies for 2 turns and grants the caster immunity for 2 turns. Damage dealt increases proportional to the caster's max Health.",
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_2_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_2_enh_1"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 14000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_slime_es",
+							"count": 2,
+							"_id": "slime-jelly",
+							"identifier": "ma_slime_es",
+							"name": "Slime Jelly",
+							"description": "When a slime is killed, it melts away and leaves behind jelly. It can be eaten in times of emergency.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_slime_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "1. Ezera",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Wintenberg of the Past",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4. City of Sorcerers Witchaven",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1. Ezera World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_2"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 28000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 2,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_slime_es",
+							"count": 4,
+							"_id": "slime-jelly",
+							"identifier": "ma_slime_es",
+							"name": "Slime Jelly",
+							"description": "When a slime is killed, it melts away and leaves behind jelly. It can be eaten in times of emergency.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_slime_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "1. Ezera",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Wintenberg of the Past",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4. City of Sorcerers Witchaven",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1. Ezera World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_3"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 45000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 4,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_slime_es",
+							"count": 5,
+							"_id": "slime-jelly",
+							"identifier": "ma_slime_es",
+							"name": "Slime Jelly",
+							"description": "When a slime is killed, it melts away and leaves behind jelly. It can be eaten in times of emergency.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_slime_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "1. Ezera",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Wintenberg of the Past",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4. City of Sorcerers Witchaven",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1. Ezera World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_4"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 80000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 4,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_wyvern_es",
+							"count": 2,
+							"_id": "dragons-wrath",
+							"identifier": "ma_wyvern_es",
+							"name": "Dragon's Wrath",
+							"description": "A scale fragment emanating incredible power. It is said that if the weak touch it, they will be killed instantly in an explosion of energy.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 5,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_wyvern_es.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": [
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_5"
+				}
+			],
+			"_id": "skill_2",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c1101_3.png"
+			}
+		}
+	],
+	"specialty_change": {},
+	"assets": {
+		"icon": "https://assets.epicsevendb.com/_source/face/c1101_s.png",
+		"image": "https://assets.epicsevendb.com/_source/face/c1101_su.png",
+		"thumbnail": "https://assets.epicsevendb.com/_source/face/c1101_l.png"
+	},
+	"buffs": [
+		{
+			"_id": "12",
+			"id": 12,
+			"type": "buff",
+			"name": "Immune",
+			"effect": "Unaffected by debuffs and some harmful effects.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_debuf_impossible.png"
+			}
+		},
+		{
+			"_id": "40",
+			"id": 40,
+			"type": "buff",
+			"name": "Increase Critical Hit Resistance",
+			"effect": "Increases Critical Hit Resistance by 50%.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_crires_up.png"
+			}
+		}
+	],
+	"debuffs": [],
+	"common": [
+		{
+			"_id": "34",
+			"id": 34,
+			"type": "common",
+			"name": "Penetrate",
+			"effect": "Ignores the target's Defense when inflicting damage.",
+			"assets": {
+				"icon": null
+			}
+		}
+	],
+	"ex_equip": [],
+	"calculatedStatus": {
+		"lv50FiveStarNoAwaken": {
+			"cp": 12050,
+			"atk": 655,
+			"hp": 4653,
+			"spd": 102,
+			"def": 500,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv50FiveStarFullyAwakened": {
+			"cp": 13730,
+			"atk": 775,
+			"hp": 5551,
+			"spd": 102,
+			"def": 530,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarNoAwaken": {
+			"cp": 15038,
+			"atk": 816,
+			"hp": 5850,
+			"spd": 102,
+			"def": 620,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarFullyAwakened": {
+			"cp": 17484,
+			"atk": 966,
+			"hp": 7323,
+			"spd": 102,
+			"def": 657,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		}
+	},
+	"localize": {
+		"name": "シュー",
+		"skill1": {
+			"name": "つっこめ～!",
+			"desc": "敵単体に攻撃し、自身のアクションゲージを15.0%UPさせる。クリティカル発生時、【集中】の獲得量が2倍になる。自身の最大生命力が高いほどダメージがUPする。",
+			"soul_description": ""
+		},
+		"skill2": {
+			"name": "くるくるり～ん!",
+			"desc": "敵単体に攻撃する。対象の防御力を50%貫通する。【集中】が5の場合、【集中】をすべて消費して、【くるくるり～ん!】のスキルターンが0になり、与えたダメージに応じて自身の生命力を回復する。自身の最大生命力が高いほどダメージがUPする。",
+			"soul_description": "敵単体に攻撃する。対象の防御力を50%貫通する。【集中】が5の場合、【集中】をすべて消費して、【くるくるり～ん!】のスキルターンが0になり、与えたダメージに応じて自身の生命力を回復する。自身の最大生命力が高いほどダメージがUPする。"
+		},
+		"skill3": {
+			"name": "助けて!クリーム!",
+			"desc": "敵全体に攻撃する。味方全体にクリティカル抵抗率UPを2ターンの間付与する。自身の最大生命力が高いほどダメージがUPする。",
+			"soul_description": ""
+		}
+	}
+}

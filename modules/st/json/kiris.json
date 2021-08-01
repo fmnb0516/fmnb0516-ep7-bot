@@ -1,0 +1,1611 @@
+{
+	"_id": "kiris",
+	"index": 173,
+	"id": "c3063",
+	"base_id": null,
+	"specialty_id": null,
+	"name": "Kiris",
+	"moonlight": false,
+	"rarity": 3,
+	"attribute": "wind",
+	"role": "ranger",
+	"zodiac": "goat",
+	"description": "A Sicar assassin with a lot to hide",
+	"story": "An Elf of Dun Blyraia, Kiris left her home after losing her lover to the Archdemon War and joined the Sicar assassin organization. She is often absent-minded, but as you get to know her you discover she possesses an acute sense.",
+	"get_line": "Ah... did you call me?",
+	"stats": {
+		"bra": 78,
+		"int": 79,
+		"fai": 55,
+		"des": 71
+	},
+	"relationships": [
+		{
+			"name": null,
+			"description": null,
+			"relations": [
+				{
+					"id": "c1004",
+					"slot": 1,
+					"description": "When Kiris was living in Dun Blyraia, Silk was like a younger sister to her.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "c1032",
+					"slot": 2,
+					"description": "A knight of the Order of the Shield who is chasing after Kiris in hopes of arresting her.",
+					"relation": "Grudge",
+					"upgrade": {},
+					"relation_id": "re_grudge_tx"
+				},
+				{
+					"id": "c3003",
+					"slot": 3,
+					"description": "When Kiris was living in Dun Blyraia, Kluri was someone she felt she could confide in, and vice versa.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				}
+			]
+		}
+	],
+	"self_devotion": {
+		"type": "max_hp",
+		"grades": {
+			"D": 180,
+			"C": 270,
+			"B": 360,
+			"A": 450,
+			"S": 540,
+			"SS": 630,
+			"SSS": 720
+		}
+	},
+	"devotion": {
+		"type": "max_hp",
+		"grades": {
+			"D": 120,
+			"C": 180,
+			"B": 240,
+			"A": 300,
+			"S": 360,
+			"SS": 420,
+			"SSS": 480
+		},
+		"slots": {
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true
+		}
+	},
+	"specialty": {
+		"name": "Stance Shift",
+		"description": "Her attitude changes as soon as she begins pursuit.",
+		"effect_type": "reward_bonus",
+		"effect_value": 0.06,
+		"command": 12,
+		"charm": 44,
+		"politics": 77,
+		"type": {
+			"name": "Chase",
+			"description": null
+		},
+		"assets": {
+			"icon": "https://assets.epicsevendb.com/_source/skill/smc_weak_2.png"
+		}
+	},
+	"camping": {
+		"personalities": [
+			"Traumatized",
+			"Indifferent"
+		],
+		"topics": [
+			"Advice",
+			"Reality Check"
+		],
+		"values": {
+			"Criticism": 3,
+			"Reality Check": -3,
+			"Heroic Tale": 2,
+			"Comforting Cheer": -3,
+			"Cute Cheer": 2,
+			"Heroic Cheer": 0,
+			"Sad Memory": 3,
+			"Joyful Memory": 4,
+			"Happy Memories": 0,
+			"Unique Comment": 4,
+			"Self-Indulgent": 1,
+			"Occult": 3,
+			"Myth": 0,
+			"Bizarre Story": -2,
+			"Food Story": 4,
+			"Horror Story": -2,
+			"Gossip": -3,
+			"Dream": 2,
+			"Advice": -2,
+			"Complain": -3,
+			"Belief": 5,
+			"Interesting Story": 2
+		}
+	},
+	"zodiac_tree": [
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runewind1",
+					"count": 5,
+					"_id": "life-rune",
+					"identifier": "ma_runewind1",
+					"name": "Life Rune",
+					"description": "A Rune for Awakening Earth elemental Heroes obtainable from the Forest Spirit Altar.",
+					"category": "Rune",
+					"attribute": "wind",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runewind1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "speed",
+					"value": 2,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_0"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runewind1",
+					"count": 9,
+					"_id": "life-rune",
+					"identifier": "ma_runewind1",
+					"name": "Life Rune",
+					"description": "A Rune for Awakening Earth elemental Heroes obtainable from the Forest Spirit Altar.",
+					"category": "Rune",
+					"attribute": "wind",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runewind1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "acc",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_1"
+		},
+		{
+			"name": "Ability Stone",
+			"description": "Enhances skills more powerfully.",
+			"skill_enhanced": 3,
+			"costs": [
+				{
+					"item": "ma_runewind1",
+					"count": 12,
+					"_id": "life-rune",
+					"identifier": "ma_runewind1",
+					"name": "Life Rune",
+					"description": "A Rune for Awakening Earth elemental Heroes obtainable from the Forest Spirit Altar.",
+					"category": "Rune",
+					"attribute": "wind",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runewind1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				},
+				{
+					"item": "ma_runewind2",
+					"count": 6,
+					"_id": "greater-life-rune",
+					"identifier": "ma_runewind2",
+					"name": "Greater Life Rune",
+					"description": "A Rune for Awakening Earth elemental Heroes obtainable from the Forest Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "wind",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runewind2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_2"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runewind2",
+					"count": 15,
+					"_id": "greater-life-rune",
+					"identifier": "ma_runewind2",
+					"name": "Greater Life Rune",
+					"description": "A Rune for Awakening Earth elemental Heroes obtainable from the Forest Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "wind",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runewind2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "acc",
+					"value": 0.12,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_3"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runewind3",
+					"count": 4,
+					"_id": "epic-life-rune",
+					"identifier": "ma_runewind3",
+					"name": "Epic Life Rune",
+					"description": "A Rune for Awakening Earth elemental Heroes obtainable from the Forest Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "wind",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runewind3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_candle_es",
+					"count": 9,
+					"_id": "cursed-ashes",
+					"identifier": "ma_candle_es",
+					"name": "Cursed Ashes",
+					"description": "Ashes left behind from a scorching flame, said to be used in curse magic.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 3,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_candle_es.png"
+					},
+					"request_count": 2,
+					"support_count": 1,
+					"shops": [
+						{
+							"chapter": "10. East Taranor",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "8S. Breezy Plain",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "1. Jerdun Borderlands",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "2S. Scorned Lands",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "10. Distorted Dimension",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "10. East Taranor World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "8S. Breezy Plain World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "speed",
+					"value": 4,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_4"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runewind3",
+					"count": 6,
+					"_id": "epic-life-rune",
+					"identifier": "ma_runewind3",
+					"name": "Epic Life Rune",
+					"description": "A Rune for Awakening Earth elemental Heroes obtainable from the Forest Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "wind",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runewind3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_wyvern_es",
+					"count": 6,
+					"_id": "dragons-wrath",
+					"identifier": "ma_wyvern_es",
+					"name": "Dragon's Wrath",
+					"description": "A scale fragment emanating incredible power. It is said that if the weak touch it, they will be killed instantly in an explosion of energy.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 5,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_wyvern_es.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": [
+						{
+							"chapter": "4. Dragon Valley",
+							"continent": "Eureka",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "3. Savara World",
+							"continent": "Ritania",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "acc",
+					"value": 0.12,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_5"
+		}
+	],
+	"skills": [
+		{
+			"name": "Venomous Arrow",
+			"can_enhance": false,
+			"description": "Fires a poisoned arrow at the enemy, with a {{variable}} chance to inflict poison for 2 turns.",
+			"values": [
+				0.35
+			],
+			"passive": false,
+			"cooldown": 0,
+			"soul_gain": 1,
+			"pow": 0.9,
+			"att_rate": 1,
+			"buff": [],
+			"debuff": [
+				24
+			],
+			"common": [],
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 1000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 50,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_0_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 100,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_0_enh_1"
+				},
+				{
+					"string": "+5% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 3000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 170,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_0_enh_2"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 9000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 280,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_slime_es",
+							"count": 1,
+							"_id": "slime-jelly",
+							"identifier": "ma_slime_es",
+							"name": "Slime Jelly",
+							"description": "When a slime is killed, it melts away and leaves behind jelly. It can be eaten in times of emergency.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_slime_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "1. Ezera",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Wintenberg of the Past",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4. City of Sorcerers Witchaven",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1. Ezera World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_3"
+				},
+				{
+					"string": "+10% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 16000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 450,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_slime_es",
+							"count": 2,
+							"_id": "slime-jelly",
+							"identifier": "ma_slime_es",
+							"name": "Slime Jelly",
+							"description": "When a slime is killed, it melts away and leaves behind jelly. It can be eaten in times of emergency.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_slime_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "1. Ezera",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Wintenberg of the Past",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4. City of Sorcerers Witchaven",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1. Ezera World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_4"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 25000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 700,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_slime_es",
+							"count": 3,
+							"_id": "slime-jelly",
+							"identifier": "ma_slime_es",
+							"name": "Slime Jelly",
+							"description": "When a slime is killed, it melts away and leaves behind jelly. It can be eaten in times of emergency.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_slime_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "1. Ezera",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Wintenberg of the Past",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4. City of Sorcerers Witchaven",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1. Ezera World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_5"
+				},
+				{
+					"string": "+15% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 39000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1050,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_slime_es",
+							"count": 5,
+							"_id": "slime-jelly",
+							"identifier": "ma_slime_es",
+							"name": "Slime Jelly",
+							"description": "When a slime is killed, it melts away and leaves behind jelly. It can be eaten in times of emergency.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_slime_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "1. Ezera",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Wintenberg of the Past",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4. City of Sorcerers Witchaven",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1. Ezera World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_6"
+				}
+			],
+			"_id": "skill_0",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_m0007_w.png"
+			}
+		},
+		{
+			"name": "Corrosive Volley",
+			"can_enhance": false,
+			"description": "Fires a corrosive volley to all enemies, extending any debuff duration by 1 turn.",
+			"values": [],
+			"passive": false,
+			"cooldown": 5,
+			"soul_gain": 2,
+			"pow": 1,
+			"att_rate": 0.7,
+			"buff": [],
+			"debuff": [],
+			"common": [],
+			"soul_description": "Ignores Effect Resistance.",
+			"soul_requirement": 20,
+			"soul_pow": 1,
+			"soul_att_rate": 0.7,
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 1000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 50,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_1_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 100,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_1_enh_1"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 3000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 170,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_1_enh_2"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 9000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 280,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_slime_es",
+							"count": 1,
+							"_id": "slime-jelly",
+							"identifier": "ma_slime_es",
+							"name": "Slime Jelly",
+							"description": "When a slime is killed, it melts away and leaves behind jelly. It can be eaten in times of emergency.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_slime_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "1. Ezera",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Wintenberg of the Past",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4. City of Sorcerers Witchaven",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1. Ezera World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_3"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 16000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 450,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_slime_es",
+							"count": 2,
+							"_id": "slime-jelly",
+							"identifier": "ma_slime_es",
+							"name": "Slime Jelly",
+							"description": "When a slime is killed, it melts away and leaves behind jelly. It can be eaten in times of emergency.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_slime_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "1. Ezera",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Wintenberg of the Past",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4. City of Sorcerers Witchaven",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1. Ezera World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_4"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 25000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 700,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_slime_es",
+							"count": 3,
+							"_id": "slime-jelly",
+							"identifier": "ma_slime_es",
+							"name": "Slime Jelly",
+							"description": "When a slime is killed, it melts away and leaves behind jelly. It can be eaten in times of emergency.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_slime_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "1. Ezera",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Wintenberg of the Past",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4. City of Sorcerers Witchaven",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1. Ezera World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_5"
+				}
+			],
+			"_id": "skill_1",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_m0037_w.png"
+			}
+		},
+		{
+			"name": "Preparation",
+			"can_enhance": true,
+			"description": "Strengthens the caster's next attack, increases Combat Readiness by 50%.\nVenomous Arrow: Increases effect chance to 100%, and poison effects can be stacked up to 3 times.\nCorrosive Volley: Extends debuff duration by 2 turns.",
+			"values": [],
+			"passive": false,
+			"cooldown": 5,
+			"soul_gain": 1,
+			"pow": 1,
+			"att_rate": 0,
+			"buff": [],
+			"debuff": [
+				24
+			],
+			"common": [
+				35
+			],
+			"enhanced_description": "Strengthens the caster's next attack, granting an extra turn.\nVenomous Arrow: Increases effect chance to 100%, and poison effects can be stacked up to 3 times.\nCorrosive Volley: Extends debuff duration by 2 turns.",
+			"enhancements": [
+				{
+					"string": "+2 Soul acquired",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 1000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 50,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_2_enh_0"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 120,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_2_enh_1"
+				}
+			],
+			"_id": "skill_2",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_m0008_w.png"
+			}
+		}
+	],
+	"specialty_change": {},
+	"assets": {
+		"icon": "https://assets.epicsevendb.com/_source/face/c3063_s.png",
+		"image": "https://assets.epicsevendb.com/_source/face/c3063_su.png",
+		"thumbnail": "https://assets.epicsevendb.com/_source/face/c3063_l.png"
+	},
+	"buffs": [],
+	"debuffs": [
+		{
+			"_id": "24",
+			"id": 24,
+			"type": "debuff",
+			"name": "Poison",
+			"effect": "Receives damage equivalent to 5% of max Health at the start of the turn.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_dot.png"
+			}
+		}
+	],
+	"common": [
+		{
+			"_id": "35",
+			"id": 35,
+			"type": "common",
+			"name": "Extra Turn",
+			"effect": "Grants an extra turn.",
+			"assets": {
+				"icon": null
+			}
+		}
+	],
+	"ex_equip": [],
+	"calculatedStatus": {
+		"lv50FiveStarNoAwaken": {
+			"cp": 10184,
+			"atk": 567,
+			"hp": 3688,
+			"spd": 104,
+			"def": 438,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv50FiveStarFullyAwakened": {
+			"cp": 11702,
+			"atk": 687,
+			"hp": 4028,
+			"spd": 110,
+			"def": 438,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0.18,
+			"efr": 0
+		},
+		"lv60SixStarNoAwaken": {
+			"cp": 12707,
+			"atk": 707,
+			"hp": 4637,
+			"spd": 104,
+			"def": 543,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarFullyAwakened": {
+			"cp": 15018,
+			"atk": 857,
+			"hp": 5057,
+			"spd": 110,
+			"def": 543,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0.3,
+			"efr": 0
+		}
+	},
+	"localize": {
+		"name": "キリス",
+		"skill1": {
+			"name": "猛毒の矢",
+			"desc": "敵単体に攻撃し、35.0%の確率で毒を2ターンの間付与する。",
+			"soul_description": ""
+		},
+		"skill2": {
+			"name": "腐食の矢雨",
+			"desc": "敵全体に攻撃し、弱体状態の場合、弱体効果を1ターン延長させる。",
+			"soul_description": "敵全体に攻撃し、弱体状態の場合、弱体効果を1ターン延長させる。"
+		},
+		"skill3": {
+			"name": "心構え",
+			"desc": "自身の次の攻撃を強化し、アクションゲージを50%UPさせる。\n猛毒の矢 : 効果発生率が100%になり、毒を3つ付与する。\n腐食の矢雨 : 弱体効果延長が2ターン増加する。",
+			"soul_description": ""
+		}
+	}
+}

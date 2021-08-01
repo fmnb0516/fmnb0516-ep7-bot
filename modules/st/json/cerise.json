@@ -1,0 +1,1823 @@
+{
+	"_id": "cerise",
+	"index": 71,
+	"id": "c1081",
+	"base_id": null,
+	"specialty_id": null,
+	"name": "Cerise",
+	"moonlight": false,
+	"rarity": 5,
+	"attribute": "ice",
+	"role": "ranger",
+	"zodiac": "waterbearer",
+	"description": "The young administrator of Aakhen who dreams of a better future",
+	"story": "A young politician and administrator of Aakhen. She opposes her conservative father, Furious, who governs with zero-tolerance policies, and tries to solve problems with reasonable solutions as she strives to reconcile Aakhen and Perland.",
+	"get_line": "Pleased to meet you. I'm sure we can be of great help to one another.",
+	"stats": {
+		"bra": 83,
+		"int": 85,
+		"fai": 72,
+		"des": 93
+	},
+	"relationships": [
+		{
+			"name": null,
+			"description": null,
+			"relations": [
+				{
+					"id": "c1089",
+					"slot": 1,
+					"description": "The Citylord of Perland. Pavel may trust her, but Cerise never will. She talks of peace, but her actions say something different.",
+					"relation": "Rival",
+					"upgrade": {},
+					"relation_id": "re_rival_tx"
+				},
+				{
+					"id": "c1034",
+					"slot": 2,
+					"description": "After the Black Knight came, Cerise's father became more stubborn and people became uneasy.",
+					"relation": "Grudge",
+					"upgrade": {},
+					"relation_id": "re_grudge_tx"
+				},
+				{
+					"id": "c1001",
+					"slot": 3,
+					"description": "The savior of Ritania. Perhaps he can help us too.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "c1080",
+					"slot": 4,
+					"description": "A patient person who understands Cerise better than anyone else. She wishes he was from Aakhen rather than Perland.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				}
+			]
+		}
+	],
+	"self_devotion": {
+		"type": "acc",
+		"grades": {
+			"B": 0.09,
+			"A": 0.135,
+			"S": 0.18,
+			"SS": 0.225,
+			"SSS": 0.27
+		}
+	},
+	"devotion": {
+		"type": "cri",
+		"grades": {
+			"B": 0.048,
+			"A": 0.072,
+			"S": 0.096,
+			"SS": 0.12,
+			"SSS": 0.144
+		},
+		"slots": {
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true
+		}
+	},
+	"specialty": {
+		"name": "Practicality",
+		"description": "With concise reporting, analysis, and fast execution, she maximizes efficiency.",
+		"effect_type": "reward_bonus",
+		"effect_value": 0.06,
+		"command": 64,
+		"charm": 78,
+		"politics": 92,
+		"type": {
+			"name": "Security",
+			"description": null
+		},
+		"assets": {
+			"icon": "https://assets.epicsevendb.com/_source/skill/smt_safty.png"
+		}
+	},
+	"camping": {
+		"personalities": [
+			"Realistic",
+			"Heroism"
+		],
+		"topics": [
+			"Reality Check",
+			"Horror Story"
+		],
+		"values": {
+			"Criticism": -2,
+			"Reality Check": 0,
+			"Heroic Tale": 2,
+			"Comforting Cheer": 3,
+			"Cute Cheer": 2,
+			"Heroic Cheer": 5,
+			"Sad Memory": 3,
+			"Joyful Memory": 3,
+			"Happy Memories": 3,
+			"Unique Comment": 2,
+			"Self-Indulgent": -2,
+			"Occult": -1,
+			"Myth": 2,
+			"Bizarre Story": -4,
+			"Food Story": 2,
+			"Horror Story": 4,
+			"Gossip": -1,
+			"Dream": -1,
+			"Advice": 4,
+			"Complain": -3,
+			"Belief": 1,
+			"Interesting Story": 0
+		}
+	},
+	"zodiac_tree": [
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runeice1",
+					"count": 10,
+					"_id": "frost-rune",
+					"identifier": "ma_runeice1",
+					"name": "Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att_rate",
+					"value": 0.03,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_0"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runeice1",
+					"count": 15,
+					"_id": "frost-rune",
+					"identifier": "ma_runeice1",
+					"name": "Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				},
+				{
+					"item": "ma_runeice2",
+					"count": 2,
+					"_id": "greater-frost-rune",
+					"identifier": "ma_runeice2",
+					"name": "Greater Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "cri",
+					"value": 0.04,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_1"
+		},
+		{
+			"name": "Ability Stone",
+			"description": "Enhances skills more powerfully.",
+			"skill_enhanced": 3,
+			"costs": [
+				{
+					"item": "ma_runeice1",
+					"count": 20,
+					"_id": "frost-rune",
+					"identifier": "ma_runeice1",
+					"name": "Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				},
+				{
+					"item": "ma_runeice2",
+					"count": 10,
+					"_id": "greater-frost-rune",
+					"identifier": "ma_runeice2",
+					"name": "Greater Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_2"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runeice2",
+					"count": 10,
+					"_id": "greater-frost-rune",
+					"identifier": "ma_runeice2",
+					"name": "Greater Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				},
+				{
+					"item": "ma_runeice3",
+					"count": 2,
+					"_id": "epic-frost-rune",
+					"identifier": "ma_runeice3",
+					"name": "Epic Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "speed",
+					"value": 4,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_3"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runeice3",
+					"count": 6,
+					"_id": "epic-frost-rune",
+					"identifier": "ma_runeice3",
+					"name": "Epic Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_shield_es",
+					"count": 15,
+					"_id": "order-of-the-shield-insignia",
+					"identifier": "ma_shield_es",
+					"name": "Order of the Shield Insignia",
+					"description": "An ornament bearing a shield symbol. It is worn out and faded, giving the impression that it has had several owners over time.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 3,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_shield_es.png"
+					},
+					"request_count": 2,
+					"support_count": 1,
+					"shops": [
+						{
+							"chapter": "8S. Breezy Plain",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "6. South Wetheric Moor",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "4. Dragon Valley",
+							"continent": "Eureka",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "6S. Dark Iron Range",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "8S. Breezy Plain World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "6. South Wetheric Moor World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "att_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_4"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runeice3",
+					"count": 10,
+					"_id": "epic-frost-rune",
+					"identifier": "ma_runeice3",
+					"name": "Epic Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_manager_es",
+					"count": 10,
+					"_id": "fighter-medal",
+					"identifier": "ma_manager_es",
+					"name": "Fighter Medal",
+					"description": "A medal given to soldiers who fought like demons in battle.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 5,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_insignia_es.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": [
+						{
+							"chapter": "1. South Lefundos",
+							"continent": "Eureka",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "1. Ezera World",
+							"continent": "Ritania",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "cri",
+					"value": 0.08,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_5"
+		}
+	],
+	"skills": [
+		{
+			"name": "Mystical Arrow",
+			"can_enhance": false,
+			"description": "Summons a mystical bow to attack the enemy, before increasing the caster's Combat Readiness by {{variable}}. Triggers a Dual Attack from a random ally when Frost Storm is on cooldown.",
+			"values": [
+				0.1
+			],
+			"passive": false,
+			"cooldown": 0,
+			"soul_gain": 1,
+			"pow": 1,
+			"att_rate": 1,
+			"buff": [],
+			"debuff": [],
+			"common": [
+				33
+			],
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_0_enh_0"
+				},
+				{
+					"string": "+2% Combat Readiness",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_0_enh_1"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 29000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_swordman_es",
+							"count": 5,
+							"_id": "leather-sheath",
+							"identifier": "ma_swordman_es",
+							"name": "Leather Sheath",
+							"description": "A sheath of tough leather used by soldiers to carry their swords.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_swordman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_2"
+				},
+				{
+					"string": "+3% Combat Readiness",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 47000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 3,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_swordman_es",
+							"count": 7,
+							"_id": "leather-sheath",
+							"identifier": "ma_swordman_es",
+							"name": "Leather Sheath",
+							"description": "A sheath of tough leather used by soldiers to carry their swords.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_swordman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_3"
+				},
+				{
+					"string": "+15% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 80000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 5,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_manager_es",
+							"count": 2,
+							"_id": "fighter-medal",
+							"identifier": "ma_manager_es",
+							"name": "Fighter Medal",
+							"description": "A medal given to soldiers who fought like demons in battle.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 5,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_insignia_es.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": [
+								{
+									"chapter": "1. South Lefundos",
+									"continent": "Eureka",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "1. Ezera World",
+									"continent": "Ritania",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_4"
+				}
+			],
+			"_id": "skill_0",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c1081_1.png"
+			}
+		},
+		{
+			"name": "Luminous Explosion",
+			"can_enhance": false,
+			"description": "Explodes a magical sphere, stunning for 1 turn and making them unable to be buffed for 2 turns. Increases the caster's Combat Readiness by 50%.",
+			"values": [],
+			"passive": false,
+			"cooldown": 4,
+			"soul_gain": 2,
+			"pow": 1,
+			"att_rate": 1.5,
+			"buff": [],
+			"debuff": [
+				20,
+				29
+			],
+			"common": [],
+			"soul_description": "Ignores Effect Resistance.",
+			"soul_requirement": 20,
+			"soul_pow": 1,
+			"soul_att_rate": 1.5,
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_1_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_1_enh_1"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 29000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_swordman_es",
+							"count": 5,
+							"_id": "leather-sheath",
+							"identifier": "ma_swordman_es",
+							"name": "Leather Sheath",
+							"description": "A sheath of tough leather used by soldiers to carry their swords.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_swordman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_2"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 47000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 3,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_swordman_es",
+							"count": 7,
+							"_id": "leather-sheath",
+							"identifier": "ma_swordman_es",
+							"name": "Leather Sheath",
+							"description": "A sheath of tough leather used by soldiers to carry their swords.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_swordman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_3"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 80000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 5,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_manager_es",
+							"count": 2,
+							"_id": "fighter-medal",
+							"identifier": "ma_manager_es",
+							"name": "Fighter Medal",
+							"description": "A medal given to soldiers who fought like demons in battle.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 5,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_insignia_es.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": [
+								{
+									"chapter": "1. South Lefundos",
+									"continent": "Eureka",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "1. Ezera World",
+									"continent": "Ritania",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_4"
+				}
+			],
+			"_id": "skill_1",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c1081_2.png"
+			}
+		},
+		{
+			"name": "Frost Storm",
+			"can_enhance": true,
+			"description": "Attacks all enemies with a raging frost storm, decreasing buff durations by 1 turn, before a {{variable}} chance each to decrease Speed and restrict for 2 turns. Attacks using an advantageous element.",
+			"values": [
+				0.75
+			],
+			"passive": false,
+			"cooldown": 5,
+			"soul_gain": 3,
+			"pow": 1.1,
+			"att_rate": 1,
+			"buff": [
+				6
+			],
+			"debuff": [
+				19,
+				61
+			],
+			"common": [],
+			"enhanced_description": "Attacks all enemies with a raging frost storm, decreasing buff durations by 1 turn, before a {{variable}} chance each to decrease Speed and restrict for 2 turns. Grants the caster invincibility for 1 turn. Attacks using an advantageous element.",
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_2_enh_0"
+				},
+				{
+					"string": "+10% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_2_enh_1"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 29000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_swordman_es",
+							"count": 5,
+							"_id": "leather-sheath",
+							"identifier": "ma_swordman_es",
+							"name": "Leather Sheath",
+							"description": "A sheath of tough leather used by soldiers to carry their swords.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_swordman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_2"
+				},
+				{
+					"string": "+15% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 47000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 3,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_swordman_es",
+							"count": 7,
+							"_id": "leather-sheath",
+							"identifier": "ma_swordman_es",
+							"name": "Leather Sheath",
+							"description": "A sheath of tough leather used by soldiers to carry their swords.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_swordman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_3"
+				},
+				{
+					"string": "+15% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 80000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 5,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_manager_es",
+							"count": 2,
+							"_id": "fighter-medal",
+							"identifier": "ma_manager_es",
+							"name": "Fighter Medal",
+							"description": "A medal given to soldiers who fought like demons in battle.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 5,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_insignia_es.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": [
+								{
+									"chapter": "1. South Lefundos",
+									"continent": "Eureka",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "1. Ezera World",
+									"continent": "Ritania",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_4"
+				}
+			],
+			"_id": "skill_2",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c1081_3.png"
+			}
+		}
+	],
+	"specialty_change": {},
+	"assets": {
+		"icon": "https://assets.epicsevendb.com/_source/face/c1081_s.png",
+		"image": "https://assets.epicsevendb.com/_source/face/c1081_su.png",
+		"thumbnail": "https://assets.epicsevendb.com/_source/face/c1081_l.png"
+	},
+	"buffs": [
+		{
+			"_id": "6",
+			"id": 6,
+			"type": "buff",
+			"name": "Invincible",
+			"effect": "Neutralizes all of the damage taken when attacked.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_invincible.png"
+			}
+		}
+	],
+	"debuffs": [
+		{
+			"_id": "29",
+			"id": 29,
+			"type": "debuff",
+			"name": "Cannot Buff",
+			"effect": "Makes the target unable to be buffed.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_buf_impossible.png"
+			}
+		},
+		{
+			"_id": "61",
+			"id": 61,
+			"type": "debuff",
+			"name": "Restrict",
+			"effect": "The target will receive no Combat Readiness increase/decrease effects other than those provided by their Speed stat.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_ab_up_block.png"
+			}
+		},
+		{
+			"_id": "19",
+			"id": 19,
+			"type": "debuff",
+			"name": "Decrease Speed",
+			"effect": "Decreases Speed by 30%.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_speed_dn.png"
+			}
+		},
+		{
+			"_id": "20",
+			"id": 20,
+			"type": "debuff",
+			"name": "Stun",
+			"effect": "The target becomes unable to act for a certain number of turns.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_stun.png"
+			}
+		}
+	],
+	"common": [
+		{
+			"_id": "33",
+			"id": 33,
+			"type": "common",
+			"name": "Dual Attack",
+			"effect": "Chance to attack an enemy with basic skill after an ally has attacked them with basic skill, unless unable to act. Cannot be triggered by counterattacks.",
+			"assets": {
+				"icon": null
+			}
+		}
+	],
+	"ex_equip": [],
+	"calculatedStatus": {
+		"lv50FiveStarNoAwaken": {
+			"cp": 11313,
+			"atk": 604,
+			"hp": 3881,
+			"spd": 118,
+			"def": 486,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv50FiveStarFullyAwakened": {
+			"cp": 12803,
+			"atk": 778,
+			"hp": 4221,
+			"spd": 122,
+			"def": 486,
+			"chc": 0.19,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarNoAwaken": {
+			"cp": 14117,
+			"atk": 753,
+			"hp": 4879,
+			"spd": 118,
+			"def": 603,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarFullyAwakened": {
+			"cp": 16445,
+			"atk": 970,
+			"hp": 5299,
+			"spd": 122,
+			"def": 603,
+			"chc": 0.27,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		}
+	},
+	"localize": {
+		"name": "セリス",
+		"skill1": {
+			"name": "神秘の矢",
+			"desc": "敵単体に攻撃し、自身のアクションゲージを10.0%UPさせる。【極寒の嵐】のスキルターンが0でない場合、ランダムな味方に連携攻撃を付与する。",
+			"soul_description": ""
+		},
+		"skill2": {
+			"name": "光輝なる爆発",
+			"desc": "敵単体に攻撃し、スタンを1ターン・強化不可を2ターンの間付与する。自身のアクションゲージを50%UPさせる。",
+			"soul_description": "敵単体に攻撃し、スタンを1ターン・強化不可を2ターンの間付与する。自身のアクションゲージを50%UPさせる。"
+		},
+		"skill3": {
+			"name": "極寒の嵐",
+			"desc": "敵全体に攻撃し、強化効果を1ターン短縮させ、75.0%の確率でスピードDOWN・束縛を2ターンの間付与する。このスキルは有利属性で攻撃する。",
+			"soul_description": ""
+		}
+	}
+}

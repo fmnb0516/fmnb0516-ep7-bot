@@ -1,0 +1,1733 @@
+{
+	"_id": "sven",
+	"index": 149,
+	"id": "c3015",
+	"base_id": null,
+	"specialty_id": null,
+	"name": "Sven",
+	"moonlight": true,
+	"rarity": 3,
+	"attribute": "dark",
+	"role": "assassin",
+	"zodiac": "scorpion",
+	"description": "A native of Wetheric Moor, and leader of a new mercenary company",
+	"story": "The leader of Wetheric Moor's new Strongman Company, Sven is straightforward and outgoing, with a goal to keep getting stronger. A hot-blooded young man who is likely training even now.",
+	"get_line": "Look forward to what I have to offer!",
+	"stats": {
+		"bra": 90,
+		"int": 80,
+		"fai": 29,
+		"des": 78
+	},
+	"relationships": [
+		{
+			"name": null,
+			"description": null,
+			"relations": [
+				{
+					"id": "c3055",
+					"slot": 1,
+					"description": "The precious first member to join the Strongman Company.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "c3064",
+					"slot": 2,
+					"description": "Sven wants to bring Celeste into the Strongman Company, but she remains closed off.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "c1014",
+					"slot": 3,
+					"description": "A mercenary of the Wild Dog Company, who Sven sees as his rivals. He hopes the Strongman Company will one day surpass them.",
+					"relation": "Rival",
+					"upgrade": {},
+					"relation_id": "re_rival_tx"
+				}
+			]
+		}
+	],
+	"self_devotion": {
+		"type": "att",
+		"grades": {
+			"D": 36,
+			"C": 54,
+			"B": 72,
+			"A": 90,
+			"S": 108,
+			"SS": 126,
+			"SSS": 144
+		}
+	},
+	"devotion": {
+		"type": "att",
+		"grades": {
+			"D": 24,
+			"C": 36,
+			"B": 48,
+			"A": 60,
+			"S": 72,
+			"SS": 84,
+			"SSS": 96
+		},
+		"slots": {
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true
+		}
+	},
+	"specialty": {
+		"name": "Survival Expert",
+		"description": "Survival requires practice. Lots of practice.",
+		"effect_type": "reward_bonus",
+		"effect_value": 0.1,
+		"command": 60,
+		"charm": 55,
+		"politics": 7,
+		"type": {
+			"name": "Barren Land",
+			"description": "It's nearly impossible to stay even for a moment in this hostile environment."
+		},
+		"assets": {
+			"icon": "https://assets.epicsevendb.com/_source/skill/smc_env_1.png"
+		}
+	},
+	"camping": {
+		"personalities": [
+			"Heroism",
+			"Extrovert"
+		],
+		"topics": [
+			"Dream",
+			"Gossip"
+		],
+		"values": {
+			"Criticism": -5,
+			"Reality Check": -3,
+			"Heroic Tale": 6,
+			"Comforting Cheer": 6,
+			"Cute Cheer": 4,
+			"Heroic Cheer": 6,
+			"Sad Memory": 1,
+			"Joyful Memory": 6,
+			"Happy Memories": 5,
+			"Unique Comment": 2,
+			"Self-Indulgent": 1,
+			"Occult": 1,
+			"Myth": 4,
+			"Bizarre Story": 0,
+			"Food Story": 3,
+			"Horror Story": 5,
+			"Gossip": 0,
+			"Dream": 4,
+			"Advice": 4,
+			"Complain": -3,
+			"Belief": 0,
+			"Interesting Story": 3
+		}
+	},
+	"zodiac_tree": [
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runedark1",
+					"count": 5,
+					"_id": "dark-rune",
+					"identifier": "ma_runedark1",
+					"name": "Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att_rate",
+					"value": 0.03,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_0"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runedark1",
+					"count": 9,
+					"_id": "dark-rune",
+					"identifier": "ma_runedark1",
+					"name": "Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "max_hp_rate",
+					"value": 0.03,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_1"
+		},
+		{
+			"name": "Ability Stone",
+			"description": "Enhances skills more powerfully.",
+			"skill_enhanced": 3,
+			"costs": [
+				{
+					"item": "ma_runedark1",
+					"count": 12,
+					"_id": "dark-rune",
+					"identifier": "ma_runedark1",
+					"name": "Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				},
+				{
+					"item": "ma_runedark2",
+					"count": 6,
+					"_id": "greater-dark-rune",
+					"identifier": "ma_runedark2",
+					"name": "Greater Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_2"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runedark2",
+					"count": 15,
+					"_id": "greater-dark-rune",
+					"identifier": "ma_runedark2",
+					"name": "Greater Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "cri",
+					"value": 0.08,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_3"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runedark3",
+					"count": 4,
+					"_id": "epic-dark-rune",
+					"identifier": "ma_runedark3",
+					"name": "Epic Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_carapace_es",
+					"count": 9,
+					"_id": "erikion-carapace",
+					"identifier": "ma_carapace_es",
+					"name": "Erikion Carapace",
+					"description": "A fragment of the shell of an extremely rare insect used as a source of great magical power.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 3,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_carapace_es.png"
+					},
+					"request_count": 2,
+					"support_count": 1,
+					"shops": [
+						{
+							"chapter": "3. Savara",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "3S. Farche Frontier",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "3. South Wintenberg",
+							"continent": "Eureka",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "7S. Star Chaser Heights",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "3. Savara World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "3S. Farche Frontier World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "att_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_4"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runedark3",
+					"count": 6,
+					"_id": "epic-dark-rune",
+					"identifier": "ma_runedark3",
+					"name": "Epic Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_powder_es",
+					"count": 6,
+					"_id": "black-curse-powder",
+					"identifier": "ma_powder_es",
+					"name": "Black Curse Powder",
+					"description": "A catalyst used by a high-level mage, containing a powerful curse.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 5,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_powder_es.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": [
+						{
+							"chapter": "10. East Taranor World",
+							"continent": "Ritania",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "max_hp_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_5"
+		}
+	],
+	"skills": [
+		{
+			"name": "Wicked Strike",
+			"can_enhance": false,
+			"description": "Attacks with dual-wielded swords, and when the caster's Health is 50% or less, activates Repelling Blow as an extra attack. Repelling Blow can only be activated once per turn of the caster.\nRepelling Blow (Acquire 1 Soul): Attacks the enemy repeatedly with dual-wielded swords. Damage dealt increases proportional to the caster's lost Health.",
+			"values": [],
+			"passive": false,
+			"cooldown": 0,
+			"soul_gain": 1,
+			"pow": 0.95,
+			"att_rate": 1,
+			"buff": [],
+			"debuff": [],
+			"common": [],
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 150,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_0_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 14000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 300,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_spearman_es",
+							"count": 2,
+							"_id": "sharp-spearhead",
+							"identifier": "ma_spearman_es",
+							"name": "Sharp Spearhead",
+							"description": "A head from a broken spear, it is still sharp enough to stab an enemy in the heart.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_spearman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Shandra Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_1"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 23000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 550,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_spearman_es",
+							"count": 3,
+							"_id": "sharp-spearhead",
+							"identifier": "ma_spearman_es",
+							"name": "Sharp Spearhead",
+							"description": "A head from a broken spear, it is still sharp enough to stab an enemy in the heart.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_spearman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Shandra Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_2"
+				},
+				{
+					"string": "+15% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 35000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1100,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_spearman_es",
+							"count": 4,
+							"_id": "sharp-spearhead",
+							"identifier": "ma_spearman_es",
+							"name": "Sharp Spearhead",
+							"description": "A head from a broken spear, it is still sharp enough to stab an enemy in the heart.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_spearman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Shandra Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_3"
+				}
+			],
+			"_id": "skill_0",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_m0015_d.png"
+			}
+		},
+		{
+			"name": "Potential",
+			"can_enhance": false,
+			"description": "Grants immortality for 1 turn and increased Attack for 2 turns when the caster receives lethal damage.\nCan only be activated once every {{variable}} turn(s).",
+			"values": [
+				8
+			],
+			"passive": true,
+			"cooldown": 0,
+			"soul_gain": 0,
+			"pow": 1,
+			"att_rate": 0,
+			"buff": [
+				1,
+				14
+			],
+			"debuff": [],
+			"common": [],
+			"enhancements": [
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 150,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_1_enh_0"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 14000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 300,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_spearman_es",
+							"count": 2,
+							"_id": "sharp-spearhead",
+							"identifier": "ma_spearman_es",
+							"name": "Sharp Spearhead",
+							"description": "A head from a broken spear, it is still sharp enough to stab an enemy in the heart.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_spearman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Shandra Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_1"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 23000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 550,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_spearman_es",
+							"count": 3,
+							"_id": "sharp-spearhead",
+							"identifier": "ma_spearman_es",
+							"name": "Sharp Spearhead",
+							"description": "A head from a broken spear, it is still sharp enough to stab an enemy in the heart.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_spearman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Shandra Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_2"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 35000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1100,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_spearman_es",
+							"count": 4,
+							"_id": "sharp-spearhead",
+							"identifier": "ma_spearman_es",
+							"name": "Sharp Spearhead",
+							"description": "A head from a broken spear, it is still sharp enough to stab an enemy in the heart.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_spearman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Shandra Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_3"
+				}
+			],
+			"_id": "skill_1",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/pa_m0019_d.png"
+			}
+		},
+		{
+			"name": "Capital Punishment",
+			"can_enhance": true,
+			"description": "Attacks all enemies and inflicts huge damage, using 15% of Health. Damage dealt increases proportional to the caster's lost Health.",
+			"values": [],
+			"passive": false,
+			"cooldown": 4,
+			"soul_gain": 2,
+			"pow": 0.8,
+			"att_rate": 0.8,
+			"buff": [],
+			"debuff": [],
+			"common": [],
+			"soul_description": "Increases damage dealt.",
+			"soul_requirement": 10,
+			"soul_pow": 0.8,
+			"soul_att_rate": 1,
+			"enhanced_description": "Attacks all enemies and inflicts huge damage. Damage dealt increases proportional to the caster's lost Health.",
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 1000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 50,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_2_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 120,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_2_enh_1"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 230,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_2_enh_2"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 21000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 400,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_spearman_es",
+							"count": 3,
+							"_id": "sharp-spearhead",
+							"identifier": "ma_spearman_es",
+							"name": "Sharp Spearhead",
+							"description": "A head from a broken spear, it is still sharp enough to stab an enemy in the heart.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_spearman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Shandra Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_3"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 29000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 650,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_spearman_es",
+							"count": 4,
+							"_id": "sharp-spearhead",
+							"identifier": "ma_spearman_es",
+							"name": "Sharp Spearhead",
+							"description": "A head from a broken spear, it is still sharp enough to stab an enemy in the heart.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_spearman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Shandra Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_4"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 39000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1000,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_spearman_es",
+							"count": 5,
+							"_id": "sharp-spearhead",
+							"identifier": "ma_spearman_es",
+							"name": "Sharp Spearhead",
+							"description": "A head from a broken spear, it is still sharp enough to stab an enemy in the heart.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_spearman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Shandra Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_5"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 50000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1450,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_spearman_es",
+							"count": 6,
+							"_id": "sharp-spearhead",
+							"identifier": "ma_spearman_es",
+							"name": "Sharp Spearhead",
+							"description": "A head from a broken spear, it is still sharp enough to stab an enemy in the heart.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_spearman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Shandra Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_6"
+				}
+			],
+			"_id": "skill_2",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_m0016_d.png"
+			}
+		}
+	],
+	"specialty_change": {},
+	"assets": {
+		"icon": "https://assets.epicsevendb.com/_source/face/c3015_s.png",
+		"image": "https://assets.epicsevendb.com/_source/face/c3015_su.png",
+		"thumbnail": "https://assets.epicsevendb.com/_source/face/c3015_l.png"
+	},
+	"buffs": [
+		{
+			"_id": "14",
+			"id": 14,
+			"type": "buff",
+			"name": "Immortal",
+			"effect": "The target cannot be killed for a certain number of turns.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_immortality.png"
+			}
+		},
+		{
+			"_id": "1",
+			"id": 1,
+			"type": "buff",
+			"name": "Increase Attack",
+			"effect": "Increases Attack by 50%.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_att_up.png"
+			}
+		}
+	],
+	"debuffs": [],
+	"common": [],
+	"ex_equip": [],
+	"calculatedStatus": {
+		"lv50FiveStarNoAwaken": {
+			"cp": 10006,
+			"atk": 655,
+			"hp": 3720,
+			"spd": 108,
+			"def": 364,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv50FiveStarFullyAwakened": {
+			"cp": 11607,
+			"atk": 833,
+			"hp": 4171,
+			"spd": 108,
+			"def": 364,
+			"chc": 0.22999999999999998,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarNoAwaken": {
+			"cp": 12495,
+			"atk": 816,
+			"hp": 4677,
+			"spd": 108,
+			"def": 452,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarFullyAwakened": {
+			"cp": 14773,
+			"atk": 1039,
+			"hp": 5517,
+			"spd": 108,
+			"def": 452,
+			"chc": 0.22999999999999998,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		}
+	},
+	"localize": {
+		"name": "スヴェン",
+		"skill1": {
+			"name": "邪悪な一撃",
+			"desc": "敵単体に攻撃し、自身の生命力が50%未満の場合、【抵抗の一撃】を発動する。【抵抗の一撃】は自身のターンに1回まで発生する。\n抵抗の一撃( 魂力1獲得 ) : 敵単体に攻撃し、自身の現在生命力が低いほどダメージがUPする。",
+			"soul_description": ""
+		},
+		"skill2": {
+			"name": "底力",
+			"desc": "気絶するダメージを受けた時、自身に不死を1ターン・攻撃力UPを2ターンの間付与する。\nこの効果は8ターンに1回まで発動する。",
+			"soul_description": ""
+		},
+		"skill3": {
+			"name": "死の宣告",
+			"desc": "現在の生命力を15%消費し、敵全体に攻撃する。自身の現在生命力が低いほどダメージがUPする。",
+			"soul_description": "現在の生命力を15%消費し、敵全体に攻撃する。自身の現在生命力が低いほどダメージがUPする。"
+		}
+	}
+}

@@ -1,0 +1,1842 @@
+{
+	"_id": "shooting-star-achates",
+	"index": 114,
+	"id": "c2017",
+	"base_id": null,
+	"specialty_id": null,
+	"name": "Shooting Star Achates",
+	"moonlight": true,
+	"rarity": 4,
+	"attribute": "dark",
+	"role": "manauser",
+	"zodiac": "crab",
+	"description": "A whimsical and lovable wandering healer",
+	"story": "At best, a free spirit, at worst, an irresponsible hedonist. Shooting Star Achates finds a life without stimulus meaningless, and is always on the lookout for trouble.",
+	"get_line": "A new friendship begins with a One! Two! Three! Ta-da!",
+	"stats": {
+		"bra": 47,
+		"int": 75,
+		"fai": 100,
+		"des": 45
+	},
+	"relationships": [
+		{
+			"name": null,
+			"description": null,
+			"relations": [
+				{
+					"id": "c1017",
+					"slot": 1,
+					"description": "She thinks Achates is too wrapped up in duty to truly help people.",
+					"relation": "Rival",
+					"upgrade": {},
+					"relation_id": "re_rival_tx"
+				},
+				{
+					"id": "c3064",
+					"slot": 2,
+					"description": "Shooting Star Achates thinks of her as a friend after she helped her out, even though she wouldn't stop complaining she was tired and bored.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "c3042",
+					"slot": 3,
+					"description": "Shooting Star Achates helped Montmorancy out of a difficult situation, and liked how she smiles.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "c3054",
+					"slot": 4,
+					"description": "Shooting Star Achates helped Elson out of a difficult situation, and found the way he greeted her very cute.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				}
+			]
+		}
+	],
+	"self_devotion": {
+		"type": "max_hp_rate",
+		"grades": {
+			"C": 0.04,
+			"B": 0.06,
+			"A": 0.08,
+			"S": 0.1,
+			"SS": 0.12,
+			"SSS": 0.14
+		}
+	},
+	"devotion": {
+		"type": "res",
+		"grades": {
+			"C": 0.043,
+			"B": 0.065,
+			"A": 0.086,
+			"S": 0.107,
+			"SS": 0.129,
+			"SSS": 0.15
+		},
+		"slots": {
+			"1": false,
+			"2": true,
+			"3": true,
+			"4": false
+		}
+	},
+	"specialty": {
+		"name": "Achates's Cheer",
+		"description": "No matter how desperate the situation may be, she will always root for you.",
+		"effect_type": "exp_bonus",
+		"effect_value": 0.06,
+		"command": 54,
+		"charm": 70,
+		"politics": 79,
+		"type": {
+			"name": "All Missions",
+			"description": null
+		},
+		"assets": {
+			"icon": "https://assets.epicsevendb.com/_source/skill/sma_exp_bonus.png"
+		}
+	},
+	"camping": {
+		"personalities": [
+			"Cherub",
+			"Free"
+		],
+		"topics": [
+			"Unique Comment",
+			"Interesting Story"
+		],
+		"values": {
+			"Criticism": -1,
+			"Reality Check": -3,
+			"Heroic Tale": 2,
+			"Comforting Cheer": 3,
+			"Cute Cheer": 4,
+			"Heroic Cheer": 3,
+			"Sad Memory": 3,
+			"Joyful Memory": 3,
+			"Happy Memories": 3,
+			"Unique Comment": 2,
+			"Self-Indulgent": 3,
+			"Occult": 0,
+			"Myth": 3,
+			"Bizarre Story": 1,
+			"Food Story": 5,
+			"Horror Story": -4,
+			"Gossip": 2,
+			"Dream": 6,
+			"Advice": 2,
+			"Complain": 2,
+			"Belief": -1,
+			"Interesting Story": 6
+		}
+	},
+	"zodiac_tree": [
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runedark1",
+					"count": 8,
+					"_id": "dark-rune",
+					"identifier": "ma_runedark1",
+					"name": "Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "max_hp_rate",
+					"value": 0.03,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_0"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runedark1",
+					"count": 12,
+					"_id": "dark-rune",
+					"identifier": "ma_runedark1",
+					"name": "Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				},
+				{
+					"item": "ma_runedark2",
+					"count": 2,
+					"_id": "greater-dark-rune",
+					"identifier": "ma_runedark2",
+					"name": "Greater Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "max_hp_rate",
+					"value": 0.03,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_1"
+		},
+		{
+			"name": "Ability Stone",
+			"description": "Enhances skills more powerfully.",
+			"skill_enhanced": 2,
+			"costs": [
+				{
+					"item": "ma_runedark1",
+					"count": 17,
+					"_id": "dark-rune",
+					"identifier": "ma_runedark1",
+					"name": "Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				},
+				{
+					"item": "ma_runedark2",
+					"count": 8,
+					"_id": "greater-dark-rune",
+					"identifier": "ma_runedark2",
+					"name": "Greater Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_2"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runedark2",
+					"count": 8,
+					"_id": "greater-dark-rune",
+					"identifier": "ma_runedark2",
+					"name": "Greater Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				},
+				{
+					"item": "ma_runedark3",
+					"count": 1,
+					"_id": "epic-dark-rune",
+					"identifier": "ma_runedark3",
+					"name": "Epic Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "def_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_3"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runedark3",
+					"count": 5,
+					"_id": "epic-dark-rune",
+					"identifier": "ma_runedark3",
+					"name": "Epic Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_siren_es",
+					"count": 12,
+					"_id": "special-alarm-loop",
+					"identifier": "ma_siren_es",
+					"name": "Special Alarm Loop",
+					"description": "Circuit set to sound immediately in case of danger. It seems to have originally been developed as an alarm clock.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 3,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_siren_es.png"
+					},
+					"request_count": 2,
+					"support_count": 1,
+					"shops": [
+						{
+							"chapter": "2. Reingar",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "9-1. West Taranor",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "2. West Politia",
+							"continent": "Eureka",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "5-2. South Fortress City Perland",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "6. Aakhen Exile Colony",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "2. Reingar World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "9-1. West Taranor World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "max_hp_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_4"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runedark3",
+					"count": 8,
+					"_id": "epic-dark-rune",
+					"identifier": "ma_runedark3",
+					"name": "Epic Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_homon_es",
+					"count": 8,
+					"_id": "the-heart-of-hypocrisy",
+					"identifier": "ma_homon_es",
+					"name": "The Heart of Hypocrisy",
+					"description": "A special mechanism similar to an artificial heart needed in the creation of a Homunculus.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 5,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_mecagolem_es.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": [
+						{
+							"chapter": "9-1. West Taranor World",
+							"continent": "Ritania",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "max_hp_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_5"
+		}
+	],
+	"skills": [
+		{
+			"name": "Magic Design",
+			"can_enhance": false,
+			"description": "Attacks with a staff, with a {{variable}} chance to decrease Hit Chance for 1 turn.",
+			"values": [
+				0.5
+			],
+			"passive": false,
+			"cooldown": 0,
+			"soul_gain": 1,
+			"pow": 0.95,
+			"att_rate": 1,
+			"buff": [],
+			"debuff": [
+				22
+			],
+			"common": [],
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_0_enh_0"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_0_enh_1"
+				},
+				{
+					"string": "+10% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 9000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_rodent_es",
+							"count": 1,
+							"_id": "baby-mouse-insignia",
+							"identifier": "ma_rodent_es",
+							"name": "Baby Mouse Insignia",
+							"description": "An insignia made to commemorate the Bellmice heroes of legend. It seems to contain their shrewdness and bravery.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_rodent_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3. Savara",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_2"
+				},
+				{
+					"string": "+15% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 18000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 2,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_rodent_es",
+							"count": 2,
+							"_id": "baby-mouse-insignia",
+							"identifier": "ma_rodent_es",
+							"name": "Baby Mouse Insignia",
+							"description": "An insignia made to commemorate the Bellmice heroes of legend. It seems to contain their shrewdness and bravery.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_rodent_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3. Savara",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_3"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 28000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 2,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_rodent_es",
+							"count": 4,
+							"_id": "baby-mouse-insignia",
+							"identifier": "ma_rodent_es",
+							"name": "Baby Mouse Insignia",
+							"description": "An insignia made to commemorate the Bellmice heroes of legend. It seems to contain their shrewdness and bravery.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_rodent_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3. Savara",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_4"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 80000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 4,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_homon_es",
+							"count": 2,
+							"_id": "the-heart-of-hypocrisy",
+							"identifier": "ma_homon_es",
+							"name": "The Heart of Hypocrisy",
+							"description": "A special mechanism similar to an artificial heart needed in the creation of a Homunculus.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 5,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_mecagolem_es.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": [
+								{
+									"chapter": "9-1. West Taranor World",
+									"continent": "Ritania",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_5"
+				}
+			],
+			"_id": "skill_0",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c2017_1.png"
+			}
+		},
+		{
+			"name": "Resurrection Magic",
+			"can_enhance": true,
+			"description": "Revives a dead ally with recovery magic. When the target is not dead, casts two random buffs for 3 turns.",
+			"values": [],
+			"passive": false,
+			"cooldown": 6,
+			"soul_gain": 2,
+			"pow": 1,
+			"att_rate": 0,
+			"buff": [
+				"c2017_r",
+				14
+			],
+			"debuff": [],
+			"common": [
+				35
+			],
+			"soul_description": "Grants an extra turn.",
+			"soul_requirement": 20,
+			"soul_pow": 1,
+			"soul_att_rate": 0,
+			"enhanced_description": "Revives a dead ally with recovery magic and grants immortality for 1 turn. When the target is not dead, grants immortality and two random buffs for 3 turns.",
+			"enhancements": [
+				{
+					"string": "+2 Soul acquired",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 19000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_rodent_es",
+							"count": 3,
+							"_id": "baby-mouse-insignia",
+							"identifier": "ma_rodent_es",
+							"name": "Baby Mouse Insignia",
+							"description": "An insignia made to commemorate the Bellmice heroes of legend. It seems to contain their shrewdness and bravery.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_rodent_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3. Savara",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_0"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 38000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 2,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_homon_es",
+							"count": 1,
+							"_id": "the-heart-of-hypocrisy",
+							"identifier": "ma_homon_es",
+							"name": "The Heart of Hypocrisy",
+							"description": "A special mechanism similar to an artificial heart needed in the creation of a Homunculus.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 5,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_mecagolem_es.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": [
+								{
+									"chapter": "9-1. West Taranor World",
+									"continent": "Ritania",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_1"
+				}
+			],
+			"_id": "skill_1",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c2017_2.png"
+			}
+		},
+		{
+			"name": "Sparkling Star",
+			"can_enhance": false,
+			"description": "Dispels all debuffs from both the caster and target, and between the caster and the target, heals the ally with the lowest Health to the point that their Health matches the other, before healing further on top. Health matching effect is unaffected by healing buffs or debuffs. Additional healing increases proportional to the max Health of each ally.",
+			"values": [],
+			"passive": false,
+			"cooldown": 4,
+			"soul_gain": 2,
+			"pow": 1,
+			"att_rate": 0,
+			"buff": [],
+			"debuff": [],
+			"common": [],
+			"enhancements": [
+				{
+					"string": "+5% healing",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_2_enh_0"
+				},
+				{
+					"string": "+5% healing",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_2_enh_1"
+				},
+				{
+					"string": "+5% healing",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_2_enh_2"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 9000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_rodent_es",
+							"count": 1,
+							"_id": "baby-mouse-insignia",
+							"identifier": "ma_rodent_es",
+							"name": "Baby Mouse Insignia",
+							"description": "An insignia made to commemorate the Bellmice heroes of legend. It seems to contain their shrewdness and bravery.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_rodent_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3. Savara",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_3"
+				},
+				{
+					"string": "+10% healing",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 18000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 2,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_rodent_es",
+							"count": 2,
+							"_id": "baby-mouse-insignia",
+							"identifier": "ma_rodent_es",
+							"name": "Baby Mouse Insignia",
+							"description": "An insignia made to commemorate the Bellmice heroes of legend. It seems to contain their shrewdness and bravery.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_rodent_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3. Savara",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_4"
+				},
+				{
+					"string": "+10% healing",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 37000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 3,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_rodent_es",
+							"count": 5,
+							"_id": "baby-mouse-insignia",
+							"identifier": "ma_rodent_es",
+							"name": "Baby Mouse Insignia",
+							"description": "An insignia made to commemorate the Bellmice heroes of legend. It seems to contain their shrewdness and bravery.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_rodent_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3. Savara",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_5"
+				},
+				{
+					"string": "+10% healing",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 80000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 4,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_homon_es",
+							"count": 2,
+							"_id": "the-heart-of-hypocrisy",
+							"identifier": "ma_homon_es",
+							"name": "The Heart of Hypocrisy",
+							"description": "A special mechanism similar to an artificial heart needed in the creation of a Homunculus.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 5,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_mecagolem_es.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": [
+								{
+									"chapter": "9-1. West Taranor World",
+									"continent": "Ritania",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_6"
+				}
+			],
+			"_id": "skill_2",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c2017_3.png"
+			}
+		}
+	],
+	"specialty_change": {},
+	"assets": {
+		"icon": "https://assets.epicsevendb.com/_source/face/c2017_s.png",
+		"image": "https://assets.epicsevendb.com/_source/face/c2017_su.png",
+		"thumbnail": "https://assets.epicsevendb.com/_source/face/c2017_l.png"
+	},
+	"buffs": [
+		{
+			"_id": "14",
+			"id": 14,
+			"type": "buff",
+			"name": "Immortal",
+			"effect": "The target cannot be killed for a certain number of turns.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_immortality.png"
+			}
+		},
+		{
+			"_id": "c2017r",
+			"id": "c2017_r",
+			"type": "buff",
+			"name": "Random Buff",
+			"effect": "Increase Attack, Increase Speed, Increase Critical Hit Chance, Continuous Heal, Increase Defense, Barrier, Increase Evasion, Debuff Immunity",
+			"assets": {
+				"icon": null
+			}
+		}
+	],
+	"debuffs": [
+		{
+			"_id": "22",
+			"id": 22,
+			"type": "debuff",
+			"name": "Decrease Hit Chance",
+			"effect": "Decreases Hit Chance by 50%.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_blind.png"
+			}
+		}
+	],
+	"common": [
+		{
+			"_id": "35",
+			"id": 35,
+			"type": "common",
+			"name": "Extra Turn",
+			"effect": "Grants an extra turn.",
+			"assets": {
+				"icon": null
+			}
+		}
+	],
+	"ex_equip": [],
+	"calculatedStatus": {
+		"lv50FiveStarNoAwaken": {
+			"cp": 10060,
+			"atk": 342,
+			"hp": 3559,
+			"spd": 88,
+			"def": 565,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv50FiveStarFullyAwakened": {
+			"cp": 11571,
+			"atk": 462,
+			"hp": 4326,
+			"spd": 88,
+			"def": 598,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarNoAwaken": {
+			"cp": 12547,
+			"atk": 426,
+			"hp": 4475,
+			"spd": 88,
+			"def": 701,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarFullyAwakened": {
+			"cp": 14709,
+			"atk": 576,
+			"hp": 5700,
+			"spd": 88,
+			"def": 743,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		}
+	},
+	"localize": {
+		"name": "流れ星☆アカテス",
+		"skill1": {
+			"name": "魔法紋様",
+			"desc": "敵単体に攻撃し、50.0%の確率で命中率DOWNを1ターンの間付与する。",
+			"soul_description": ""
+		},
+		"skill2": {
+			"name": "蘇生魔法",
+			"desc": "気絶した味方単体を復活させる。対象が気絶状態でない場合、2つのランダム強化効果を3ターンの間付与する。",
+			"soul_description": "気絶した味方単体を復活させる。対象が気絶状態でない場合、2つのランダム強化効果を3ターンの間付与する。"
+		},
+		"skill3": {
+			"name": "シューティングスター",
+			"desc": "対象と自身の弱体効果をすべて解除し、【現在生命力の割合】を比較し、低い方を高い方まで上昇させた上で更に両者の生命力を回復する。生命力の割合変化は、回復量UP・DOWNの影響を受けない。それぞれ最大生命力が高いほど回復量がUPする。",
+			"soul_description": ""
+		}
+	}
+}

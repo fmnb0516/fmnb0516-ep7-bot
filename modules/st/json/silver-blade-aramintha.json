@@ -1,0 +1,1830 @@
+{
+	"_id": "silver-blade-aramintha",
+	"index": 48,
+	"id": "c2048",
+	"base_id": null,
+	"specialty_id": null,
+	"name": "Silver Blade Aramintha",
+	"moonlight": true,
+	"rarity": 5,
+	"attribute": "light",
+	"role": "mage",
+	"zodiac": "twins",
+	"description": "Red scorpion of Savara who cuts through the sandstorms.",
+	"story": "Commander of Savara's legendary Silver Blade Company. What began as a small group of people who had nowhere else to go gradually became greater in size thanks to Aramintha's charismatic leadership.",
+	"get_line": "I'm Aramintha, commander of the Silver Blade Company.",
+	"stats": {
+		"bra": 106,
+		"int": 67,
+		"fai": 95,
+		"des": 75
+	},
+	"relationships": [
+		{
+			"name": null,
+			"description": null,
+			"relations": [
+				{
+					"id": "c3014",
+					"slot": 1,
+					"description": "There's no one better for finding hidden ruins or treasure than Mirsa.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "c3064",
+					"slot": 2,
+					"description": "Though Celeste lacks decisiveness, she's good at doing as she's told.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "c1053",
+					"slot": 3,
+					"description": "Basar is a trustworthy employer. His requests are clear and he's never behind on payments.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				}
+			]
+		}
+	],
+	"self_devotion": {
+		"type": "att_rate",
+		"grades": {
+			"B": 0.06,
+			"A": 0.09,
+			"S": 0.12,
+			"SS": 0.15,
+			"SSS": 0.18
+		}
+	},
+	"devotion": {
+		"type": "att_rate",
+		"grades": {
+			"B": 0.036,
+			"A": 0.054,
+			"S": 0.072,
+			"SS": 0.09,
+			"SSS": 0.108
+		},
+		"slots": {
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true
+		}
+	},
+	"specialty": {
+		"name": "The Best Ruler",
+		"description": "Her mercenary company follows her every command.",
+		"effect_type": "reward_bonus",
+		"effect_value": 0.06,
+		"command": 84,
+		"charm": 73,
+		"politics": 45,
+		"type": {
+			"name": "Hunting",
+			"description": null
+		},
+		"assets": {
+			"icon": "https://assets.epicsevendb.com/_source/skill/smc_enemy_1.png"
+		}
+	},
+	"camping": {
+		"personalities": [
+			"Altruistic",
+			"Optimistic"
+		],
+		"topics": [
+			"Interesting Story",
+			"Comforting Cheer"
+		],
+		"values": {
+			"Criticism": -5,
+			"Reality Check": -5,
+			"Heroic Tale": 0,
+			"Comforting Cheer": 3,
+			"Cute Cheer": 6,
+			"Heroic Cheer": 5,
+			"Sad Memory": 6,
+			"Joyful Memory": 7,
+			"Happy Memories": 5,
+			"Unique Comment": 3,
+			"Self-Indulgent": -1,
+			"Occult": 0,
+			"Myth": 2,
+			"Bizarre Story": 0,
+			"Food Story": 3,
+			"Horror Story": -1,
+			"Gossip": 2,
+			"Dream": 5,
+			"Advice": 5,
+			"Complain": 2,
+			"Belief": -1,
+			"Interesting Story": 3
+		}
+	},
+	"zodiac_tree": [
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runelight1",
+					"count": 10,
+					"_id": "light-rune",
+					"identifier": "ma_runelight1",
+					"name": "Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att_rate",
+					"value": 0.03,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_0"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runelight1",
+					"count": 15,
+					"_id": "light-rune",
+					"identifier": "ma_runelight1",
+					"name": "Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				},
+				{
+					"item": "ma_runelight2",
+					"count": 2,
+					"_id": "greater-light-rune",
+					"identifier": "ma_runelight2",
+					"name": "Greater Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "acc",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_1"
+		},
+		{
+			"name": "Ability Stone",
+			"description": "Enhances skills more powerfully.",
+			"skill_enhanced": 3,
+			"costs": [
+				{
+					"item": "ma_runelight1",
+					"count": 20,
+					"_id": "light-rune",
+					"identifier": "ma_runelight1",
+					"name": "Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				},
+				{
+					"item": "ma_runelight2",
+					"count": 10,
+					"_id": "greater-light-rune",
+					"identifier": "ma_runelight2",
+					"name": "Greater Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_2"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runelight2",
+					"count": 10,
+					"_id": "greater-light-rune",
+					"identifier": "ma_runelight2",
+					"name": "Greater Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				},
+				{
+					"item": "ma_runelight3",
+					"count": 2,
+					"_id": "epic-light-rune",
+					"identifier": "ma_runelight3",
+					"name": "Epic Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "acc",
+					"value": 0.12,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_3"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runelight3",
+					"count": 6,
+					"_id": "epic-light-rune",
+					"identifier": "ma_runelight3",
+					"name": "Epic Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_magician_es",
+					"count": 15,
+					"_id": "small-sun-badge",
+					"identifier": "ma_magician_es",
+					"name": "Small Sun Badge",
+					"description": "It appears as though a small sun is inside this badge.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 3,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_magician_es.png"
+					},
+					"request_count": 2,
+					"support_count": 1,
+					"shops": [
+						{
+							"chapter": "9-1. West Taranor",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "7. North Wetheric Moor",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "1. South Lefundos",
+							"continent": "Eureka",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "6. Aakhen Exile Colony",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "8. Shandra Ruins",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "9-1. West Taranor World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "7. North Wetheric Moor World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "att_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_4"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runelight3",
+					"count": 10,
+					"_id": "epic-light-rune",
+					"identifier": "ma_runelight3",
+					"name": "Epic Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_chimaera_es",
+					"count": 10,
+					"_id": "fused-nerve",
+					"identifier": "ma_chimaera_es",
+					"name": "Fused Nerve",
+					"description": "A special muscle accidentally created during an experiment of forced fusion.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 5,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_chimaera_es.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": [
+						{
+							"chapter": "5. Wintenberg of the Past",
+							"continent": "Eureka",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "9-2. Central Taranor World",
+							"continent": "Ritania",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "acc",
+					"value": 0.12,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_5"
+		}
+	],
+	"skills": [
+		{
+			"name": "Flame Friction",
+			"can_enhance": false,
+			"description": "Attacks the enemy with an explosion of flame, with a {{variable}} chance to burn for 1 turn.",
+			"values": [
+				0.65
+			],
+			"passive": false,
+			"cooldown": 0,
+			"soul_gain": 1,
+			"pow": 1,
+			"att_rate": 1,
+			"buff": [],
+			"debuff": [
+				31
+			],
+			"common": [],
+			"soul_description": "Effect Chance increases to 100%, ignores Effect Resistance.",
+			"soul_requirement": 10,
+			"soul_pow": 1,
+			"soul_att_rate": 1,
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_0_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_0_enh_1"
+				},
+				{
+					"string": "+10% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 29000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_taranor_es",
+							"count": 5,
+							"_id": "ring-of-glory",
+							"identifier": "ma_taranor_es",
+							"name": "Ring of Glory",
+							"description": "A ring made to remember the most glorious moments of fighters who are faithful to their duty.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_taranor_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "10. East Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-1. West Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. South Wintenberg",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9. Comet Temple",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. East Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9-1. West Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_2"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 47000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 3,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_taranor_es",
+							"count": 7,
+							"_id": "ring-of-glory",
+							"identifier": "ma_taranor_es",
+							"name": "Ring of Glory",
+							"description": "A ring made to remember the most glorious moments of fighters who are faithful to their duty.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_taranor_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "10. East Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-1. West Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. South Wintenberg",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9. Comet Temple",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. East Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9-1. West Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_3"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 80000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 5,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_chimaera_es",
+							"count": 2,
+							"_id": "fused-nerve",
+							"identifier": "ma_chimaera_es",
+							"name": "Fused Nerve",
+							"description": "A special muscle accidentally created during an experiment of forced fusion.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 5,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_chimaera_es.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": [
+								{
+									"chapter": "5. Wintenberg of the Past",
+									"continent": "Eureka",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor World",
+									"continent": "Ritania",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_4"
+				}
+			],
+			"_id": "skill_0",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c2048_1.png"
+			}
+		},
+		{
+			"name": "Flame Release",
+			"can_enhance": false,
+			"description": "Activates Flame Release when the enemy is burned after using Flame Friction.\nFlame Release: Attacks all enemies with mystic fire energy, with a 60% chance to burn for 1 turn, before increasing the caster's Combat Readiness by 25%.",
+			"values": [],
+			"passive": true,
+			"cooldown": 0,
+			"soul_gain": 0,
+			"pow": 1,
+			"att_rate": 0,
+			"buff": [],
+			"debuff": [
+				31
+			],
+			"common": [],
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_1_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_1_enh_1"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 29000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_taranor_es",
+							"count": 5,
+							"_id": "ring-of-glory",
+							"identifier": "ma_taranor_es",
+							"name": "Ring of Glory",
+							"description": "A ring made to remember the most glorious moments of fighters who are faithful to their duty.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_taranor_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "10. East Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-1. West Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. South Wintenberg",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9. Comet Temple",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. East Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9-1. West Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_2"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 47000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 3,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_taranor_es",
+							"count": 7,
+							"_id": "ring-of-glory",
+							"identifier": "ma_taranor_es",
+							"name": "Ring of Glory",
+							"description": "A ring made to remember the most glorious moments of fighters who are faithful to their duty.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_taranor_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "10. East Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-1. West Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. South Wintenberg",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9. Comet Temple",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. East Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9-1. West Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_3"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 80000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 5,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_chimaera_es",
+							"count": 2,
+							"_id": "fused-nerve",
+							"identifier": "ma_chimaera_es",
+							"name": "Fused Nerve",
+							"description": "A special muscle accidentally created during an experiment of forced fusion.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 5,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_chimaera_es.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": [
+								{
+									"chapter": "5. Wintenberg of the Past",
+									"continent": "Eureka",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor World",
+									"continent": "Ritania",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_4"
+				}
+			],
+			"_id": "skill_1",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/pa_c2048_2.png"
+			}
+		},
+		{
+			"name": "Meteor Fall",
+			"can_enhance": true,
+			"description": "Drops a giant meteor to attack all enemies, making them unhealable for 2 turns, before a {{variable}} chance each to inflict two burn effects for 2 turns.",
+			"values": [
+				0.4
+			],
+			"passive": false,
+			"cooldown": 5,
+			"soul_gain": 3,
+			"pow": 1,
+			"att_rate": 0.9,
+			"buff": [],
+			"debuff": [
+				27,
+				31,
+				20
+			],
+			"common": [],
+			"enhanced_description": "Drops a giant meteor to attack all enemies, making them unhealable for 2 turns and stunning for 1 turn, before a {{variable}} chance each to inflict two burn effects for 2 turns.",
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_2_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_2_enh_1"
+				},
+				{
+					"string": "+10% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 29000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_taranor_es",
+							"count": 5,
+							"_id": "ring-of-glory",
+							"identifier": "ma_taranor_es",
+							"name": "Ring of Glory",
+							"description": "A ring made to remember the most glorious moments of fighters who are faithful to their duty.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_taranor_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "10. East Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-1. West Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. South Wintenberg",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9. Comet Temple",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. East Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9-1. West Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_2"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 47000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 3,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_taranor_es",
+							"count": 7,
+							"_id": "ring-of-glory",
+							"identifier": "ma_taranor_es",
+							"name": "Ring of Glory",
+							"description": "A ring made to remember the most glorious moments of fighters who are faithful to their duty.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_taranor_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "10. East Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-1. West Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. South Wintenberg",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9. Comet Temple",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. East Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9-1. West Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_3"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 80000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 5,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_chimaera_es",
+							"count": 2,
+							"_id": "fused-nerve",
+							"identifier": "ma_chimaera_es",
+							"name": "Fused Nerve",
+							"description": "A special muscle accidentally created during an experiment of forced fusion.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 5,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_chimaera_es.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": [
+								{
+									"chapter": "5. Wintenberg of the Past",
+									"continent": "Eureka",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor World",
+									"continent": "Ritania",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_4"
+				}
+			],
+			"_id": "skill_2",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c2048_3.png"
+			}
+		}
+	],
+	"specialty_change": {},
+	"assets": {
+		"icon": "https://assets.epicsevendb.com/_source/face/c2048_s.png",
+		"image": "https://assets.epicsevendb.com/_source/face/c2048_su.png",
+		"thumbnail": "https://assets.epicsevendb.com/_source/face/c2048_l.png"
+	},
+	"buffs": [],
+	"debuffs": [
+		{
+			"_id": "27",
+			"id": 27,
+			"type": "debuff",
+			"name": "Unhealable",
+			"effect": "Makes the target unable to be healed.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_heal_impossible.png"
+			}
+		},
+		{
+			"_id": "31",
+			"id": 31,
+			"type": "debuff",
+			"name": "Burn",
+			"effect": "Target receives huge damage proportional to the caster's Attack at the start of the turn.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_blaze.png"
+			}
+		},
+		{
+			"_id": "20",
+			"id": 20,
+			"type": "debuff",
+			"name": "Stun",
+			"effect": "The target becomes unable to act for a certain number of turns.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_stun.png"
+			}
+		}
+	],
+	"common": [],
+	"ex_equip": [],
+	"calculatedStatus": {
+		"lv50FiveStarNoAwaken": {
+			"cp": 11781,
+			"atk": 771,
+			"hp": 3302,
+			"spd": 106,
+			"def": 551,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv50FiveStarFullyAwakened": {
+			"cp": 13525,
+			"atk": 960,
+			"hp": 3642,
+			"spd": 106,
+			"def": 551,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0.18,
+			"efr": 0
+		},
+		"lv60SixStarNoAwaken": {
+			"cp": 14685,
+			"atk": 961,
+			"hp": 4152,
+			"spd": 106,
+			"def": 683,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarFullyAwakened": {
+			"cp": 17342,
+			"atk": 1197,
+			"hp": 4572,
+			"spd": 106,
+			"def": 683,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0.3,
+			"efr": 0
+		}
+	},
+	"localize": {
+		"name": "白銀のアラミンタ",
+		"skill1": {
+			"name": "火花",
+			"desc": "敵単体に攻撃し、65.0%の確率で火傷を1ターンの間付与する。",
+			"soul_description": "効果発生率が100%になり、効果抵抗を無視する。"
+		},
+		"skill2": {
+			"name": "烈火",
+			"desc": "【火花】発動後、対象が火傷状態の場合、【烈火】を発動する。\n烈火 : 敵全体に攻撃し、60%の確率で火傷を1ターンの間付与し、自身のアクションゲージを25%UPさせる。",
+			"soul_description": ""
+		},
+		"skill3": {
+			"name": "隕石落下",
+			"desc": "敵全体に攻撃し、回復不可を2ターンの間付与し、それぞれ40.0%の確率で2つの火傷を2ターンの間付与する。",
+			"soul_description": ""
+		}
+	}
+}

@@ -1,0 +1,1897 @@
+{
+	"_id": "mirsa",
+	"index": 148,
+	"id": "c3014",
+	"base_id": null,
+	"specialty_id": null,
+	"name": "Mirsa",
+	"moonlight": true,
+	"rarity": 3,
+	"attribute": "light",
+	"role": "assassin",
+	"zodiac": "fish",
+	"description": "A cool treasure hunter shining within a sandstorm",
+	"story": "A mercenary and adventurer constantly going back and forth between Savara and the Great Desert, Mirsa's main business is treasure hunting. A child of nomads, she has no fixed home. Finding old ruins in the desert is one of her favorite things.",
+	"get_line": "The desert taught me that nothing is forever and nothing truly disappears.",
+	"stats": {
+		"bra": 81,
+		"int": 63,
+		"fai": 43,
+		"des": 90
+	},
+	"relationships": [
+		{
+			"name": null,
+			"description": null,
+			"relations": [
+				{
+					"id": "c1033",
+					"slot": 1,
+					"description": "As a nomad herself, Mirsa feels a strong affection towards Coli, a nomad living in the Solayu Swamp.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "c3023",
+					"slot": 2,
+					"description": "Having completed many missions together, she is both Mirsa's greatest partner and bitterest rival.",
+					"relation": "Rival",
+					"upgrade": {},
+					"relation_id": "re_rival_tx"
+				},
+				{
+					"id": "c3015",
+					"slot": 3,
+					"description": "She once worked together with Sven on a mission, and remembers him being greatly skilled.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "c3024",
+					"slot": 4,
+					"description": "Mistaking him for a kidnapper, she set out to bring him to justice, but it turned out that despite his face he is actually a good person.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				}
+			]
+		}
+	],
+	"self_devotion": {
+		"type": "att",
+		"grades": {
+			"D": 36,
+			"C": 54,
+			"B": 72,
+			"A": 90,
+			"S": 108,
+			"SS": 126,
+			"SSS": 144
+		}
+	},
+	"devotion": {
+		"type": "speed",
+		"grades": {
+			"D": 2,
+			"C": 3,
+			"B": 4,
+			"A": 5,
+			"S": 6,
+			"SS": 7,
+			"SSS": 8
+		},
+		"slots": {
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true
+		}
+	},
+	"specialty": {
+		"name": "Basic of Ambush",
+		"description": "She kills her targets quickly and silently.",
+		"effect_type": "reward_bonus",
+		"effect_value": 0.1,
+		"command": 34,
+		"charm": 55,
+		"politics": 32,
+		"type": {
+			"name": "Time Limit",
+			"description": "A mission with a time limit. Be quick and accurate."
+		},
+		"assets": {
+			"icon": "https://assets.epicsevendb.com/_source/skill/smc_time_3.png"
+		}
+	},
+	"camping": {
+		"personalities": [
+			"Cool-Headed",
+			"Realistic"
+		],
+		"topics": [
+			"Gossip",
+			"Interesting Story"
+		],
+		"values": {
+			"Criticism": 5,
+			"Reality Check": 5,
+			"Heroic Tale": -1,
+			"Comforting Cheer": -2,
+			"Cute Cheer": 1,
+			"Heroic Cheer": 2,
+			"Sad Memory": 0,
+			"Joyful Memory": 1,
+			"Happy Memories": 0,
+			"Unique Comment": 3,
+			"Self-Indulgent": -1,
+			"Occult": -1,
+			"Myth": -1,
+			"Bizarre Story": -2,
+			"Food Story": 0,
+			"Horror Story": 2,
+			"Gossip": 1,
+			"Dream": -3,
+			"Advice": 2,
+			"Complain": 0,
+			"Belief": 2,
+			"Interesting Story": 0
+		}
+	},
+	"zodiac_tree": [
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runelight1",
+					"count": 5,
+					"_id": "light-rune",
+					"identifier": "ma_runelight1",
+					"name": "Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "acc",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_0"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runelight1",
+					"count": 9,
+					"_id": "light-rune",
+					"identifier": "ma_runelight1",
+					"name": "Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "cri",
+					"value": 0.04,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_1"
+		},
+		{
+			"name": "Ability Stone",
+			"description": "Enhances skills more powerfully.",
+			"skill_enhanced": 3,
+			"costs": [
+				{
+					"item": "ma_runelight1",
+					"count": 12,
+					"_id": "light-rune",
+					"identifier": "ma_runelight1",
+					"name": "Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				},
+				{
+					"item": "ma_runelight2",
+					"count": 6,
+					"_id": "greater-light-rune",
+					"identifier": "ma_runelight2",
+					"name": "Greater Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_2"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runelight2",
+					"count": 15,
+					"_id": "greater-light-rune",
+					"identifier": "ma_runelight2",
+					"name": "Greater Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "speed",
+					"value": 4,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_3"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runelight3",
+					"count": 4,
+					"_id": "epic-light-rune",
+					"identifier": "ma_runelight3",
+					"name": "Epic Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_bone_es",
+					"count": 9,
+					"_id": "blood-flaked-bone",
+					"identifier": "ma_bone_es",
+					"name": "Blood Flaked Bone",
+					"description": "It is said that when the skeleton's soul was destroyed, the bone fragments were filled with its sheer determination.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 3,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_bone_es.png"
+					},
+					"request_count": 2,
+					"support_count": 1,
+					"shops": [
+						{
+							"chapter": "8S. Breezy Plain",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "8. Duselnorc",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "7. City of Starlight Constella",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "9. Comet Temple",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "8S. Breezy Plain World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "8. Duselnorc World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "acc",
+					"value": 0.12,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_4"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runelight3",
+					"count": 6,
+					"_id": "epic-light-rune",
+					"identifier": "ma_runelight3",
+					"name": "Epic Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_golem_es",
+					"count": 6,
+					"_id": "ancient-creature-nucleus",
+					"identifier": "ma_golem_es",
+					"name": "Ancient Creature Nucleus",
+					"description": "A nucleus with an unknown source of power, some say it can be used to move anything in the world.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 5,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_golem_es.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": [
+						{
+							"chapter": "7. North Wetheric Moor World",
+							"continent": "Ritania",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "cri",
+					"value": 0.08,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_5"
+		}
+	],
+	"skills": [
+		{
+			"name": "Double Edge",
+			"can_enhance": false,
+			"description": "Attacks with dual-wielded swords, with a {{variable}} chance to decrease Speed for 2 turns. Damage dealt increases proportional to the caster's Speed.",
+			"values": [
+				0.35
+			],
+			"passive": false,
+			"cooldown": 0,
+			"soul_gain": 1,
+			"pow": 1,
+			"att_rate": 0.9,
+			"buff": [],
+			"debuff": [
+				19
+			],
+			"common": [],
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 80,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_0_enh_0"
+				},
+				{
+					"string": "+5% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 3000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 180,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_0_enh_1"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 10000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 320,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_imp_es",
+							"count": 1,
+							"_id": "strange-jelly",
+							"identifier": "ma_imp_es",
+							"name": "Strange Jelly",
+							"description": "A jelly-like substance containing a mysterious power, secreted by Unknown.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_imp_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2. West Politia",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_2"
+				},
+				{
+					"string": "+5% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 18000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 530,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_imp_es",
+							"count": 2,
+							"_id": "strange-jelly",
+							"identifier": "ma_imp_es",
+							"name": "Strange Jelly",
+							"description": "A jelly-like substance containing a mysterious power, secreted by Unknown.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_imp_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2. West Politia",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_3"
+				},
+				{
+					"string": "+5% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 32000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 850,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_imp_es",
+							"count": 4,
+							"_id": "strange-jelly",
+							"identifier": "ma_imp_es",
+							"name": "Strange Jelly",
+							"description": "A jelly-like substance containing a mysterious power, secreted by Unknown.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_imp_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2. West Politia",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_4"
+				},
+				{
+					"string": "+15% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 48000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1340,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_imp_es",
+							"count": 6,
+							"_id": "strange-jelly",
+							"identifier": "ma_imp_es",
+							"name": "Strange Jelly",
+							"description": "A jelly-like substance containing a mysterious power, secreted by Unknown.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_imp_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2. West Politia",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_5"
+				}
+			],
+			"_id": "skill_0",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_m0015_l.png"
+			}
+		},
+		{
+			"name": "Brush Off",
+			"can_enhance": false,
+			"description": "Increases Evasion Chance by {{variable}}. At the moment the caster is attacked, if the caster successfully evades, decreases cooldown of the caster by 1 turn and increases Speed for 2 turns.",
+			"values": [
+				0.35
+			],
+			"passive": true,
+			"cooldown": 0,
+			"soul_gain": 0,
+			"pow": 1,
+			"att_rate": 0,
+			"buff": [
+				3
+			],
+			"debuff": [],
+			"common": [],
+			"enhancements": [
+				{
+					"string": "+5% Evasion Chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 13000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 200,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_imp_es",
+							"count": 2,
+							"_id": "strange-jelly",
+							"identifier": "ma_imp_es",
+							"name": "Strange Jelly",
+							"description": "A jelly-like substance containing a mysterious power, secreted by Unknown.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_imp_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2. West Politia",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_0"
+				},
+				{
+					"string": "+5% Evasion Chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 21000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 450,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_imp_es",
+							"count": 3,
+							"_id": "strange-jelly",
+							"identifier": "ma_imp_es",
+							"name": "Strange Jelly",
+							"description": "A jelly-like substance containing a mysterious power, secreted by Unknown.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_imp_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2. West Politia",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_1"
+				},
+				{
+					"string": "+5% Evasion Chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 37000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 850,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_imp_es",
+							"count": 5,
+							"_id": "strange-jelly",
+							"identifier": "ma_imp_es",
+							"name": "Strange Jelly",
+							"description": "A jelly-like substance containing a mysterious power, secreted by Unknown.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_imp_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2. West Politia",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_2"
+				}
+			],
+			"_id": "skill_1",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/pa_m0019_l.png"
+			}
+		},
+		{
+			"name": "Raid",
+			"can_enhance": true,
+			"description": "Ambushes the target, silencing them for 1 turn. Damage dealt increases proportional to caster's Speed.",
+			"values": [],
+			"passive": false,
+			"cooldown": 5,
+			"soul_gain": 2,
+			"pow": 0.85,
+			"att_rate": 1.8,
+			"buff": [],
+			"debuff": [
+				28
+			],
+			"common": [],
+			"soul_description": "Increases damage dealt.",
+			"soul_requirement": 10,
+			"soul_pow": 0.85,
+			"soul_att_rate": 2.5,
+			"enhanced_description": "Ambushes the target, silencing them for 2 turns. Damage dealt increases proportional to caster's Speed.",
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 80,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_2_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 3000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 180,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_2_enh_1"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 10000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 320,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_imp_es",
+							"count": 1,
+							"_id": "strange-jelly",
+							"identifier": "ma_imp_es",
+							"name": "Strange Jelly",
+							"description": "A jelly-like substance containing a mysterious power, secreted by Unknown.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_imp_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2. West Politia",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_2"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 18000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 530,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_imp_es",
+							"count": 2,
+							"_id": "strange-jelly",
+							"identifier": "ma_imp_es",
+							"name": "Strange Jelly",
+							"description": "A jelly-like substance containing a mysterious power, secreted by Unknown.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_imp_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2. West Politia",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_3"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 32000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 850,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_imp_es",
+							"count": 4,
+							"_id": "strange-jelly",
+							"identifier": "ma_imp_es",
+							"name": "Strange Jelly",
+							"description": "A jelly-like substance containing a mysterious power, secreted by Unknown.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_imp_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2. West Politia",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_4"
+				},
+				{
+					"string": "+15% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 48000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1340,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_imp_es",
+							"count": 6,
+							"_id": "strange-jelly",
+							"identifier": "ma_imp_es",
+							"name": "Strange Jelly",
+							"description": "A jelly-like substance containing a mysterious power, secreted by Unknown.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_imp_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2S. Levulin",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "2. West Politia",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2S. Levulin World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "9-2. Central Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_5"
+				}
+			],
+			"_id": "skill_2",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_m0016_l.png"
+			}
+		}
+	],
+	"specialty_change": {},
+	"assets": {
+		"icon": "https://assets.epicsevendb.com/_source/face/c3014_s.png",
+		"image": "https://assets.epicsevendb.com/_source/face/c3014_su.png",
+		"thumbnail": "https://assets.epicsevendb.com/_source/face/c3014_l.png"
+	},
+	"buffs": [
+		{
+			"_id": "3",
+			"id": 3,
+			"type": "buff",
+			"name": "Increase Speed",
+			"effect": "Increases Speed by 30%.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_speed_up.png"
+			}
+		}
+	],
+	"debuffs": [
+		{
+			"_id": "19",
+			"id": 19,
+			"type": "debuff",
+			"name": "Decrease Speed",
+			"effect": "Decreases Speed by 30%.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_speed_dn.png"
+			}
+		},
+		{
+			"_id": "28",
+			"id": 28,
+			"type": "debuff",
+			"name": "Silence",
+			"effect": "The target cannot use skills that require cooldowns.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_silence.png"
+			}
+		}
+	],
+	"common": [],
+	"ex_equip": [],
+	"calculatedStatus": {
+		"lv50FiveStarNoAwaken": {
+			"cp": 9723,
+			"atk": 589,
+			"hp": 3173,
+			"spd": 116,
+			"def": 404,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv50FiveStarFullyAwakened": {
+			"cp": 11405,
+			"atk": 709,
+			"hp": 3513,
+			"spd": 120,
+			"def": 404,
+			"chc": 0.19,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0.18,
+			"efr": 0
+		},
+		"lv60SixStarNoAwaken": {
+			"cp": 12135,
+			"atk": 735,
+			"hp": 3990,
+			"spd": 116,
+			"def": 501,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarFullyAwakened": {
+			"cp": 14674,
+			"atk": 885,
+			"hp": 4410,
+			"spd": 120,
+			"def": 501,
+			"chc": 0.27,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0.18,
+			"efr": 0
+		}
+	},
+	"localize": {
+		"name": "ミルサ",
+		"skill1": {
+			"name": "双刃斬撃",
+			"desc": "敵単体に攻撃し、35.0%の確率でスピードDOWNを2ターンの間付与する。自身のスピードが高いほどダメージがUPする。",
+			"soul_description": ""
+		},
+		"skill2": {
+			"name": "見切り",
+			"desc": "回避率が35.0%UPする。攻撃を回避した時、その攻撃に伴う効果が発生する前に自身のスキルターンが1減少し、スピードUPを2ターンの間付与する。",
+			"soul_description": ""
+		},
+		"skill3": {
+			"name": "急襲",
+			"desc": "敵単体に攻撃し、沈黙を1ターンの間付与する。自身のスピードが高いほどダメージがUPする。",
+			"soul_description": "敵単体に攻撃し、沈黙を1ターンの間付与する。自身のスピードが高いほどダメージがUPする。"
+		}
+	}
+}

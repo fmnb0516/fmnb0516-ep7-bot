@@ -1,0 +1,1941 @@
+{
+	"_id": "dominiel",
+	"index": 36,
+	"id": "c1037",
+	"base_id": null,
+	"specialty_id": null,
+	"name": "Dominiel",
+	"moonlight": false,
+	"rarity": 4,
+	"attribute": "ice",
+	"role": "mage",
+	"zodiac": "bull",
+	"description": "Hard-working mage blessed by the Spirit Lord Nixied",
+	"story": "Successor of a clan that has long served the Spirit Lord Nixied. After incredible effort she finally succeeded in harnessing Nixied's power, but still lacks confidence in her abilities.",
+	"get_line": "I am Dominiel Nixied, successor to the Nixied Clan.",
+	"stats": {
+		"bra": 89,
+		"int": 78,
+		"fai": 84,
+		"des": 78
+	},
+	"relationships": [
+		{
+			"name": null,
+			"description": null,
+			"relations": [
+				{
+					"id": "c1010",
+					"slot": 1,
+					"description": "They both possess the power of frost magic, but seeing how widely known Zerato's name is in comparison to hers makes Dominiel feel inferior.",
+					"relation": "Rival",
+					"upgrade": {},
+					"relation_id": "re_rival_tx"
+				},
+				{
+					"id": "c1021",
+					"slot": 2,
+					"description": "As someone who has also inherited the name of a Spirit Lord, Dominiel often consults Dingo.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "c1002",
+					"slot": 3,
+					"description": "Seeing Cecilia fight so boldly, Dominiel dreamed of being able to use the powers gifted to her by Nixied so naturally.",
+					"relation": "Longing",
+					"upgrade": {},
+					"relation_id": "re_longing_tx"
+				}
+			]
+		}
+	],
+	"self_devotion": {
+		"type": "acc",
+		"grades": {
+			"C": 0.068,
+			"B": 0.102,
+			"A": 0.136,
+			"S": 0.17,
+			"SS": 0.204,
+			"SSS": 0.238
+		}
+	},
+	"devotion": {
+		"type": "def_rate",
+		"grades": {
+			"C": 0.024,
+			"B": 0.036,
+			"A": 0.048,
+			"S": 0.06,
+			"SS": 0.072,
+			"SSS": 0.084
+		},
+		"slots": {
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true
+		}
+	},
+	"specialty": {
+		"name": "Touch of Winter",
+		"description": "Born to a clan under the divine protection of Nixied, she is blessed by spirits.",
+		"effect_type": "time_reduce",
+		"effect_value": 0.05,
+		"command": 72,
+		"charm": 51,
+		"politics": 32,
+		"type": {
+			"name": "All Missions",
+			"description": null
+		},
+		"assets": {
+			"icon": "https://assets.epicsevendb.com/_source/skill/sm_time_reduce.png"
+		}
+	},
+	"camping": {
+		"personalities": [
+			"Introvert",
+			"Individualistic"
+		],
+		"topics": [
+			"Reality Check",
+			"Dream"
+		],
+		"values": {
+			"Criticism": 1,
+			"Reality Check": -1,
+			"Heroic Tale": 1,
+			"Comforting Cheer": 5,
+			"Cute Cheer": 4,
+			"Heroic Cheer": 5,
+			"Sad Memory": 1,
+			"Joyful Memory": 5,
+			"Happy Memories": 4,
+			"Unique Comment": 0,
+			"Self-Indulgent": -3,
+			"Occult": 0,
+			"Myth": 1,
+			"Bizarre Story": 0,
+			"Food Story": 1,
+			"Horror Story": -1,
+			"Gossip": 1,
+			"Dream": 3,
+			"Advice": 5,
+			"Complain": -1,
+			"Belief": 4,
+			"Interesting Story": 3
+		}
+	},
+	"zodiac_tree": [
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runeice1",
+					"count": 8,
+					"_id": "frost-rune",
+					"identifier": "ma_runeice1",
+					"name": "Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "res",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_0"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runeice1",
+					"count": 12,
+					"_id": "frost-rune",
+					"identifier": "ma_runeice1",
+					"name": "Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				},
+				{
+					"item": "ma_runeice2",
+					"count": 2,
+					"_id": "greater-frost-rune",
+					"identifier": "ma_runeice2",
+					"name": "Greater Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "acc",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_1"
+		},
+		{
+			"name": "Ability Stone",
+			"description": "Enhances skills more powerfully.",
+			"skill_enhanced": 2,
+			"costs": [
+				{
+					"item": "ma_runeice1",
+					"count": 17,
+					"_id": "frost-rune",
+					"identifier": "ma_runeice1",
+					"name": "Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				},
+				{
+					"item": "ma_runeice2",
+					"count": 8,
+					"_id": "greater-frost-rune",
+					"identifier": "ma_runeice2",
+					"name": "Greater Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_2"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runeice2",
+					"count": 8,
+					"_id": "greater-frost-rune",
+					"identifier": "ma_runeice2",
+					"name": "Greater Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				},
+				{
+					"item": "ma_runeice3",
+					"count": 1,
+					"_id": "epic-frost-rune",
+					"identifier": "ma_runeice3",
+					"name": "Epic Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "speed",
+					"value": 4,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_3"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runeice3",
+					"count": 5,
+					"_id": "epic-frost-rune",
+					"identifier": "ma_runeice3",
+					"name": "Epic Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_hatchling_es",
+					"count": 12,
+					"_id": "blazing-rage",
+					"identifier": "ma_hatchling_es",
+					"name": "Blazing Rage",
+					"description": "Warped feelings of fury clustered together and manifested physically into burning chunks.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 3,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_hatchling_es.png"
+					},
+					"request_count": 2,
+					"support_count": 1,
+					"shops": [
+						{
+							"chapter": "3. Savara",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "5. Dun Blyraia",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "3. South Wintenberg",
+							"continent": "Eureka",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "2. Crimson City Meldrec",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "2S. Scorned Lands",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "10. Distorted Dimension",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "3. Savara World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "5. Dun Blyraia World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "res",
+					"value": 0.12,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_4"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runeice3",
+					"count": 8,
+					"_id": "epic-frost-rune",
+					"identifier": "ma_runeice3",
+					"name": "Epic Frost Rune",
+					"description": "A Rune for Awakening Ice elemental Heroes obtainable from the Frost Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "ice",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runeice3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_demont_es",
+					"count": 8,
+					"_id": "horn-of-desire",
+					"identifier": "ma_demont_es",
+					"name": "Horn of Desire",
+					"description": "The strange power contained within this devil horn is said to drive people to insanity.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 5,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_demont_es.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": [
+						{
+							"chapter": "8. Duselnorc World",
+							"continent": "Ritania",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "acc",
+					"value": 0.12,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_5"
+		}
+	],
+	"skills": [
+		{
+			"name": "Hail",
+			"can_enhance": false,
+			"description": "Throws ice fragments at the enemy, with a {{variable}} chance to decrease Speed for 2 turns.",
+			"values": [
+				0.35
+			],
+			"passive": false,
+			"cooldown": 0,
+			"soul_gain": 1,
+			"pow": 1,
+			"att_rate": 1,
+			"buff": [],
+			"debuff": [
+				19
+			],
+			"common": [],
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_0_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_0_enh_1"
+				},
+				{
+					"string": "+5% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 9000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_penguin_es",
+							"count": 1,
+							"_id": "shiny-enchantment",
+							"identifier": "ma_penguin_es",
+							"name": "Shiny Enchantment",
+							"description": "A bead fragment containing the power of a spirit. An object of pride for those who use it.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_penguin_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "5. Dun Blyraia",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7. City of Starlight Constella",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Shandra Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Dun Blyraia World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_2"
+				},
+				{
+					"string": "+10% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 18000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 2,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_penguin_es",
+							"count": 2,
+							"_id": "shiny-enchantment",
+							"identifier": "ma_penguin_es",
+							"name": "Shiny Enchantment",
+							"description": "A bead fragment containing the power of a spirit. An object of pride for those who use it.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_penguin_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "5. Dun Blyraia",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7. City of Starlight Constella",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Shandra Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Dun Blyraia World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_3"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 28000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 2,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_penguin_es",
+							"count": 4,
+							"_id": "shiny-enchantment",
+							"identifier": "ma_penguin_es",
+							"name": "Shiny Enchantment",
+							"description": "A bead fragment containing the power of a spirit. An object of pride for those who use it.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_penguin_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "5. Dun Blyraia",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7. City of Starlight Constella",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Shandra Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Dun Blyraia World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_4"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 80000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 4,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_demont_es",
+							"count": 2,
+							"_id": "horn-of-desire",
+							"identifier": "ma_demont_es",
+							"name": "Horn of Desire",
+							"description": "The strange power contained within this devil horn is said to drive people to insanity.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 5,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_demont_es.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": [
+								{
+									"chapter": "8. Duselnorc World",
+									"continent": "Ritania",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_5"
+				}
+			],
+			"_id": "skill_0",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c1037_1.png"
+			}
+		},
+		{
+			"name": "Blizzard Cape",
+			"can_enhance": true,
+			"description": "Casts a barrier over all allies for 2 turns with frost magic. Barrier strength increases proportional to the caster's Attack.",
+			"values": [],
+			"passive": false,
+			"cooldown": 4,
+			"soul_gain": 1,
+			"pow": 1,
+			"att_rate": 0,
+			"buff": [
+				5,
+				13
+			],
+			"debuff": [],
+			"common": [],
+			"soul_description": "All skill cooldowns decreased by 2 turns.",
+			"soul_requirement": 20,
+			"soul_pow": 1,
+			"soul_att_rate": 0,
+			"enhanced_description": "Casts a barrier and reflect on all allies for 2 turns with frost magic. Barrier strength increases proportional to the caster's Attack.",
+			"enhancements": [
+				{
+					"string": "+2 Soul acquired",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 19000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_penguin_es",
+							"count": 3,
+							"_id": "shiny-enchantment",
+							"identifier": "ma_penguin_es",
+							"name": "Shiny Enchantment",
+							"description": "A bead fragment containing the power of a spirit. An object of pride for those who use it.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_penguin_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "5. Dun Blyraia",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7. City of Starlight Constella",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Shandra Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Dun Blyraia World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_0"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 38000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 2,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_demont_es",
+							"count": 1,
+							"_id": "horn-of-desire",
+							"identifier": "ma_demont_es",
+							"name": "Horn of Desire",
+							"description": "The strange power contained within this devil horn is said to drive people to insanity.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 5,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_demont_es.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": [
+								{
+									"chapter": "8. Duselnorc World",
+									"continent": "Ritania",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_1"
+				}
+			],
+			"_id": "skill_1",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c1037_2.png"
+			}
+		},
+		{
+			"name": "Ice Spear",
+			"can_enhance": false,
+			"description": "Attacks all enemies with a large block of ice, with a {{variable}} chance to stun for 1 turn and a {{variable}} chance to decrease Combat Readiness by 30%.",
+			"values": [
+				0.75,
+				0.35
+			],
+			"passive": false,
+			"cooldown": 5,
+			"soul_gain": 2,
+			"pow": 0.95,
+			"att_rate": 0.75,
+			"buff": [],
+			"debuff": [
+				20
+			],
+			"common": [],
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_2_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_2_enh_1"
+				},
+				{
+					"string": "+5% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						}
+					],
+					"_id": "skill_2_enh_2"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 9000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 1,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_penguin_es",
+							"count": 1,
+							"_id": "shiny-enchantment",
+							"identifier": "ma_penguin_es",
+							"name": "Shiny Enchantment",
+							"description": "A bead fragment containing the power of a spirit. An object of pride for those who use it.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_penguin_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "5. Dun Blyraia",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7. City of Starlight Constella",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Shandra Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Dun Blyraia World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_3"
+				},
+				{
+					"string": "+10% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 18000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 2,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_penguin_es",
+							"count": 2,
+							"_id": "shiny-enchantment",
+							"identifier": "ma_penguin_es",
+							"name": "Shiny Enchantment",
+							"description": "A bead fragment containing the power of a spirit. An object of pride for those who use it.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_penguin_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "5. Dun Blyraia",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7. City of Starlight Constella",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Shandra Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Dun Blyraia World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_4"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 37000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 3,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_penguin_es",
+							"count": 5,
+							"_id": "shiny-enchantment",
+							"identifier": "ma_penguin_es",
+							"name": "Shiny Enchantment",
+							"description": "A bead fragment containing the power of a spirit. An object of pride for those who use it.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_penguin_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "5. Dun Blyraia",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7. City of Starlight Constella",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Shandra Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5. Dun Blyraia World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_5"
+				},
+				{
+					"string": "+15% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 80000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "ma_moragora1",
+							"count": 4,
+							"_id": "molagora",
+							"identifier": "ma_moragora1",
+							"name": "MolaGora",
+							"description": "A screaming grass root",
+							"category": "Skill Enhancer",
+							"attribute": null,
+							"grade": 3,
+							"type1": "skillup",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_moragora1.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": []
+						},
+						{
+							"item": "ma_demont_es",
+							"count": 2,
+							"_id": "horn-of-desire",
+							"identifier": "ma_demont_es",
+							"name": "Horn of Desire",
+							"description": "The strange power contained within this devil horn is said to drive people to insanity.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 5,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_demont_es.png"
+							},
+							"request_count": 0,
+							"support_count": 0,
+							"shops": [
+								{
+									"chapter": "8. Duselnorc World",
+									"continent": "Ritania",
+									"price": 400,
+									"limit_count": 2,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_6"
+				}
+			],
+			"_id": "skill_2",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c1037_3.png"
+			}
+		}
+	],
+	"specialty_change": {},
+	"assets": {
+		"icon": "https://assets.epicsevendb.com/_source/face/c1037_s.png",
+		"image": "https://assets.epicsevendb.com/_source/face/c1037_su.png",
+		"thumbnail": "https://assets.epicsevendb.com/_source/face/c1037_l.png"
+	},
+	"buffs": [
+		{
+			"_id": "13",
+			"id": 13,
+			"type": "buff",
+			"name": "Reflect",
+			"effect": "Reflects some of the damage taken when attacked. Reflected damage cannot be higher than the caster's max Health.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_reflect.png"
+			}
+		},
+		{
+			"_id": "5",
+			"id": 5,
+			"type": "buff",
+			"name": "Barrier",
+			"effect": "Neutralizes some of the damage taken when attacked.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_protect.png"
+			}
+		}
+	],
+	"debuffs": [
+		{
+			"_id": "19",
+			"id": 19,
+			"type": "debuff",
+			"name": "Decrease Speed",
+			"effect": "Decreases Speed by 30%.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_speed_dn.png"
+			}
+		},
+		{
+			"_id": "20",
+			"id": 20,
+			"type": "debuff",
+			"name": "Stun",
+			"effect": "The target becomes unable to act for a certain number of turns.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_stun.png"
+			}
+		}
+	],
+	"common": [],
+	"ex_equip": [],
+	"calculatedStatus": {
+		"lv50FiveStarNoAwaken": {
+			"cp": 11357,
+			"atk": 647,
+			"hp": 3656,
+			"spd": 108,
+			"def": 520,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv50FiveStarFullyAwakened": {
+			"cp": 13090,
+			"atk": 767,
+			"hp": 3996,
+			"spd": 112,
+			"def": 520,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0.06,
+			"efr": 0.18
+		},
+		"lv60SixStarNoAwaken": {
+			"cp": 14169,
+			"atk": 807,
+			"hp": 4596,
+			"spd": 108,
+			"def": 645,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarFullyAwakened": {
+			"cp": 16790,
+			"atk": 957,
+			"hp": 5016,
+			"spd": 112,
+			"def": 645,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0.18,
+			"efr": 0.18
+		}
+	},
+	"localize": {
+		"name": "ドミニエル",
+		"skill1": {
+			"name": "氷霰",
+			"desc": "敵単体に攻撃し、35.0%の確率でスピードDOWNを2ターンの間付与する。",
+			"soul_description": ""
+		},
+		"skill2": {
+			"name": "氷雪羽織",
+			"desc": "味方全体にシールドを2ターンの間付与する。自身の攻撃力が高いほどシールド効果がUPする。",
+			"soul_description": "味方全体にシールドを2ターンの間付与する。自身の攻撃力が高いほどシールド効果がUPする。"
+		},
+		"skill3": {
+			"name": "氷柱落とし",
+			"desc": "敵全体に攻撃し、75.0%の確率でスタンを1ターンの間付与し、35.0%の確率でアクションゲージを30％DOWNさせる。",
+			"soul_description": ""
+		}
+	}
+}

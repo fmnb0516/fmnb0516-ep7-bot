@@ -1,0 +1,2166 @@
+{
+	"_id": "adventurer-ras",
+	"index": 208,
+	"id": "c5001",
+	"base_id": "c1001",
+	"specialty_id": null,
+	"name": "Adventurer Ras",
+	"moonlight": false,
+	"rarity": 3,
+	"attribute": "fire",
+	"role": "knight",
+	"zodiac": "scales",
+	"description": "A living legend of Orbis who renounced his holiness",
+	"story": "Faced with an otherworldly threat, Ras renounced his holiness and became Human in order to save Orbis. Now that he understands the true nature of power, he is able to fully utilize those granted to him by Diche and Ilryos as he looks ahead to new adventures.",
+	"get_line": "MISSING_TRANSLATION_VALUE(c5001_gacha_get)",
+	"stats": {
+		"bra": 67,
+		"int": 87,
+		"fai": 76,
+		"des": 57
+	},
+	"relationships": [
+		{
+			"name": null,
+			"description": null,
+			"relations": [
+				{
+					"id": "c1005",
+					"slot": 1,
+					"description": "A companion who stayed by Ras's side through everything.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "npc1010",
+					"slot": 2,
+					"description": "Ras may be the one who pays for his snacks, but Arky often seems to forget who's in charge around here.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "c1104",
+					"slot": 3,
+					"description": "Ras sees Mort as an opponent not to be taken lightly. At some point, he will have to kill Mort.",
+					"relation": "Grudge",
+					"upgrade": {},
+					"relation_id": "re_grudge_tx"
+				}
+			]
+		}
+	],
+	"self_devotion": {
+		"type": "max_hp",
+		"grades": {
+			"D": 180,
+			"C": 270,
+			"B": 360,
+			"A": 450,
+			"S": 540,
+			"SS": 630,
+			"SSS": 720
+		}
+	},
+	"devotion": {
+		"type": "max_hp",
+		"grades": {
+			"D": 120,
+			"C": 180,
+			"B": 240,
+			"A": 300,
+			"S": 360,
+			"SS": 420,
+			"SSS": 480
+		},
+		"slots": {
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true
+		}
+	},
+	"specialty": {
+		"name": "Blessings of the Gods",
+		"description": "The love and blessings of the gods of Aethra remain with him.",
+		"effect_type": "reward_bonus",
+		"effect_value": 0.06,
+		"command": 88,
+		"charm": 76,
+		"politics": 15,
+		"type": {
+			"name": "Support",
+			"description": null
+		},
+		"assets": {
+			"icon": "https://assets.epicsevendb.com/_source/skill/smt_support.png"
+		}
+	},
+	"camping": {
+		"personalities": [
+			"Altruistic",
+			"Heroism"
+		],
+		"topics": [
+			"Heroic Tale",
+			"Food Story"
+		],
+		"values": {
+			"Criticism": -8,
+			"Reality Check": -6,
+			"Heroic Tale": 0,
+			"Comforting Cheer": 6,
+			"Cute Cheer": 4,
+			"Heroic Cheer": 5,
+			"Sad Memory": 8,
+			"Joyful Memory": 6,
+			"Happy Memories": 6,
+			"Unique Comment": 2,
+			"Self-Indulgent": -3,
+			"Occult": -1,
+			"Myth": 4,
+			"Bizarre Story": -3,
+			"Food Story": 2,
+			"Horror Story": 0,
+			"Gossip": -1,
+			"Dream": 5,
+			"Advice": 7,
+			"Complain": -2,
+			"Belief": -4,
+			"Interesting Story": 2
+		}
+	},
+	"zodiac_tree": [
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runefire1",
+					"count": 5,
+					"_id": "flame-rune",
+					"identifier": "ma_runefire1",
+					"name": "Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "max_hp_rate",
+					"value": 0.03,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_0"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runefire1",
+					"count": 9,
+					"_id": "flame-rune",
+					"identifier": "ma_runefire1",
+					"name": "Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "def_rate",
+					"value": 0.03,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_1"
+		},
+		{
+			"name": "Ability Stone",
+			"description": "Enhances skills more powerfully.",
+			"skill_enhanced": 1,
+			"costs": [
+				{
+					"item": "ma_runefire1",
+					"count": 12,
+					"_id": "flame-rune",
+					"identifier": "ma_runefire1",
+					"name": "Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				},
+				{
+					"item": "ma_runefire2",
+					"count": 6,
+					"_id": "greater-flame-rune",
+					"identifier": "ma_runefire2",
+					"name": "Greater Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_2"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runefire2",
+					"count": 15,
+					"_id": "greater-flame-rune",
+					"identifier": "ma_runefire2",
+					"name": "Greater Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "res",
+					"value": 0.12,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_3"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runefire3",
+					"count": 4,
+					"_id": "epic-flame-rune",
+					"identifier": "ma_runefire3",
+					"name": "Epic Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_dreamer_es",
+					"count": 9,
+					"_id": "dream-time-circuit",
+					"identifier": "ma_dreamer_es",
+					"name": "Dream Time Circuit",
+					"description": "A strange piece of nerve tissue that can be obtained from alien lifeforms. Touching it causes slight dizziness.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 3,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_dreamer_es.png"
+					},
+					"request_count": 2,
+					"support_count": 1,
+					"shops": [
+						{
+							"chapter": "6. South Wetheric Moor",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "7. North Wetheric Moor",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "4. City of Sorcerers Witchaven",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "9. Comet Temple",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "6. South Wetheric Moor World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "7. North Wetheric Moor World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "max_hp_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_4"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runefire3",
+					"count": 6,
+					"_id": "epic-flame-rune",
+					"identifier": "ma_runefire3",
+					"name": "Epic Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_raingar_es",
+					"count": 6,
+					"_id": "reingar-student-id",
+					"identifier": "ma_raingar_es",
+					"name": "Reingar Student ID",
+					"description": "The personal information on this student ID was erased before it was discarded. It emits the endless desire for knowledge.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 5,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_raingar_es.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": [
+						{
+							"chapter": "2. West Politia",
+							"continent": "Eureka",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "2. Reingar World",
+							"continent": "Ritania",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "def_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_5"
+		}
+	],
+	"skills": [
+		{
+			"name": "X-Slash",
+			"can_enhance": true,
+			"description": "Attacks with a sword, dealing damage proportional to the caster's max Health.",
+			"values": [],
+			"passive": false,
+			"cooldown": 0,
+			"soul_gain": 1,
+			"pow": 1,
+			"att_rate": 0.9,
+			"buff": [],
+			"debuff": [],
+			"common": [],
+			"enhanced_description": "Attacks with a sword, with 75% chance to dispel a buff. Damage dealt increases proportional to the caster's max Health.",
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 120,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_0_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 270,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_0_enh_1"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 22000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 470,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_gem_es",
+							"count": 3,
+							"_id": "mysterious-flash",
+							"identifier": "ma_gem_es",
+							"name": "Mysterious Flash",
+							"description": "At a glimpse it looks like a fragment containing the power of a spirit, but upon closer inspection you can feel an unknown power.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_gem_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2. Reingar",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5S. Sun Desert",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "1. South Lefundos",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7. City of Starlight Constella",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. Distorted Dimension",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2. Reingar World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5S. Sun Desert World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_2"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 30000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 740,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_gem_es",
+							"count": 4,
+							"_id": "mysterious-flash",
+							"identifier": "ma_gem_es",
+							"name": "Mysterious Flash",
+							"description": "At a glimpse it looks like a fragment containing the power of a spirit, but upon closer inspection you can feel an unknown power.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_gem_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2. Reingar",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5S. Sun Desert",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "1. South Lefundos",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7. City of Starlight Constella",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. Distorted Dimension",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2. Reingar World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5S. Sun Desert World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_3"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 40000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1100,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_gem_es",
+							"count": 5,
+							"_id": "mysterious-flash",
+							"identifier": "ma_gem_es",
+							"name": "Mysterious Flash",
+							"description": "At a glimpse it looks like a fragment containing the power of a spirit, but upon closer inspection you can feel an unknown power.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_gem_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2. Reingar",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5S. Sun Desert",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "1. South Lefundos",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7. City of Starlight Constella",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. Distorted Dimension",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2. Reingar World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5S. Sun Desert World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_4"
+				}
+			],
+			"_id": "skill_0",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c5001_1.png"
+			}
+		},
+		{
+			"name": "Command Strike",
+			"can_enhance": false,
+			"description": "Attacks the enemy repeatedly, before triggering a Dual Attack from the ally with the highest Attack.",
+			"values": [],
+			"passive": false,
+			"cooldown": 3,
+			"soul_gain": 2,
+			"pow": 1,
+			"att_rate": 1.5,
+			"buff": [],
+			"debuff": [],
+			"common": [
+				33
+			],
+			"soul_description": "Skill cooldown is decreased by 2 turns.",
+			"soul_requirement": 10,
+			"soul_pow": 1,
+			"soul_att_rate": 1.5,
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 120,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_1_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 270,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_1_enh_1"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 22000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 470,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_gem_es",
+							"count": 3,
+							"_id": "mysterious-flash",
+							"identifier": "ma_gem_es",
+							"name": "Mysterious Flash",
+							"description": "At a glimpse it looks like a fragment containing the power of a spirit, but upon closer inspection you can feel an unknown power.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_gem_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2. Reingar",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5S. Sun Desert",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "1. South Lefundos",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7. City of Starlight Constella",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. Distorted Dimension",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2. Reingar World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5S. Sun Desert World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_2"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 30000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 740,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_gem_es",
+							"count": 4,
+							"_id": "mysterious-flash",
+							"identifier": "ma_gem_es",
+							"name": "Mysterious Flash",
+							"description": "At a glimpse it looks like a fragment containing the power of a spirit, but upon closer inspection you can feel an unknown power.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_gem_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2. Reingar",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5S. Sun Desert",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "1. South Lefundos",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7. City of Starlight Constella",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. Distorted Dimension",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2. Reingar World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5S. Sun Desert World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_3"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 40000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1100,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_gem_es",
+							"count": 5,
+							"_id": "mysterious-flash",
+							"identifier": "ma_gem_es",
+							"name": "Mysterious Flash",
+							"description": "At a glimpse it looks like a fragment containing the power of a spirit, but upon closer inspection you can feel an unknown power.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_gem_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2. Reingar",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5S. Sun Desert",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "1. South Lefundos",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7. City of Starlight Constella",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. Distorted Dimension",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2. Reingar World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5S. Sun Desert World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_4"
+				}
+			],
+			"_id": "skill_1",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c5001_2.png"
+			}
+		},
+		{
+			"name": "Purifying Flame",
+			"can_enhance": false,
+			"description": "Strongly attacks all enemies with a swordstorm, before recovering the caster's Health and increasing Defense of all allies for 2 turns. Amount recovered and damage dealt increase proportional to the caster's max Health.",
+			"values": [],
+			"passive": false,
+			"cooldown": 4,
+			"soul_gain": 2,
+			"pow": 1,
+			"att_rate": 0.9,
+			"buff": [
+				2
+			],
+			"debuff": [],
+			"common": [],
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 120,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_2_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 270,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_2_enh_1"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 22000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 470,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_gem_es",
+							"count": 3,
+							"_id": "mysterious-flash",
+							"identifier": "ma_gem_es",
+							"name": "Mysterious Flash",
+							"description": "At a glimpse it looks like a fragment containing the power of a spirit, but upon closer inspection you can feel an unknown power.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_gem_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2. Reingar",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5S. Sun Desert",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "1. South Lefundos",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7. City of Starlight Constella",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. Distorted Dimension",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2. Reingar World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5S. Sun Desert World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_2"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 30000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 740,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_gem_es",
+							"count": 4,
+							"_id": "mysterious-flash",
+							"identifier": "ma_gem_es",
+							"name": "Mysterious Flash",
+							"description": "At a glimpse it looks like a fragment containing the power of a spirit, but upon closer inspection you can feel an unknown power.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_gem_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2. Reingar",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5S. Sun Desert",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "1. South Lefundos",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7. City of Starlight Constella",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. Distorted Dimension",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2. Reingar World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5S. Sun Desert World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_3"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 40000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1100,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_gem_es",
+							"count": 5,
+							"_id": "mysterious-flash",
+							"identifier": "ma_gem_es",
+							"name": "Mysterious Flash",
+							"description": "At a glimpse it looks like a fragment containing the power of a spirit, but upon closer inspection you can feel an unknown power.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_gem_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "2. Reingar",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "5S. Sun Desert",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "1. South Lefundos",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "1S. Pupuran Ruins",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7. City of Starlight Constella",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. Distorted Dimension",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "2. Reingar World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5S. Sun Desert World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_4"
+				}
+			],
+			"_id": "skill_2",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c5001_3.png"
+			}
+		}
+	],
+	"specialty_change": {
+		"tree": [
+			[
+				{
+					"id": 1,
+					"position": 1,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "stat",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Health.",
+							"upgrade": null
+						},
+						{
+							"type": "stat",
+							"stat": "max_hp_rate",
+							"value": 0.05,
+							"description": "Increases Health by 5%.",
+							"upgrade": "+5% Health"
+						},
+						{
+							"type": "stat",
+							"stat": "max_hp_rate",
+							"value": 0.07,
+							"description": "Increases Health by 12%.",
+							"upgrade": "+7% Health"
+						},
+						{
+							"type": "stat",
+							"stat": "max_hp_rate",
+							"value": 0.08,
+							"description": "Increases Health by 20%.",
+							"upgrade": "+8% Health"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"position": 2,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases damage dealt by X-Slash.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases damage dealt by X-Slash by 2%.",
+							"upgrade": "+2% damage dealt"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases damage dealt by X-Slash by 5%.",
+							"upgrade": "+3% damage dealt"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases damage dealt by X-Slash by 10%.",
+							"upgrade": "+5% damage dealt"
+						}
+					]
+				},
+				{
+					"id": 3,
+					"position": 3,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "stat",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Speed.",
+							"upgrade": null
+						},
+						{
+							"type": "stat",
+							"stat": "speed",
+							"value": 1,
+							"description": "Increases Speed by 1.",
+							"upgrade": "+1 Speed"
+						},
+						{
+							"type": "stat",
+							"stat": "speed",
+							"value": 2,
+							"description": "Increases Speed by 3.",
+							"upgrade": "+2 Speed"
+						},
+						{
+							"type": "stat",
+							"stat": "speed",
+							"value": 3,
+							"description": "Increases Speed by 6.",
+							"upgrade": "+3 Speed"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 4,
+					"position": 1,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "stat",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Effectiveness.",
+							"upgrade": null
+						},
+						{
+							"type": "stat",
+							"stat": "acc",
+							"value": 0.07,
+							"description": "Increases Effectiveness by 7%.",
+							"upgrade": "+7% Effectiveness"
+						},
+						{
+							"type": "stat",
+							"stat": "acc",
+							"value": 0.08,
+							"description": "Increases Effectiveness by 15%.",
+							"upgrade": "+8% Effectiveness"
+						},
+						{
+							"type": "stat",
+							"stat": "acc",
+							"value": 0.1,
+							"description": "Increases Effectiveness by 25%.",
+							"upgrade": "+10% Effectiveness"
+						}
+					]
+				},
+				{
+					"id": 5,
+					"position": 3,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a chance to grant immunity to the caster and the ally with the highest Attack for 2 turns when using Command Strike.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 20% chance to grant immunity to the caster and the ally with the highest Attack for 2 turns when using Command Strike.",
+							"upgrade": "+20% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 50% chance to grant immunity to the caster and the ally with the highest Attack for 2 turns when using Command Strike.",
+							"upgrade": "+30% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 100% chance to grant immunity to the caster and the ally with the highest Attack for 2 turns when using Command Strike.",
+							"upgrade": "+50% effect chance"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 6,
+					"position": 1,
+					"require_id": 4,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Effect Resistance of all allies.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Effect Resistance of all allies by 1%.",
+							"upgrade": "+1% Effect Resistance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Effect Resistance of all allies by 2.5%.",
+							"upgrade": "+1.5% Effect Resistance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Effect Resistance of all allies by 5%.",
+							"upgrade": "+2.5% Effect Resistance"
+						}
+					]
+				},
+				{
+					"id": 7,
+					"position": 2,
+					"require_id": 2,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a chance to increase Combat Readiness of the caster by 10% when using X-Slash.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 20% chance to increase Combat Readiness of the caster by 10% when using X-Slash.",
+							"upgrade": "+20% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 50% chance to increase Combat Readiness of the caster by 10% when using X-Slash.",
+							"upgrade": "+30% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 100% chance to increase Combat Readiness of the caster by 10% when using X-Slash.",
+							"upgrade": "+50% effect chance"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 8,
+					"position": 1,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a chance to increase Combat Readiness of the caster by 20% when using Purifying Flame.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 20% chance to increase Combat Readiness of the caster by 20% when using Purifying Flame.",
+							"upgrade": "+20% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 50% chance to increase Combat Readiness of the caster by 20% when using Purifying Flame.",
+							"upgrade": "+30% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 100% chance to increase Combat Readiness of the caster by 20% when using Purifying Flame.",
+							"upgrade": "+50% effect chance"
+						}
+					]
+				},
+				{
+					"id": 9,
+					"position": 2,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases amount of Health recovered when using Purifying Flame.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases amount of Health recovered by 20% when using Purifying Flame.",
+							"upgrade": "+20% healing"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases amount of Health recovered by 50% when using Purifying Flame.",
+							"upgrade": "+30% healing"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases amount of Health recovered by 100% when using Purifying Flame.",
+							"upgrade": "+50% healing"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 10,
+					"position": 3,
+					"require_id": 5,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a chance to decrease Defense of the target for 1 turn when using Command Strike.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 10% chance to decrease Defense of the target for 1 turn when using Command Strike.",
+							"upgrade": "+10% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 30% chance to decrease Defense of the target for 1 turn when using Command Strike.",
+							"upgrade": "+20% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 60% chance to decrease Defense of the target for 1 turn when using Command Strike.",
+							"upgrade": "+30% effect chance"
+						}
+					]
+				}
+			]
+		]
+	},
+	"assets": {
+		"icon": "https://assets.epicsevendb.com/_source/face/c5001_s.png",
+		"image": "https://assets.epicsevendb.com/_source/face/c5001_su.png",
+		"thumbnail": "https://assets.epicsevendb.com/_source/face/c5001_l.png"
+	},
+	"buffs": [
+		{
+			"_id": "2",
+			"id": 2,
+			"type": "buff",
+			"name": "Increase Defense",
+			"effect": "Increases Defense by 60%.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_def_up.png"
+			}
+		}
+	],
+	"debuffs": [],
+	"common": [
+		{
+			"_id": "33",
+			"id": 33,
+			"type": "common",
+			"name": "Dual Attack",
+			"effect": "Chance to attack an enemy with basic skill after an ally has attacked them with basic skill, unless unable to act. Cannot be triggered by counterattacks.",
+			"assets": {
+				"icon": null
+			}
+		}
+	],
+	"ex_equip": [],
+	"calculatedStatus": {
+		"lv50FiveStarNoAwaken": {
+			"cp": 10476,
+			"atk": 487,
+			"hp": 3945,
+			"spd": 95,
+			"def": 497,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv50FiveStarFullyAwakened": {
+			"cp": 12124,
+			"atk": 607,
+			"hp": 4640,
+			"spd": 95,
+			"def": 511,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0.12
+		},
+		"lv60SixStarNoAwaken": {
+			"cp": 13081,
+			"atk": 608,
+			"hp": 4960,
+			"spd": 95,
+			"def": 617,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarFullyAwakened": {
+			"cp": 15498,
+			"atk": 758,
+			"hp": 5826,
+			"spd": 95,
+			"def": 672,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0.12
+		}
+	},
+	"localize": {
+		"name": "冒険者 ラス",
+		"skill1": {
+			"name": "斬撃",
+			"desc": "敵単体に攻撃する。自身の最大生命力が高いほどダメージがUPする。",
+			"soul_description": ""
+		},
+		"skill2": {
+			"name": "指揮の一撃",
+			"desc": "敵単体に攻撃し、攻撃力が最も高い味方に連携攻撃を付与する。",
+			"soul_description": "敵単体に攻撃し、攻撃力が最も高い味方に連携攻撃を付与する。"
+		},
+		"skill3": {
+			"name": "浄化の炎",
+			"desc": "敵全体に攻撃し、自身の生命力を回復し、味方全体に防御力UPを2ターンの間付与する。自身の最大生命力が高いほどダメージと回復量がUPする。",
+			"soul_description": ""
+		}
+	}
+}

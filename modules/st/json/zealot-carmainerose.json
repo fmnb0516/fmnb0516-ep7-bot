@@ -1,0 +1,2013 @@
+{
+	"_id": "zealot-carmainerose",
+	"index": 206,
+	"id": "c4071",
+	"base_id": "c3071",
+	"specialty_id": null,
+	"name": "Zealot Carmainerose",
+	"moonlight": false,
+	"rarity": 3,
+	"attribute": "fire",
+	"role": "mage",
+	"zodiac": "waterbearer",
+	"description": "A zealot fully immersed in an enraged belief",
+	"story": "A Banshee who holds a grudge against the Church of the Goddess for rejecting her wishes. After finding out they share an enemy and a grudge, she joined the Chaos Sect and is now working with them to spread the word of Chaos. However, her personality is a poor match for the job, and now she is pondering how to fulfill her duties.",
+	"get_line": "Join the Chaos Sect and you can become just as strong as me.",
+	"stats": {
+		"bra": 103,
+		"int": 45,
+		"fai": 90,
+		"des": 66
+	},
+	"relationships": [
+		{
+			"name": null,
+			"description": null,
+			"relations": [
+				{
+					"id": "c4025",
+					"slot": 1,
+					"description": "Zealot Carmainerose is thankful to have someone like Chaos Sect Axe listen to her story and take her side.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "c4001",
+					"slot": 2,
+					"description": "Zealot Carmainerose can't stand to see Chaos Inquisitor act like he's better than her.",
+					"relation": "Rival",
+					"upgrade": {},
+					"relation_id": "re_rival_tx"
+				}
+			]
+		}
+	],
+	"self_devotion": {
+		"type": "def",
+		"grades": {
+			"D": 18,
+			"C": 27,
+			"B": 36,
+			"A": 45,
+			"S": 54,
+			"SS": 63,
+			"SSS": 72
+		}
+	},
+	"devotion": {
+		"type": "def",
+		"grades": {
+			"D": 12,
+			"C": 18,
+			"B": 24,
+			"A": 30,
+			"S": 36,
+			"SS": 42,
+			"SSS": 48
+		},
+		"slots": {
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true
+		}
+	},
+	"specialty": {
+		"name": "Fanatic Recruitment",
+		"description": "She will do whatever it takes to spread the word of Chaos.",
+		"effect_type": "reward_bonus",
+		"effect_value": 0.1,
+		"command": 61,
+		"charm": 15,
+		"politics": 58,
+		"type": {
+			"name": "Unknown Knowledge",
+			"description": "It's not easy to understand knowledge from another world."
+		},
+		"assets": {
+			"icon": "https://assets.epicsevendb.com/_source/skill/smc_know_2.png"
+		}
+	},
+	"camping": {
+		"personalities": [
+			"Arrogant",
+			"Selfish"
+		],
+		"topics": [
+			"Advice",
+			"Horror Story"
+		],
+		"values": {
+			"Criticism": 8,
+			"Reality Check": -3,
+			"Heroic Tale": 5,
+			"Comforting Cheer": 3,
+			"Cute Cheer": 5,
+			"Heroic Cheer": -3,
+			"Sad Memory": 0,
+			"Joyful Memory": 2,
+			"Happy Memories": 2,
+			"Unique Comment": 0,
+			"Self-Indulgent": -5,
+			"Occult": 3,
+			"Myth": 5,
+			"Bizarre Story": -3,
+			"Food Story": 3,
+			"Horror Story": 1,
+			"Gossip": 2,
+			"Dream": 0,
+			"Advice": 3,
+			"Complain": 1,
+			"Belief": 0,
+			"Interesting Story": -1
+		}
+	},
+	"zodiac_tree": [
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runefire1",
+					"count": 5,
+					"_id": "flame-rune",
+					"identifier": "ma_runefire1",
+					"name": "Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att_rate",
+					"value": 0.03,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_0"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runefire1",
+					"count": 9,
+					"_id": "flame-rune",
+					"identifier": "ma_runefire1",
+					"name": "Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "acc",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_1"
+		},
+		{
+			"name": "Ability Stone",
+			"description": "Enhances skills more powerfully.",
+			"skill_enhanced": 2,
+			"costs": [
+				{
+					"item": "ma_runefire1",
+					"count": 12,
+					"_id": "flame-rune",
+					"identifier": "ma_runefire1",
+					"name": "Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				},
+				{
+					"item": "ma_runefire2",
+					"count": 6,
+					"_id": "greater-flame-rune",
+					"identifier": "ma_runefire2",
+					"name": "Greater Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_2"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runefire2",
+					"count": 15,
+					"_id": "greater-flame-rune",
+					"identifier": "ma_runefire2",
+					"name": "Greater Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "max_hp_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_3"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runefire3",
+					"count": 4,
+					"_id": "epic-flame-rune",
+					"identifier": "ma_runefire3",
+					"name": "Epic Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_shield_es",
+					"count": 9,
+					"_id": "order-of-the-shield-insignia",
+					"identifier": "ma_shield_es",
+					"name": "Order of the Shield Insignia",
+					"description": "An ornament bearing a shield symbol. It is worn out and faded, giving the impression that it has had several owners over time.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 3,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_shield_es.png"
+					},
+					"request_count": 2,
+					"support_count": 1,
+					"shops": [
+						{
+							"chapter": "8S. Breezy Plain",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "6. South Wetheric Moor",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "4. Dragon Valley",
+							"continent": "Eureka",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "6S. Dark Iron Range",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "8S. Breezy Plain World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "6. South Wetheric Moor World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "att_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_4"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runefire3",
+					"count": 6,
+					"_id": "epic-flame-rune",
+					"identifier": "ma_runefire3",
+					"name": "Epic Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_manager_es",
+					"count": 6,
+					"_id": "fighter-medal",
+					"identifier": "ma_manager_es",
+					"name": "Fighter Medal",
+					"description": "A medal given to soldiers who fought like demons in battle.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 5,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_insignia_es.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": [
+						{
+							"chapter": "1. South Lefundos",
+							"continent": "Eureka",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "1. Ezera World",
+							"continent": "Ritania",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "acc",
+					"value": 0.12,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_5"
+		}
+	],
+	"skills": [
+		{
+			"name": "Vampirism",
+			"can_enhance": false,
+			"description": "Claws the enemy, before absorbing some of the damage as Health.",
+			"values": [],
+			"passive": false,
+			"cooldown": 0,
+			"soul_gain": 1,
+			"pow": 1,
+			"att_rate": 1,
+			"buff": [],
+			"debuff": [],
+			"common": [],
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 120,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_0_enh_0"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 270,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_0_enh_1"
+				},
+				{
+					"string": "+15% healing",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 22000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 470,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_swordman_es",
+							"count": 3,
+							"_id": "leather-sheath",
+							"identifier": "ma_swordman_es",
+							"name": "Leather Sheath",
+							"description": "A sheath of tough leather used by soldiers to carry their swords.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_swordman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_2"
+				},
+				{
+					"string": "+15% healing",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 30000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 740,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_swordman_es",
+							"count": 4,
+							"_id": "leather-sheath",
+							"identifier": "ma_swordman_es",
+							"name": "Leather Sheath",
+							"description": "A sheath of tough leather used by soldiers to carry their swords.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_swordman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_3"
+				},
+				{
+					"string": "+15% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 40000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1100,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_swordman_es",
+							"count": 5,
+							"_id": "leather-sheath",
+							"identifier": "ma_swordman_es",
+							"name": "Leather Sheath",
+							"description": "A sheath of tough leather used by soldiers to carry their swords.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_swordman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_4"
+				}
+			],
+			"_id": "skill_0",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c4071_1.png"
+			}
+		},
+		{
+			"name": "Vengeful Strike",
+			"can_enhance": true,
+			"description": "Attacks the enemy, decreasing Combat Readiness by {{variable}}.",
+			"values": [
+				0.35
+			],
+			"passive": false,
+			"cooldown": 4,
+			"soul_gain": 2,
+			"pow": 1.05,
+			"att_rate": 1.5,
+			"buff": [
+				3
+			],
+			"debuff": [
+				19
+			],
+			"common": [],
+			"enhanced_description": "Attacks the enemy, decreasing Combat Readiness by {{variable}} before decreasing Speed of the enemy for 2 turns and increasing Speed of the caster for 2 turns.",
+			"enhancements": [
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 13000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 200,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_swordman_es",
+							"count": 2,
+							"_id": "leather-sheath",
+							"identifier": "ma_swordman_es",
+							"name": "Leather Sheath",
+							"description": "A sheath of tough leather used by soldiers to carry their swords.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_swordman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_0"
+				},
+				{
+					"string": "+10% Combat Readiness",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 21000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 450,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_swordman_es",
+							"count": 3,
+							"_id": "leather-sheath",
+							"identifier": "ma_swordman_es",
+							"name": "Leather Sheath",
+							"description": "A sheath of tough leather used by soldiers to carry their swords.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_swordman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_1"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 37000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 850,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_swordman_es",
+							"count": 5,
+							"_id": "leather-sheath",
+							"identifier": "ma_swordman_es",
+							"name": "Leather Sheath",
+							"description": "A sheath of tough leather used by soldiers to carry their swords.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_swordman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_2"
+				}
+			],
+			"_id": "skill_1",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c4071_2.png"
+			}
+		},
+		{
+			"name": "Spiteful Annihilation",
+			"can_enhance": false,
+			"description": "Attacks the enemy, dispelling all buffs and making them unable to be buffed for 2 turns, before increasing Attack and Defense of the caster for 2 turns.",
+			"values": [],
+			"passive": false,
+			"cooldown": 4,
+			"soul_gain": 2,
+			"pow": 0.95,
+			"att_rate": 1.5,
+			"buff": [
+				1,
+				2
+			],
+			"debuff": [
+				29
+			],
+			"common": [],
+			"soul_description": "Extends duration of buffs granted by this skill by 1 turn.",
+			"soul_requirement": 10,
+			"soul_pow": 0.95,
+			"soul_att_rate": 1.5,
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 120,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_2_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 270,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_2_enh_1"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 22000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 470,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_swordman_es",
+							"count": 3,
+							"_id": "leather-sheath",
+							"identifier": "ma_swordman_es",
+							"name": "Leather Sheath",
+							"description": "A sheath of tough leather used by soldiers to carry their swords.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_swordman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_2"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 30000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 740,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_swordman_es",
+							"count": 4,
+							"_id": "leather-sheath",
+							"identifier": "ma_swordman_es",
+							"name": "Leather Sheath",
+							"description": "A sheath of tough leather used by soldiers to carry their swords.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_swordman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_3"
+				},
+				{
+					"string": "+15% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 40000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1100,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_swordman_es",
+							"count": 5,
+							"_id": "leather-sheath",
+							"identifier": "ma_swordman_es",
+							"name": "Leather Sheath",
+							"description": "A sheath of tough leather used by soldiers to carry their swords.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_swordman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "4-2. Solayu Forest",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-2. Solayu Forest World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6. South Wetheric Moor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_4"
+				}
+			],
+			"_id": "skill_2",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c4071_3.png"
+			}
+		}
+	],
+	"specialty_change": {
+		"tree": [
+			[
+				{
+					"id": 1,
+					"position": 1,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When attacking, increases Effectiveness if the target is an Earth elemental Hero.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When attacking, increases Effectiveness by 3% if the target is an Earth elemental Hero.",
+							"upgrade": "+3% Effectiveness"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When attacking, increases Effectiveness by 10% if the target is an Earth elemental Hero.",
+							"upgrade": "+7% Effectiveness"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When attacking, increases Effectiveness by 20% if the target is an Earth elemental Hero.",
+							"upgrade": "+10% Effectiveness"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"position": 2,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "stat",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Defense.",
+							"upgrade": null
+						},
+						{
+							"type": "stat",
+							"stat": "def_rate",
+							"value": 0.02,
+							"description": "Increases Defense by 2%.",
+							"upgrade": "+2% Defense"
+						},
+						{
+							"type": "stat",
+							"stat": "def_rate",
+							"value": 0.03,
+							"description": "Increases Defense by 5%.",
+							"upgrade": "+3% Defense"
+						},
+						{
+							"type": "stat",
+							"stat": "def_rate",
+							"value": 0.05,
+							"description": "Increases Defense by 10%.",
+							"upgrade": "+5% Defense"
+						}
+					]
+				},
+				{
+					"id": 3,
+					"position": 3,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "stat",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Critical Hit Damage.",
+							"upgrade": null
+						},
+						{
+							"type": "stat",
+							"stat": "cri_dmg",
+							"value": 0.02,
+							"description": "Increases Critical Hit Damage by 2%.",
+							"upgrade": "+2% Critical Hit Damage"
+						},
+						{
+							"type": "stat",
+							"stat": "cri_dmg",
+							"value": 0.03,
+							"description": "Increases Critical Hit Damage by 5%.",
+							"upgrade": "+3% Critical Hit Damage"
+						},
+						{
+							"type": "stat",
+							"stat": "cri_dmg",
+							"value": 0.05,
+							"description": "Increases Critical Hit Damage by 10%.",
+							"upgrade": "+5% Critical Hit Damage"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 4,
+					"position": 1,
+					"require_id": 1,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a chance to inflict unhealable for 1 turn when attacking an Earth elemental Hero with Vampirism.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 10% chance to inflict unhealable for 1 turn when attacking an Earth elemental Hero with Vampirism.",
+							"upgrade": "+10% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 30% chance to inflict unhealable for 1 turn when attacking an Earth elemental Hero with Vampirism.",
+							"upgrade": "+20% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 60% chance to make unhealable for 1 turn when attacking an Earth elemental Hero with Vampirism.",
+							"upgrade": "+30% effect chance"
+						}
+					]
+				},
+				{
+					"id": 5,
+					"position": 2,
+					"require_id": 2,
+					"enhancements": [
+						{
+							"type": "stat",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Health.",
+							"upgrade": null
+						},
+						{
+							"type": "stat",
+							"stat": "max_hp_rate",
+							"value": 0.03,
+							"description": "Increases Health by 3%.",
+							"upgrade": "+3% Health"
+						},
+						{
+							"type": "stat",
+							"stat": "max_hp_rate",
+							"value": 0.05,
+							"description": "Increases Health by 8%.",
+							"upgrade": "+5% Health"
+						},
+						{
+							"type": "stat",
+							"stat": "max_hp_rate",
+							"value": 0.07,
+							"description": "Increases Health by 15%.",
+							"upgrade": "+7% Health"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 6,
+					"position": 1,
+					"require_id": 4,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When attacking, increases Effectiveness if the target is an Earth elemental Hero.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When attacking, increases Effectiveness by 5% if the target is an Earth elemental Hero.",
+							"upgrade": "+5% Effectiveness"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When attacking, increases Effectiveness by 15% if the target is an Earth elemental Hero.",
+							"upgrade": "+10% Effectiveness"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When attacking, increases Effectiveness by 30% if the target is an Earth elemental Hero.",
+							"upgrade": "+15% Effectiveness"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 7,
+					"position": 2,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Further decreases Combat Readiness when using Vengeful Strike.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Decreases Combat Readiness by an additional 1% when using Vengeful Strike.",
+							"upgrade": "+1% Combat Readiness reduction"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Decreases Combat Readiness by an additional 3% when using Vengeful Strike.",
+							"upgrade": "+2% Combat Readiness reduction"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Decreases Combat Readiness by an additional 5% when using Vengeful Strike.",
+							"upgrade": "+2% Combat Readiness reduction"
+						}
+					]
+				},
+				{
+					"id": 8,
+					"position": 3,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a chance to grant increased Attack (Greater) to the caster when using Spiteful Annihilation.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 1% chance to grant increased Attack (Greater) to the caster when using Spiteful Annihilation.",
+							"upgrade": "+1% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 3% chance to grant increased Attack (Greater) to the caster when using Spiteful Annihilation.",
+							"upgrade": "+2% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 5% chance to grant increased Attack (Greater) to the caster when using Spiteful Annihilation.",
+							"upgrade": "+2% effect chance"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 9,
+					"position": 1,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases damage dealt when attacking a target that has no buffs.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases damage dealt by 2% when attacking a target that has no buffs.",
+							"upgrade": "+2% damage dealt"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases damage dealt by 5% when attacking a target that has no buffs.",
+							"upgrade": "+3% damage dealt"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases damage dealt by 10% when attacking a target that has no buffs.",
+							"upgrade": "+5% damage dealt"
+						}
+					]
+				},
+				{
+					"id": 10,
+					"position": 3,
+					"require_id": 8,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When buffs are successfully dispelled by Spiteful Annihilation, increases Combat Readiness of the ally except for the caster with the highest Attack.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When buffs are successfully dispelled by Spiteful Annihilation, increases Combat Readiness of the ally except for the caster with the highest Attack by 5%.",
+							"upgrade": "+5% Combat Readiness"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When buffs are successfully dispelled by Spiteful Annihilation, increases Combat Readiness of the ally except for the caster with the highest Attack by 12%.",
+							"upgrade": "+7% Combat Readiness"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When buffs are successfully dispelled by Spiteful Annihilation, increases Combat Readiness of the ally except for the caster with the highest Attack by 20%.",
+							"upgrade": "+8% Combat Readiness"
+						}
+					]
+				}
+			]
+		]
+	},
+	"assets": {
+		"icon": "https://assets.epicsevendb.com/_source/face/c4071_s.png",
+		"image": "https://assets.epicsevendb.com/_source/face/c4071_su.png",
+		"thumbnail": "https://assets.epicsevendb.com/_source/face/c4071_l.png"
+	},
+	"buffs": [
+		{
+			"_id": "3",
+			"id": 3,
+			"type": "buff",
+			"name": "Increase Speed",
+			"effect": "Increases Speed by 30%.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_speed_up.png"
+			}
+		},
+		{
+			"_id": "2",
+			"id": 2,
+			"type": "buff",
+			"name": "Increase Defense",
+			"effect": "Increases Defense by 60%.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_def_up.png"
+			}
+		},
+		{
+			"_id": "1",
+			"id": 1,
+			"type": "buff",
+			"name": "Increase Attack",
+			"effect": "Increases Attack by 50%.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_att_up.png"
+			}
+		}
+	],
+	"debuffs": [
+		{
+			"_id": "29",
+			"id": 29,
+			"type": "debuff",
+			"name": "Cannot Buff",
+			"effect": "Makes the target unable to be buffed.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_buf_impossible.png"
+			}
+		},
+		{
+			"_id": "19",
+			"id": 19,
+			"type": "debuff",
+			"name": "Decrease Speed",
+			"effect": "Decreases Speed by 30%.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_speed_dn.png"
+			}
+		}
+	],
+	"common": [],
+	"ex_equip": [],
+	"calculatedStatus": {
+		"lv50FiveStarNoAwaken": {
+			"cp": 10701,
+			"atk": 749,
+			"hp": 2595,
+			"spd": 101,
+			"def": 537,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv50FiveStarFullyAwakened": {
+			"cp": 12152,
+			"atk": 936,
+			"hp": 3090,
+			"spd": 101,
+			"def": 537,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0.06,
+			"efr": 0
+		},
+		"lv60SixStarNoAwaken": {
+			"cp": 13336,
+			"atk": 934,
+			"hp": 3262,
+			"spd": 101,
+			"def": 666,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarFullyAwakened": {
+			"cp": 15595,
+			"atk": 1168,
+			"hp": 3877,
+			"spd": 101,
+			"def": 666,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0.18,
+			"efr": 0
+		}
+	},
+	"localize": {
+		"name": "伝道師 カーマイン・ローズ",
+		"skill1": {
+			"name": "吸血",
+			"desc": "敵単体に攻撃し、与えたダメージに応じて自身の生命力を回復する。",
+			"soul_description": ""
+		},
+		"skill2": {
+			"name": "怨恨の一撃",
+			"desc": "敵単体に攻撃し、アクションゲージを35.0%DOWNさせる。",
+			"soul_description": ""
+		},
+		"skill3": {
+			"name": "怨魂抹殺",
+			"desc": "敵単体に攻撃し、対象の強化効果をすべて解除し、強化不可を2ターンの間付与し、自身に攻撃力UP・防御力UPを2ターンの間付与する。",
+			"soul_description": "敵単体に攻撃し、対象の強化効果をすべて解除し、強化不可を2ターンの間付与し、自身に攻撃力UP・防御力UPを2ターンの間付与する。"
+		}
+	}
+}

@@ -1,0 +1,2053 @@
+{
+	"_id": "magic-scholar-doris",
+	"index": 202,
+	"id": "c4044",
+	"base_id": "c3044",
+	"specialty_id": null,
+	"name": "Magic Scholar Doris",
+	"moonlight": true,
+	"rarity": 3,
+	"attribute": "light",
+	"role": "manauser",
+	"zodiac": "crab",
+	"description": "A curious girl continuing her family's research",
+	"story": "After resolving a problem in a Taranor laboratory, Doris became a magic scholar to continue her father's research. Although she's completely buried in work, she's content now that she's found her life's purpose.",
+	"get_line": "MISSING_TRANSLATION_VALUE(c4044_gacha_get)",
+	"stats": {
+		"bra": 43,
+		"int": 67,
+		"fai": 90,
+		"des": 43
+	},
+	"relationships": [
+		{
+			"name": null,
+			"description": null,
+			"relations": [
+				{
+					"id": "c3004",
+					"slot": 1,
+					"description": "Doris is happy to have a friend like Arowell who is always loyal to her, even after her unilateral decision.",
+					"relation": "Love",
+					"upgrade": {},
+					"relation_id": "re_love_tx"
+				},
+				{
+					"id": "c1040",
+					"slot": 2,
+					"description": "Doris used to think of Serila as an object of respect and admiration, but now she considers her a friend and an adviser.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "c3011",
+					"slot": 3,
+					"description": "Due to the distance between them, Doris doesn't get the chance to talk to Judith often, but their friendship is still strong.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				}
+			]
+		}
+	],
+	"self_devotion": {
+		"type": "max_hp",
+		"grades": {
+			"D": 180,
+			"C": 270,
+			"B": 360,
+			"A": 450,
+			"S": 540,
+			"SS": 630,
+			"SSS": 720
+		}
+	},
+	"devotion": {
+		"type": "max_hp",
+		"grades": {
+			"D": 120,
+			"C": 180,
+			"B": 240,
+			"A": 300,
+			"S": 360,
+			"SS": 420,
+			"SSS": 480
+		},
+		"slots": {
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true
+		}
+	},
+	"specialty": {
+		"name": "Persistent Determination",
+		"description": "No matter what challenges she faces, she never gives up on her research.",
+		"effect_type": "reward_bonus",
+		"effect_value": 0.1,
+		"command": 8,
+		"charm": 38,
+		"politics": 25,
+		"type": {
+			"name": "Gourmet",
+			"description": "Something special is required to sate their refined appetite."
+		},
+		"assets": {
+			"icon": "https://assets.epicsevendb.com/_source/skill/smc_cook_3.png"
+		}
+	},
+	"camping": {
+		"personalities": [
+			"Academic",
+			"Cool-Headed"
+		],
+		"topics": [
+			"Dream",
+			"Advice"
+		],
+		"values": {
+			"Criticism": 4,
+			"Reality Check": 4,
+			"Heroic Tale": 0,
+			"Comforting Cheer": -1,
+			"Cute Cheer": 1,
+			"Heroic Cheer": 1,
+			"Sad Memory": 0,
+			"Joyful Memory": 1,
+			"Happy Memories": 0,
+			"Unique Comment": 0,
+			"Self-Indulgent": 5,
+			"Occult": 3,
+			"Myth": 5,
+			"Bizarre Story": 0,
+			"Food Story": 0,
+			"Horror Story": -5,
+			"Gossip": 2,
+			"Dream": 0,
+			"Advice": 1,
+			"Complain": 1,
+			"Belief": 0,
+			"Interesting Story": 3
+		}
+	},
+	"zodiac_tree": [
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runelight1",
+					"count": 5,
+					"_id": "light-rune",
+					"identifier": "ma_runelight1",
+					"name": "Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "max_hp_rate",
+					"value": 0.03,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_0"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runelight1",
+					"count": 9,
+					"_id": "light-rune",
+					"identifier": "ma_runelight1",
+					"name": "Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "max_hp_rate",
+					"value": 0.03,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_1"
+		},
+		{
+			"name": "Ability Stone",
+			"description": "Enhances skills more powerfully.",
+			"skill_enhanced": 3,
+			"costs": [
+				{
+					"item": "ma_runelight1",
+					"count": 12,
+					"_id": "light-rune",
+					"identifier": "ma_runelight1",
+					"name": "Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				},
+				{
+					"item": "ma_runelight2",
+					"count": 6,
+					"_id": "greater-light-rune",
+					"identifier": "ma_runelight2",
+					"name": "Greater Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_2"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runelight2",
+					"count": 15,
+					"_id": "greater-light-rune",
+					"identifier": "ma_runelight2",
+					"name": "Greater Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "def_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_3"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runelight3",
+					"count": 4,
+					"_id": "epic-light-rune",
+					"identifier": "ma_runelight3",
+					"name": "Epic Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_siren_es",
+					"count": 9,
+					"_id": "special-alarm-loop",
+					"identifier": "ma_siren_es",
+					"name": "Special Alarm Loop",
+					"description": "Circuit set to sound immediately in case of danger. It seems to have originally been developed as an alarm clock.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 3,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_siren_es.png"
+					},
+					"request_count": 2,
+					"support_count": 1,
+					"shops": [
+						{
+							"chapter": "2. Reingar",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "9-1. West Taranor",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "2. West Politia",
+							"continent": "Eureka",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "5-2. South Fortress City Perland",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "6. Aakhen Exile Colony",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "2. Reingar World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "9-1. West Taranor World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "max_hp_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_4"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runelight3",
+					"count": 6,
+					"_id": "epic-light-rune",
+					"identifier": "ma_runelight3",
+					"name": "Epic Light Rune",
+					"description": "A Rune for Awakening Light elemental Heroes obtainable from the Light Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "light",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runelight3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_homon_es",
+					"count": 6,
+					"_id": "the-heart-of-hypocrisy",
+					"identifier": "ma_homon_es",
+					"name": "The Heart of Hypocrisy",
+					"description": "A special mechanism similar to an artificial heart needed in the creation of a Homunculus.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 5,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_mecagolem_es.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": [
+						{
+							"chapter": "9-1. West Taranor World",
+							"continent": "Ritania",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "max_hp_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_5"
+		}
+	],
+	"skills": [
+		{
+			"name": "Mana Bullet",
+			"can_enhance": false,
+			"description": "Attacks with light energy, before a {{variable}} chance to decrease Hit Chance for 1 turn.",
+			"values": [
+				0.5
+			],
+			"passive": false,
+			"cooldown": 0,
+			"soul_gain": 1,
+			"pow": 1,
+			"att_rate": 1,
+			"buff": [],
+			"debuff": [
+				22
+			],
+			"common": [],
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 120,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_0_enh_0"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 270,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_0_enh_1"
+				},
+				{
+					"string": "+10% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 22000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 470,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_rodent_es",
+							"count": 3,
+							"_id": "baby-mouse-insignia",
+							"identifier": "ma_rodent_es",
+							"name": "Baby Mouse Insignia",
+							"description": "An insignia made to commemorate the Bellmice heroes of legend. It seems to contain their shrewdness and bravery.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_rodent_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3. Savara",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_2"
+				},
+				{
+					"string": "+15% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 30000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 740,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_rodent_es",
+							"count": 4,
+							"_id": "baby-mouse-insignia",
+							"identifier": "ma_rodent_es",
+							"name": "Baby Mouse Insignia",
+							"description": "An insignia made to commemorate the Bellmice heroes of legend. It seems to contain their shrewdness and bravery.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_rodent_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3. Savara",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_3"
+				},
+				{
+					"string": "+15% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 40000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1100,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_rodent_es",
+							"count": 5,
+							"_id": "baby-mouse-insignia",
+							"identifier": "ma_rodent_es",
+							"name": "Baby Mouse Insignia",
+							"description": "An insignia made to commemorate the Bellmice heroes of legend. It seems to contain their shrewdness and bravery.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_rodent_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3. Savara",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_4"
+				}
+			],
+			"_id": "skill_0",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c4044_1.png"
+			}
+		},
+		{
+			"name": "Celebration of Light",
+			"can_enhance": false,
+			"description": "Recites the Celebration of Light, recovering the Health of all allies and granting continuous healing and increased Defense for 2 turns. Amount recovered increases proportional to the target's max Health.",
+			"values": [],
+			"passive": false,
+			"cooldown": 5,
+			"soul_gain": 2,
+			"pow": 1,
+			"att_rate": 0,
+			"buff": [
+				11,
+				2
+			],
+			"debuff": [],
+			"common": [],
+			"soul_description": "Extends duration of buffs granted by this skill by 1 turn.",
+			"soul_requirement": 10,
+			"soul_pow": 1,
+			"soul_att_rate": 0,
+			"enhancements": [
+				{
+					"string": "+10% healing",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 120,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_1_enh_0"
+				},
+				{
+					"string": "+10% healing",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 270,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_1_enh_1"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 22000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 470,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_rodent_es",
+							"count": 3,
+							"_id": "baby-mouse-insignia",
+							"identifier": "ma_rodent_es",
+							"name": "Baby Mouse Insignia",
+							"description": "An insignia made to commemorate the Bellmice heroes of legend. It seems to contain their shrewdness and bravery.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_rodent_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3. Savara",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_2"
+				},
+				{
+					"string": "+15% healing",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 30000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 740,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_rodent_es",
+							"count": 4,
+							"_id": "baby-mouse-insignia",
+							"identifier": "ma_rodent_es",
+							"name": "Baby Mouse Insignia",
+							"description": "An insignia made to commemorate the Bellmice heroes of legend. It seems to contain their shrewdness and bravery.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_rodent_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3. Savara",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_3"
+				},
+				{
+					"string": "+15% healing",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 40000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1100,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_rodent_es",
+							"count": 5,
+							"_id": "baby-mouse-insignia",
+							"identifier": "ma_rodent_es",
+							"name": "Baby Mouse Insignia",
+							"description": "An insignia made to commemorate the Bellmice heroes of legend. It seems to contain their shrewdness and bravery.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_rodent_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3. Savara",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_4"
+				}
+			],
+			"_id": "skill_1",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c4044_2.png"
+			}
+		},
+		{
+			"name": "Primal Light",
+			"can_enhance": true,
+			"description": "Dispels one debuff from an ally with light magic, before recovering their Health and increasing their Combat Readiness by 35%. Amount recovered increases proportional to the target's max Health.",
+			"values": [],
+			"passive": false,
+			"cooldown": 3,
+			"soul_gain": 2,
+			"pow": 1,
+			"att_rate": 0,
+			"buff": [],
+			"debuff": [],
+			"common": [],
+			"enhanced_description": "Dispels one debuff from an ally with light magic, before recovering their Health and increasing their Combat Readiness by 50%. Amount recovered increases proportional to the target's max Health.",
+			"enhancements": [
+				{
+					"string": "+5% healing",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 120,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_2_enh_0"
+				},
+				{
+					"string": "+5% healing",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 270,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_2_enh_1"
+				},
+				{
+					"string": "+10% healing",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 22000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 470,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_rodent_es",
+							"count": 3,
+							"_id": "baby-mouse-insignia",
+							"identifier": "ma_rodent_es",
+							"name": "Baby Mouse Insignia",
+							"description": "An insignia made to commemorate the Bellmice heroes of legend. It seems to contain their shrewdness and bravery.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_rodent_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3. Savara",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_2"
+				},
+				{
+					"string": "+15% healing",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 30000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 740,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_rodent_es",
+							"count": 4,
+							"_id": "baby-mouse-insignia",
+							"identifier": "ma_rodent_es",
+							"name": "Baby Mouse Insignia",
+							"description": "An insignia made to commemorate the Bellmice heroes of legend. It seems to contain their shrewdness and bravery.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_rodent_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3. Savara",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_3"
+				},
+				{
+					"string": "+15% healing",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 40000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1100,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_rodent_es",
+							"count": 5,
+							"_id": "baby-mouse-insignia",
+							"identifier": "ma_rodent_es",
+							"name": "Baby Mouse Insignia",
+							"description": "An insignia made to commemorate the Bellmice heroes of legend. It seems to contain their shrewdness and bravery.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_rodent_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3. Savara",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4. Dragon Valley",
+									"continent": "Eureka",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Savara World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_4"
+				}
+			],
+			"_id": "skill_2",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c4044_3.png"
+			}
+		}
+	],
+	"specialty_change": {
+		"tree": [
+			[
+				{
+					"id": 1,
+					"position": 1,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "stat",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Speed.",
+							"upgrade": null
+						},
+						{
+							"type": "stat",
+							"stat": "speed",
+							"value": 1,
+							"description": "Increases Speed by 1.",
+							"upgrade": "+1 Speed"
+						},
+						{
+							"type": "stat",
+							"stat": "speed",
+							"value": 2,
+							"description": "Increases Speed by 3.",
+							"upgrade": "+2 Speed"
+						},
+						{
+							"type": "stat",
+							"stat": "speed",
+							"value": 2,
+							"description": "Increases Speed by 5.",
+							"upgrade": "+2 Speed"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"position": 2,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Mana Bullet's decrease Hit Chance effect chance.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Mana Bullet's decrease Hit Chance effect chance by 1%.",
+							"upgrade": "+1% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Mana Bullet's decrease Hit Chance effect chance by 3%.",
+							"upgrade": "+2% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Mana Bullet's decrease Hit Chance effect chance by 5%.",
+							"upgrade": "+2% effect chance"
+						}
+					]
+				},
+				{
+					"id": 3,
+					"position": 3,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "stat",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Health.",
+							"upgrade": null
+						},
+						{
+							"type": "stat",
+							"stat": "max_hp_rate",
+							"value": 0.02,
+							"description": "Increases Health by 2%.",
+							"upgrade": "+2% Health"
+						},
+						{
+							"type": "stat",
+							"stat": "max_hp_rate",
+							"value": 0.03,
+							"description": "Increases Health by 5%.",
+							"upgrade": "+3% Health"
+						},
+						{
+							"type": "stat",
+							"stat": "max_hp_rate",
+							"value": 0.05,
+							"description": "Increases Health by 10%.",
+							"upgrade": "+5% Health"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 4,
+					"position": 1,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Recovers Health of all allies after being attacked by a Dark elemental enemy.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Recovers Health of all allies by 0.5% after being attacked by a Dark elemental enemy.",
+							"upgrade": "+0.5% healing"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Recovers Health of all allies by 1% after being attacked by a Dark elemental enemy.",
+							"upgrade": "+0.5% healing"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Recovers Health of all allies by 2% after being attacked by a Dark elemental enemy.",
+							"upgrade": "+1% healing"
+						}
+					]
+				},
+				{
+					"id": 5,
+					"position": 3,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "stat",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Effect Resistance.",
+							"upgrade": null
+						},
+						{
+							"type": "stat",
+							"stat": "res",
+							"value": 0.07,
+							"description": "Increases Effect Resistance by 7%.",
+							"upgrade": "+7% Effect Resistance"
+						},
+						{
+							"type": "stat",
+							"stat": "res",
+							"value": 0.08,
+							"description": "Increases Effect Resistance by 15%.",
+							"upgrade": "+8% Effect Resistance"
+						},
+						{
+							"type": "stat",
+							"stat": "res",
+							"value": 0.1,
+							"description": "Increases Effect Resistance by 25%.",
+							"upgrade": "+10% Effect Resistance"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 6,
+					"position": 1,
+					"require_id": 4,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a chance to increase Defense of all allies for 1 turn after being attacked by a Dark elemental enemy.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 2% chance to increase Defense of all allies for 1 turn after being attacked by a Dark elemental enemy.",
+							"upgrade": "+2% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 5% chance to increase Defense of all allies for 1 turn after being attacked by a Dark elemental enemy.",
+							"upgrade": "+3% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 10% chance to increase Defense of all allies for 1 turn after being attacked by a Dark elemental enemy.",
+							"upgrade": "+5% effect chance"
+						}
+					]
+				},
+				{
+					"id": 7,
+					"position": 2,
+					"require_id": 2,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a chance to increase Combat Readiness of the caster by 5% after using Mana Bullet.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 20% chance to increase Combat Readiness of the caster by 5% after using Mana Bullet.",
+							"upgrade": "+20% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 50% chance to increase Combat Readiness of the caster by 5% after using Mana Bullet.",
+							"upgrade": "+30% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 100% chance to increase Combat Readiness of the caster by 5% after using Mana Bullet.",
+							"upgrade": "+50% effect chance"
+						}
+					]
+				},
+				{
+					"id": 8,
+					"position": 3,
+					"require_id": 5,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Effect Resistance of all allies.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Effect Resistance of all allies by 1%.",
+							"upgrade": "+1% Effect Resistance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Effect Resistance of all allies by 2.5%.",
+							"upgrade": "+1.5% Effect Resistance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Effect Resistance of all allies by 5%.",
+							"upgrade": "+2.5% Effect Resistance"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 9,
+					"position": 1,
+					"require_id": 6,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a chance to decrease damage suffered from a critical hit by 30% when attacked by a Dark elemental enemy. When more than one damage reduction effect is granted, only the strongest effect is applied.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 20% chance to decrease damage suffered from a critical hit by 30% when attacked by a Dark elemental enemy. When more than one damage reduction effect is granted, only the strongest effect is applied.",
+							"upgrade": "+20% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 50% chance to decrease damage suffered from a critical hit by 30% when attacked by a Dark elemental enemy. When more than one damage reduction effect is granted, only the strongest effect is applied.",
+							"upgrade": "+30% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Has a 100% chance to decrease damage suffered from a critical hit by 30% when attacked by a Dark elemental enemy. When more than one damage reduction effect is granted, only the strongest effect is applied.",
+							"upgrade": "+50% effect chance"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 10,
+					"position": 2,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When using Primal Light, has a chance to dispel one additional debuff from the target.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When using Primal Light, has a 20% chance to dispel one additional debuff from the target.",
+							"upgrade": "+20% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When using Primal Light, has a 50% chance to dispel one additional debuff from the target.",
+							"upgrade": "+30% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When using Primal Light, has a 100% chance to dispel one additional debuff from the target.",
+							"upgrade": "+50% effect chance"
+						}
+					]
+				}
+			]
+		]
+	},
+	"assets": {
+		"icon": "https://assets.epicsevendb.com/_source/face/c4044_s.png",
+		"image": "https://assets.epicsevendb.com/_source/face/c4044_su.png",
+		"thumbnail": "https://assets.epicsevendb.com/_source/face/c4044_l.png"
+	},
+	"buffs": [
+		{
+			"_id": "11",
+			"id": 11,
+			"type": "buff",
+			"name": "Continuous Heal",
+			"effect": "Recovers 15% of max Health at the start of every turn. This effect can stack.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_heal.png"
+			}
+		},
+		{
+			"_id": "2",
+			"id": 2,
+			"type": "buff",
+			"name": "Increase Defense",
+			"effect": "Increases Defense by 60%.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_def_up.png"
+			}
+		}
+	],
+	"debuffs": [
+		{
+			"_id": "22",
+			"id": 22,
+			"type": "debuff",
+			"name": "Decrease Hit Chance",
+			"effect": "Decreases Hit Chance by 50%.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_blind.png"
+			}
+		}
+	],
+	"common": [],
+	"ex_equip": [],
+	"calculatedStatus": {
+		"lv50FiveStarNoAwaken": {
+			"cp": 9412,
+			"atk": 313,
+			"hp": 3302,
+			"spd": 86,
+			"def": 537,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv50FiveStarFullyAwakened": {
+			"cp": 10874,
+			"atk": 433,
+			"hp": 4038,
+			"spd": 86,
+			"def": 569,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarNoAwaken": {
+			"cp": 11737,
+			"atk": 390,
+			"hp": 4152,
+			"spd": 86,
+			"def": 666,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarFullyAwakened": {
+			"cp": 13801,
+			"atk": 540,
+			"hp": 5319,
+			"spd": 86,
+			"def": 705,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		}
+	},
+	"localize": {
+		"name": "魔法学者 ドリス",
+		"skill1": {
+			"name": "魔力弾",
+			"desc": "敵単体に攻撃し、50.0%の確率で命中率DOWNを1ターンの間付与する。",
+			"soul_description": ""
+		},
+		"skill2": {
+			"name": "光の祝辞",
+			"desc": "味方全体の生命力を回復し、持続回復・防御力UPを2ターンの間付与する。対象の最大生命力が高いほど回復量がUPする。",
+			"soul_description": "味方全体の生命力を回復し、持続回復・防御力UPを2ターンの間付与する。対象の最大生命力が高いほど回復量がUPする。"
+		},
+		"skill3": {
+			"name": "太古の光",
+			"desc": "味方単体の弱体効果を1つ解除し、対象の生命力を回復し、アクションゲージを35%UPさせる。対象の最大生命力が高いほど回復量がUPする。",
+			"soul_description": ""
+		}
+	}
+}

@@ -1,0 +1,2026 @@
+{
+	"_id": "commander-lorina",
+	"index": 199,
+	"id": "c4035",
+	"base_id": "c3035",
+	"specialty_id": null,
+	"name": "Commander Lorina",
+	"moonlight": true,
+	"rarity": 3,
+	"attribute": "dark",
+	"role": "warrior",
+	"zodiac": "lion",
+	"description": "Vice-Commander of The Order of the Shield with outstanding talent",
+	"story": "Lorina became an official knight after defeating a Wyvern with her spear. She aims to lead the vanguard of the Order of the Shield one day, and acts without thinking based on what she believes is right.",
+	"get_line": "Please, call me Lorina.",
+	"stats": {
+		"bra": 93,
+		"int": 75,
+		"fai": 55,
+		"des": 66
+	},
+	"relationships": [
+		{
+			"name": null,
+			"description": null,
+			"relations": [
+				{
+					"id": "c1032",
+					"slot": 1,
+					"description": "A companion in the Order of the Shield and trustworthy senior knight.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "c1036",
+					"slot": 2,
+					"description": "Lorina has always thought she ought to emulate Crozet, and his sense of responsibility as commander of the Order of the Shield.",
+					"relation": "Longing",
+					"upgrade": {},
+					"relation_id": "re_longing_tx"
+				},
+				{
+					"id": "c1014",
+					"slot": 3,
+					"description": "She's grateful to Cidd who helped her even before she became an official knight.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "c1021",
+					"slot": 4,
+					"description": "Dingo is always cooking food to help her become stronger. Although it's hard to know what kind of ingredients he might have used...",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				}
+			]
+		}
+	],
+	"self_devotion": {
+		"type": "cri",
+		"grades": {
+			"D": 0.028,
+			"C": 0.042,
+			"B": 0.056,
+			"A": 0.07,
+			"S": 0.084,
+			"SS": 0.098,
+			"SSS": 0.112
+		}
+	},
+	"devotion": {
+		"type": "att",
+		"grades": {
+			"D": 24,
+			"C": 36,
+			"B": 48,
+			"A": 60,
+			"S": 72,
+			"SS": 84,
+			"SSS": 96
+		},
+		"slots": {
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true
+		}
+	},
+	"specialty": {
+		"name": "Faithful Spear",
+		"description": "Through faith she can overcome moments of weakness and doubt.",
+		"effect_type": "reward_bonus",
+		"effect_value": 0.1,
+		"command": 64,
+		"charm": 33,
+		"politics": 10,
+		"type": {
+			"name": "Weakened",
+			"description": "An unhealthy mind poisons the soul."
+		},
+		"assets": {
+			"icon": "https://assets.epicsevendb.com/_source/skill/smc_weak_3.png"
+		}
+	},
+	"camping": {
+		"personalities": [
+			"Altruistic",
+			"Hard Worker"
+		],
+		"topics": [
+			"Dream",
+			"Heroic Cheer"
+		],
+		"values": {
+			"Criticism": -1,
+			"Reality Check": -2,
+			"Heroic Tale": -1,
+			"Comforting Cheer": 8,
+			"Cute Cheer": 5,
+			"Heroic Cheer": 4,
+			"Sad Memory": 8,
+			"Joyful Memory": 6,
+			"Happy Memories": 0,
+			"Unique Comment": 0,
+			"Self-Indulgent": -5,
+			"Occult": -1,
+			"Myth": 1,
+			"Bizarre Story": -1,
+			"Food Story": 3,
+			"Horror Story": -3,
+			"Gossip": -2,
+			"Dream": 6,
+			"Advice": 7,
+			"Complain": -4,
+			"Belief": -2,
+			"Interesting Story": 2
+		}
+	},
+	"zodiac_tree": [
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runedark1",
+					"count": 5,
+					"_id": "dark-rune",
+					"identifier": "ma_runedark1",
+					"name": "Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att_rate",
+					"value": 0.03,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_0"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runedark1",
+					"count": 9,
+					"_id": "dark-rune",
+					"identifier": "ma_runedark1",
+					"name": "Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att_rate",
+					"value": 0.03,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_1"
+		},
+		{
+			"name": "Ability Stone",
+			"description": "Enhances skills more powerfully.",
+			"skill_enhanced": 1,
+			"costs": [
+				{
+					"item": "ma_runedark1",
+					"count": 12,
+					"_id": "dark-rune",
+					"identifier": "ma_runedark1",
+					"name": "Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				},
+				{
+					"item": "ma_runedark2",
+					"count": 6,
+					"_id": "greater-dark-rune",
+					"identifier": "ma_runedark2",
+					"name": "Greater Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_2"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runedark2",
+					"count": 15,
+					"_id": "greater-dark-rune",
+					"identifier": "ma_runedark2",
+					"name": "Greater Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "cri",
+					"value": 0.08,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_3"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runedark3",
+					"count": 4,
+					"_id": "epic-dark-rune",
+					"identifier": "ma_runedark3",
+					"name": "Epic Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_wolf_es",
+					"count": 9,
+					"_id": "ultra-fang",
+					"identifier": "ma_wolf_es",
+					"name": "Ultra Fang",
+					"description": "Some monsters' fangs are more durable than iron so that they can easily pierce through iron armor.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 3,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_wolf_es.png"
+					},
+					"request_count": 2,
+					"support_count": 1,
+					"shops": [
+						{
+							"chapter": "2S. Levulin",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "5S. Sun Desert",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "1. South Lefundos",
+							"continent": "Eureka",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "2. Crimson City Meldrec",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "2S. Scorned Lands",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "2S. Levulin World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "5S. Sun Desert World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "att_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_4"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runedark3",
+					"count": 6,
+					"_id": "epic-dark-rune",
+					"identifier": "ma_runedark3",
+					"name": "Epic Dark Rune",
+					"description": "A Rune for Awakening Dark elemental Heroes obtainable from the Dark Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "dark",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runedark3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_queen_es",
+					"count": 6,
+					"_id": "blazing-soul",
+					"identifier": "ma_queen_es",
+					"name": "Blazing Soul",
+					"description": "It is said that wishes that could not come true are sometimes left behind as tenacious souls.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 5,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_queen_es.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": [
+						{
+							"chapter": "4-2. Solayu Forest World",
+							"continent": "Ritania",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "att_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_5"
+		}
+	],
+	"skills": [
+		{
+			"name": "Sharp Blow",
+			"can_enhance": true,
+			"description": "Knocks the enemy into the air with a spear.",
+			"values": [],
+			"passive": false,
+			"cooldown": 0,
+			"soul_gain": 1,
+			"pow": 0.9,
+			"att_rate": 1,
+			"buff": [],
+			"debuff": [],
+			"common": [],
+			"enhanced_description": "Knocks the enemy into the air with a spear, increasing Combat Readiness of the caster by {{variable}}.",
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 120,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_0_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 270,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_0_enh_1"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 22000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 470,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_demon_es",
+							"count": 3,
+							"_id": "twisted-fang",
+							"identifier": "ma_demon_es",
+							"name": "Twisted Fang",
+							"description": "A fang fragment of incomprehensible composition. It is said to contain the power of the outside world.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_demon_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Duselnorc",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Duselnorc World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_2"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 30000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 740,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_demon_es",
+							"count": 4,
+							"_id": "twisted-fang",
+							"identifier": "ma_demon_es",
+							"name": "Twisted Fang",
+							"description": "A fang fragment of incomprehensible composition. It is said to contain the power of the outside world.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_demon_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Duselnorc",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Duselnorc World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_3"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 40000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1100,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_demon_es",
+							"count": 5,
+							"_id": "twisted-fang",
+							"identifier": "ma_demon_es",
+							"name": "Twisted Fang",
+							"description": "A fang fragment of incomprehensible composition. It is said to contain the power of the outside world.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_demon_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Duselnorc",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Duselnorc World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_4"
+				}
+			],
+			"_id": "skill_0",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c4035_1.png"
+			}
+		},
+		{
+			"name": "Spiritual Armament",
+			"can_enhance": false,
+			"description": "Increases Attack by {{variable}} each time the caster attacks an enemy. Effect can only stack up to 5 times.",
+			"values": [
+				0.1
+			],
+			"passive": true,
+			"cooldown": 0,
+			"soul_gain": 0,
+			"pow": 1,
+			"att_rate": 0,
+			"buff": [],
+			"debuff": [],
+			"common": [],
+			"enhancements": [
+				{
+					"string": "+0.5% Attack",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 120,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_1_enh_0"
+				},
+				{
+					"string": "+0.5% Attack",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 270,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_1_enh_1"
+				},
+				{
+					"string": "+1% Attack",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 22000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 470,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_demon_es",
+							"count": 3,
+							"_id": "twisted-fang",
+							"identifier": "ma_demon_es",
+							"name": "Twisted Fang",
+							"description": "A fang fragment of incomprehensible composition. It is said to contain the power of the outside world.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_demon_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Duselnorc",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Duselnorc World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_2"
+				},
+				{
+					"string": "+1% Attack",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 30000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 740,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_demon_es",
+							"count": 4,
+							"_id": "twisted-fang",
+							"identifier": "ma_demon_es",
+							"name": "Twisted Fang",
+							"description": "A fang fragment of incomprehensible composition. It is said to contain the power of the outside world.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_demon_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Duselnorc",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Duselnorc World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_3"
+				},
+				{
+					"string": "+2% Attack",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 40000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1100,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_demon_es",
+							"count": 5,
+							"_id": "twisted-fang",
+							"identifier": "ma_demon_es",
+							"name": "Twisted Fang",
+							"description": "A fang fragment of incomprehensible composition. It is said to contain the power of the outside world.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_demon_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Duselnorc",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Duselnorc World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_4"
+				}
+			],
+			"_id": "skill_1",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c4035_2.png"
+			}
+		},
+		{
+			"name": "Spiral Breakthrough",
+			"can_enhance": false,
+			"description": "Pierces the enemy with a spear, decreasing Combat Readiness by {{variable}}. Damage dealt increases proportional to the amount of the enemy's lost Health.",
+			"values": [
+				0.15
+			],
+			"passive": false,
+			"cooldown": 4,
+			"soul_gain": 2,
+			"pow": 0.95,
+			"att_rate": 1.5,
+			"buff": [],
+			"debuff": [],
+			"common": [],
+			"soul_description": "Grants an extra turn.",
+			"soul_requirement": 20,
+			"soul_pow": 0.95,
+			"soul_att_rate": 1.5,
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 120,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_2_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 270,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_2_enh_1"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 22000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 470,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_demon_es",
+							"count": 3,
+							"_id": "twisted-fang",
+							"identifier": "ma_demon_es",
+							"name": "Twisted Fang",
+							"description": "A fang fragment of incomprehensible composition. It is said to contain the power of the outside world.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_demon_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Duselnorc",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Duselnorc World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_2"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 30000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 740,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_demon_es",
+							"count": 4,
+							"_id": "twisted-fang",
+							"identifier": "ma_demon_es",
+							"name": "Twisted Fang",
+							"description": "A fang fragment of incomprehensible composition. It is said to contain the power of the outside world.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_demon_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Duselnorc",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Duselnorc World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_3"
+				},
+				{
+					"string": "+15% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 40000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1100,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_demon_es",
+							"count": 5,
+							"_id": "twisted-fang",
+							"identifier": "ma_demon_es",
+							"name": "Twisted Fang",
+							"description": "A fang fragment of incomprehensible composition. It is said to contain the power of the outside world.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_demon_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "3S. Farche Frontier",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Duselnorc",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "6S. Dark Iron Range",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "7S. Star Chaser Heights",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "3S. Farche Frontier World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "8. Duselnorc World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_4"
+				}
+			],
+			"_id": "skill_2",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c4035_3.png"
+			}
+		}
+	],
+	"specialty_change": {
+		"tree": [
+			[
+				{
+					"id": 1,
+					"position": 1,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "stat",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Dual Attack chance.",
+							"upgrade": null
+						},
+						{
+							"type": "stat",
+							"stat": "coop",
+							"value": 0.005,
+							"description": "Increases Dual Attack chance by 0.5%.",
+							"upgrade": "+0.5% Dual Attack chance"
+						},
+						{
+							"type": "stat",
+							"stat": "coop",
+							"value": 0.005,
+							"description": "Increases Dual Attack chance by 1%.",
+							"upgrade": "+0.5% Dual Attack chance"
+						},
+						{
+							"type": "stat",
+							"stat": "coop",
+							"value": 0.01,
+							"description": "Increases Dual Attack chance by 2%.",
+							"upgrade": "+1% Dual Attack chance"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"position": 2,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "stat",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Attack.",
+							"upgrade": null
+						},
+						{
+							"type": "stat",
+							"stat": "att_rate",
+							"value": 0.005,
+							"description": "Increases Attack by 0.5%.",
+							"upgrade": "+0.5% Attack"
+						},
+						{
+							"type": "stat",
+							"stat": "att_rate",
+							"value": 0.005,
+							"description": "Increases Attack by 1%.",
+							"upgrade": "+0.5% Attack"
+						},
+						{
+							"type": "stat",
+							"stat": "att_rate",
+							"value": 0.01,
+							"description": "Increases Attack by 2%.",
+							"upgrade": "+1% Attack"
+						}
+					]
+				},
+				{
+					"id": 3,
+					"position": 3,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When using Sharp Blow, further increases Combat Readiness.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When using Sharp Blow, increases Combat Readiness by an additional 1%.",
+							"upgrade": "+1% Combat Readiness"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When using Sharp Blow, increases Combat Readiness by an additional 2.5%.",
+							"upgrade": "+1.5% Combat Readiness"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When using Sharp Blow, increases Combat Readiness by an additional 5%.",
+							"upgrade": "+2.5% Combat Readiness"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 4,
+					"position": 1,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When Spiritual Armament is activated, further increases Defense.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When Spiritual Armament is activated, increases Defense by an additional 0.2%.",
+							"upgrade": "+0.2% Defense"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When Spiritual Armament is activated, increases Defense by an additional 0.5%.",
+							"upgrade": "+0.3% Defense"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When Spiritual Armament is activated, increases Defense by an additional 1%.",
+							"upgrade": "+0.5% Defense"
+						}
+					]
+				},
+				{
+					"id": 5,
+					"position": 3,
+					"require_id": 3,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases damage dealt by Sharp Blow.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases damage dealt by Sharp Blow by 0.5%.",
+							"upgrade": "+0.5% damage dealt"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases damage dealt by Sharp Blow by 1%.",
+							"upgrade": "+0.5% damage dealt"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases damage dealt by Sharp Blow by 2%.",
+							"upgrade": "+1% damage dealt"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 6,
+					"position": 1,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "stat",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Critical Hit Damage.",
+							"upgrade": null
+						},
+						{
+							"type": "stat",
+							"stat": "cri_dmg",
+							"value": 0.005,
+							"description": "Increases Critical Hit Damage by 0.5%.",
+							"upgrade": "+0.5% Critical Hit Damage"
+						},
+						{
+							"type": "stat",
+							"stat": "cri_dmg",
+							"value": 0.005,
+							"description": "Increases Critical Hit Damage by 1%.",
+							"upgrade": "+0.5% Critical Hit Damage"
+						},
+						{
+							"type": "stat",
+							"stat": "cri_dmg",
+							"value": 0.01,
+							"description": "Increases Critical Hit Damage by 2%.",
+							"upgrade": "+1% Critical Hit Damage"
+						}
+					]
+				},
+				{
+					"id": 7,
+					"position": 2,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases the rate of Combat Readiness reduction of Spiral Breakthrough.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases the rate of Combat Readiness reduction of Spiral Breakthrough by 1%.",
+							"upgrade": "+1% Combat Readiness reduction"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases the rate of Combat Readiness reduction of Spiral Breakthrough by 2.5%.",
+							"upgrade": "+1.5% Combat Readiness reduction"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases the rate of Combat Readiness reduction of Spiral Breakthrough by 5%.",
+							"upgrade": "+2.5% Combat Readiness reduction"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 8,
+					"position": 2,
+					"require_id": 7,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When defeating an enemy with Spiral Breakthrough, has a chance to reset cooldown.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When defeating an enemy with Spiral Breakthrough, has a 5% chance to reset cooldown.",
+							"upgrade": "+5% reset cooldown chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When defeating an enemy with Spiral Breakthrough, has a 10% chance to reset cooldown.",
+							"upgrade": "+5% reset cooldown chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When defeating an enemy with Spiral Breakthrough, has a 20% chance to reset cooldown.",
+							"upgrade": "+10% reset cooldown chance"
+						}
+					]
+				},
+				{
+					"id": 9,
+					"position": 3,
+					"require_id": 5,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When using Sharp Blow, has a chance to increase Combat Readiness by an additional 20%.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When using Sharp Blow, has a 3% chance to increase Combat Readiness by an additional 20%.",
+							"upgrade": "+3% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When using Sharp Blow, has a 8% chance to increase Combat Readiness by an additional 20%.",
+							"upgrade": "+5% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "When using Sharp Blow, has a 15% chance to increase Combat Readiness by an additional 20%.",
+							"upgrade": "+7% effect chance"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 10,
+					"position": 2,
+					"require_id": 8,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases the rate of Combat Readiness reduction of Spiral Breakthrough.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases the rate of Combat Readiness reduction of Spiral Breakthrough by 3%.",
+							"upgrade": "+3% Combat Readiness reduction"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases the rate of Combat Readiness reduction of Spiral Breakthrough by 8%.",
+							"upgrade": "+5% Combat Readiness reduction"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases the rate of Combat Readiness reduction of Spiral Breakthrough by 15%.",
+							"upgrade": "+7% Combat Readiness reduction"
+						}
+					]
+				}
+			]
+		]
+	},
+	"assets": {
+		"icon": "https://assets.epicsevendb.com/_source/face/c4035_s.png",
+		"image": "https://assets.epicsevendb.com/_source/face/c4035_su.png",
+		"thumbnail": "https://assets.epicsevendb.com/_source/face/c4035_l.png"
+	},
+	"buffs": [],
+	"debuffs": [],
+	"common": [],
+	"ex_equip": [],
+	"calculatedStatus": {
+		"lv50FiveStarNoAwaken": {
+			"cp": 10445,
+			"atk": 677,
+			"hp": 3559,
+			"spd": 101,
+			"def": 438,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv50FiveStarFullyAwakened": {
+			"cp": 11978,
+			"atk": 878,
+			"hp": 3899,
+			"spd": 101,
+			"def": 438,
+			"chc": 0.22999999999999998,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarNoAwaken": {
+			"cp": 13027,
+			"atk": 843,
+			"hp": 4475,
+			"spd": 101,
+			"def": 543,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarFullyAwakened": {
+			"cp": 15164,
+			"atk": 1144,
+			"hp": 4895,
+			"spd": 101,
+			"def": 543,
+			"chc": 0.22999999999999998,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		}
+	},
+	"localize": {
+		"name": "指揮官 ロリーナ",
+		"skill1": {
+			"name": "鋭い一撃",
+			"desc": "敵単体に攻撃する。",
+			"soul_description": ""
+		},
+		"skill2": {
+			"name": "精神力",
+			"desc": "攻撃する度、攻撃力が10.0%ずつUPする。最大5回累積する。",
+			"soul_description": ""
+		},
+		"skill3": {
+			"name": "螺旋突破",
+			"desc": "敵単体に攻撃し、アクションゲージを15.0%DOWNさせる。対象の現在生命力が低いほどダメージがUPする。",
+			"soul_description": "敵単体に攻撃し、アクションゲージを15.0%DOWNさせる。対象の現在生命力が低いほどダメージがUPする。"
+		}
+	}
+}

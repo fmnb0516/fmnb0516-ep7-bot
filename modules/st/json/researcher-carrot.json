@@ -1,0 +1,2152 @@
+{
+	"_id": "researcher-carrot",
+	"index": 203,
+	"id": "c4051",
+	"base_id": "c3051",
+	"specialty_id": null,
+	"name": "Researcher Carrot",
+	"moonlight": false,
+	"rarity": 3,
+	"attribute": "fire",
+	"role": "mage",
+	"zodiac": "archer",
+	"description": "A thorough researcher, seeking the truth behind magic",
+	"story": "Carrot studied tirelessly to pass the notorious Magic Research Department exam and became a professional researcher. She thought things would finally get better once she passed, but instead, she feels like she has gotten even busier.",
+	"get_line": "MISSING_TRANSLATION_VALUE(c4051_gacha_get)",
+	"stats": {
+		"bra": 90,
+		"int": 51,
+		"fai": 73,
+		"des": 74
+	},
+	"relationships": [
+		{
+			"name": null,
+			"description": null,
+			"relations": [
+				{
+					"id": "c1079",
+					"slot": 1,
+					"description": "Carrot is concerned something may have happened to her older sister Cermia after she suddenly stopped asking for money.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "c1030",
+					"slot": 2,
+					"description": "Considering how difficult it is to be a researcher, Carrot cannot imagine how difficult the job of student council president must be.",
+					"relation": "Longing",
+					"upgrade": {},
+					"relation_id": "re_longing_tx"
+				},
+				{
+					"id": "c3041",
+					"slot": 3,
+					"description": "Carrot helps Hazel with the Student Council's accounting in return for Hazel helping with her research.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				},
+				{
+					"id": "c1067",
+					"slot": 4,
+					"description": "Tamarinne often sings a lullaby for Carrot to help her sleep.",
+					"relation": "Trust",
+					"upgrade": {},
+					"relation_id": "re_trust_tx"
+				}
+			]
+		}
+	],
+	"self_devotion": {
+		"type": "att",
+		"grades": {
+			"D": 36,
+			"C": 54,
+			"B": 72,
+			"A": 90,
+			"S": 108,
+			"SS": 126,
+			"SSS": 144
+		}
+	},
+	"devotion": {
+		"type": "att",
+		"grades": {
+			"D": 24,
+			"C": 36,
+			"B": 48,
+			"A": 60,
+			"S": 72,
+			"SS": 84,
+			"SSS": 96
+		},
+		"slots": {
+			"1": true,
+			"2": true,
+			"3": true,
+			"4": true
+		}
+	},
+	"specialty": {
+		"name": "I'll Sleep When I'm Dead",
+		"description": "All researchers develop an ability to write piles of reports without sleeping for several days.",
+		"effect_type": "reward_bonus",
+		"effect_value": 0.1,
+		"command": 5,
+		"charm": 37,
+		"politics": 11,
+		"type": {
+			"name": "Time Limit",
+			"description": "A mission with a time limit. Be quick and accurate."
+		},
+		"assets": {
+			"icon": "https://assets.epicsevendb.com/_source/skill/smc_time_1.png"
+		}
+	},
+	"camping": {
+		"personalities": [
+			"Cool-Headed",
+			"Hard Worker"
+		],
+		"topics": [
+			"Reality Check",
+			"Horror Story"
+		],
+		"values": {
+			"Criticism": 4,
+			"Reality Check": 3,
+			"Heroic Tale": 2,
+			"Comforting Cheer": 3,
+			"Cute Cheer": 2,
+			"Heroic Cheer": 2,
+			"Sad Memory": 3,
+			"Joyful Memory": 4,
+			"Happy Memories": -3,
+			"Unique Comment": 3,
+			"Self-Indulgent": -3,
+			"Occult": 0,
+			"Myth": 0,
+			"Bizarre Story": 0,
+			"Food Story": 3,
+			"Horror Story": -1,
+			"Gossip": -3,
+			"Dream": 3,
+			"Advice": 2,
+			"Complain": -5,
+			"Belief": 1,
+			"Interesting Story": 2
+		}
+	},
+	"zodiac_tree": [
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runefire1",
+					"count": 5,
+					"_id": "flame-rune",
+					"identifier": "ma_runefire1",
+					"name": "Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att_rate",
+					"value": 0.03,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_0"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runefire1",
+					"count": 9,
+					"_id": "flame-rune",
+					"identifier": "ma_runefire1",
+					"name": "Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "cri",
+					"value": 0.04,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_1"
+		},
+		{
+			"name": "Ability Stone",
+			"description": "Enhances skills more powerfully.",
+			"skill_enhanced": 3,
+			"costs": [
+				{
+					"item": "ma_runefire1",
+					"count": 12,
+					"_id": "flame-rune",
+					"identifier": "ma_runefire1",
+					"name": "Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 1,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire1.png"
+					},
+					"request_count": 20,
+					"support_count": 4,
+					"shops": []
+				},
+				{
+					"item": "ma_runefire2",
+					"count": 6,
+					"_id": "greater-flame-rune",
+					"identifier": "ma_runefire2",
+					"name": "Greater Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "att",
+					"value": 20,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 60,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_2"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runefire2",
+					"count": 15,
+					"_id": "greater-flame-rune",
+					"identifier": "ma_runefire2",
+					"name": "Greater Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar stage 4 onwards.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 3,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire2.png"
+					},
+					"request_count": 5,
+					"support_count": 1,
+					"shops": []
+				}
+			],
+			"stats": [
+				{
+					"stat": "speed",
+					"value": 4,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_3"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runefire3",
+					"count": 4,
+					"_id": "epic-flame-rune",
+					"identifier": "ma_runefire3",
+					"name": "Epic Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_demonr_es",
+					"count": 9,
+					"_id": "cold-look",
+					"identifier": "ma_demonr_es",
+					"name": "Cold Look",
+					"description": "A fragment taken from the core of a unique monster said to allow you to feel somebody's eyes looking at you no matter where you are.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 3,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_demonr_es.png"
+					},
+					"request_count": 2,
+					"support_count": 1,
+					"shops": [
+						{
+							"chapter": "5S. Sun Desert",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "8. Duselnorc",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "5. Wintenberg of the Past",
+							"continent": "Eureka",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "1. Jerdun Borderlands",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "1S. Pupuran Ruins",
+							"continent": "Cidonia",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "5S. Sun Desert World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						},
+						{
+							"chapter": "8. Duselnorc World",
+							"continent": "Ritania",
+							"price": 120,
+							"limit_count": 5,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "att_rate",
+					"value": 0.06,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_4"
+		},
+		{
+			"name": "Potential Stone",
+			"description": "Boosts the Hero's abilities by unleashing their potential.",
+			"skill_enhanced": false,
+			"costs": [
+				{
+					"item": "ma_runefire3",
+					"count": 6,
+					"_id": "epic-flame-rune",
+					"identifier": "ma_runefire3",
+					"name": "Epic Flame Rune",
+					"description": "A Rune for Awakening Fire elemental Heroes obtainable from the Flame Spirit Altar stage 7 onwards.",
+					"category": "Rune",
+					"attribute": "fire",
+					"grade": 5,
+					"type1": "rune",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_runefire3.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": []
+				},
+				{
+					"item": "ma_hired_es",
+					"count": 6,
+					"_id": "mercenarys-medicine",
+					"identifier": "ma_hired_es",
+					"name": "Mercenary's Medicine",
+					"description": "There is a rumor that mercenaries use this medicine to gain temporary strength.",
+					"category": "Catalyst",
+					"attribute": null,
+					"grade": 5,
+					"type1": "essence",
+					"type2": null,
+					"assets": {
+						"thumbnail": null,
+						"icon": "https://assets.epicsevendb.com/_source/item/ma_hired_es.png"
+					},
+					"request_count": 0,
+					"support_count": 0,
+					"shops": [
+						{
+							"chapter": "3. South Wintenberg",
+							"continent": "Eureka",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						},
+						{
+							"chapter": "4-1. Solayu Swamp World",
+							"continent": "Ritania",
+							"price": 400,
+							"limit_count": 2,
+							"period": "week"
+						}
+					]
+				}
+			],
+			"stats": [
+				{
+					"stat": "cri",
+					"value": 0.08,
+					"type": "sub"
+				},
+				{
+					"stat": "att",
+					"value": 30,
+					"type": "main"
+				},
+				{
+					"stat": "max_hp",
+					"value": 80,
+					"type": "sub"
+				}
+			],
+			"_id": "zodiac_5"
+		}
+	],
+	"skills": [
+		{
+			"name": "Swing",
+			"can_enhance": false,
+			"description": "Attacks with a staff, with a {{variable}} chance to decrease Speed for 2 turns, before detonating burn effects inflicted on the enemy at the end of the turn.",
+			"values": [
+				0.35
+			],
+			"passive": false,
+			"cooldown": 0,
+			"soul_gain": 1,
+			"pow": 0.95,
+			"att_rate": 1,
+			"buff": [],
+			"debuff": [
+				19,
+				31
+			],
+			"common": [
+				51
+			],
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 80,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_0_enh_0"
+				},
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 3000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 180,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_0_enh_1"
+				},
+				{
+					"string": "+5% decrease Speed chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 10000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 320,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_bowman_es",
+							"count": 1,
+							"_id": "archers-vision",
+							"identifier": "ma_bowman_es",
+							"name": "Archer's Vision",
+							"description": "A book said to contain the secret behind becoming an ace marksman.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_bowman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "10. East Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. East Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_2"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 18000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 530,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_bowman_es",
+							"count": 2,
+							"_id": "archers-vision",
+							"identifier": "ma_bowman_es",
+							"name": "Archer's Vision",
+							"description": "A book said to contain the secret behind becoming an ace marksman.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_bowman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "10. East Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. East Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_3"
+				},
+				{
+					"string": "+10% decrease Speed chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 32000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 850,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_bowman_es",
+							"count": 4,
+							"_id": "archers-vision",
+							"identifier": "ma_bowman_es",
+							"name": "Archer's Vision",
+							"description": "A book said to contain the secret behind becoming an ace marksman.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_bowman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "10. East Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. East Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_4"
+				},
+				{
+					"string": "+15% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 48000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1340,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_bowman_es",
+							"count": 6,
+							"_id": "archers-vision",
+							"identifier": "ma_bowman_es",
+							"name": "Archer's Vision",
+							"description": "A book said to contain the secret behind becoming an ace marksman.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_bowman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "10. East Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. East Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_0_enh_5"
+				}
+			],
+			"_id": "skill_0",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c4051_1.png"
+			}
+		},
+		{
+			"name": "Flame Barrier",
+			"can_enhance": false,
+			"description": "At the moment the caster is attacked, grants the caster a barrier for 1 turn and burns the attacker for 1 turn. Barrier effect can only be activated once per turn, and barrier strength increases proportional to the caster's Attack.",
+			"values": [
+				0.3
+			],
+			"passive": true,
+			"cooldown": 0,
+			"soul_gain": 0,
+			"pow": 1,
+			"att_rate": 0,
+			"buff": [
+				5
+			],
+			"debuff": [
+				31
+			],
+			"common": [],
+			"enhancements": [
+				{
+					"string": "+15% barrier strength",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 14000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 250,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_bowman_es",
+							"count": 2,
+							"_id": "archers-vision",
+							"identifier": "ma_bowman_es",
+							"name": "Archer's Vision",
+							"description": "A book said to contain the secret behind becoming an ace marksman.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_bowman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "10. East Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. East Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_0"
+				},
+				{
+					"string": "+15% barrier strength",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 24000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 650,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_bowman_es",
+							"count": 3,
+							"_id": "archers-vision",
+							"identifier": "ma_bowman_es",
+							"name": "Archer's Vision",
+							"description": "A book said to contain the secret behind becoming an ace marksman.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_bowman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "10. East Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. East Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_1_enh_1"
+				}
+			],
+			"_id": "skill_1",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c4051_2.png"
+			}
+		},
+		{
+			"name": "Flame Spurt",
+			"can_enhance": true,
+			"description": "Attacks all enemies with powerful fire, dispelling one buff before a {{variable}} chance each to inflict two burn effects for 1 turn.",
+			"values": [
+				0.6
+			],
+			"passive": false,
+			"cooldown": 4,
+			"soul_gain": 3,
+			"pow": 1,
+			"att_rate": 1.1,
+			"buff": [],
+			"debuff": [
+				31
+			],
+			"common": [],
+			"soul_description": "Grants an extra turn.",
+			"soul_requirement": 20,
+			"soul_pow": 1,
+			"soul_att_rate": 1.1,
+			"enhanced_description": "Attacks all enemies with powerful fire, dispelling one buff before a {{variable}} chance each to inflict two burn effects for 2 turns.",
+			"enhancements": [
+				{
+					"string": "+5% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 1000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 50,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_2_enh_0"
+				},
+				{
+					"string": "+5% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 2000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 120,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_2_enh_1"
+				},
+				{
+					"string": "+5% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 4000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 230,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						}
+					],
+					"_id": "skill_2_enh_2"
+				},
+				{
+					"string": "-1 turn cooldown",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 21000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 400,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_bowman_es",
+							"count": 3,
+							"_id": "archers-vision",
+							"identifier": "ma_bowman_es",
+							"name": "Archer's Vision",
+							"description": "A book said to contain the secret behind becoming an ace marksman.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_bowman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "10. East Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. East Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_3"
+				},
+				{
+					"string": "+10% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 29000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 650,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_bowman_es",
+							"count": 4,
+							"_id": "archers-vision",
+							"identifier": "ma_bowman_es",
+							"name": "Archer's Vision",
+							"description": "A book said to contain the secret behind becoming an ace marksman.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_bowman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "10. East Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. East Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_4"
+				},
+				{
+					"string": "+5% effect chance",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 39000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1000,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_bowman_es",
+							"count": 5,
+							"_id": "archers-vision",
+							"identifier": "ma_bowman_es",
+							"name": "Archer's Vision",
+							"description": "A book said to contain the secret behind becoming an ace marksman.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_bowman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "10. East Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. East Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_5"
+				},
+				{
+					"string": "+15% damage dealt",
+					"costs": [
+						{
+							"item": "to_gold",
+							"count": 50000,
+							"_id": "to_gold",
+							"identifier": "to_gold",
+							"name": "Gold",
+							"description": "A currency used across all continents to purchase various goods.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_gold.png"
+							}
+						},
+						{
+							"item": "to_stigma",
+							"count": 1450,
+							"_id": "to_stigma",
+							"identifier": "to_stigma",
+							"name": "Stigma",
+							"description": "A leaf that allows you to immediately grow Creatures in the Forest of Souls.",
+							"assets": {
+								"icon": "https://assets.epicsevendb.com/_source/item/token_stigma.png"
+							}
+						},
+						{
+							"item": "ma_bowman_es",
+							"count": 6,
+							"_id": "archers-vision",
+							"identifier": "ma_bowman_es",
+							"name": "Archer's Vision",
+							"description": "A book said to contain the secret behind becoming an ace marksman.",
+							"category": "Catalyst",
+							"attribute": null,
+							"grade": 3,
+							"type1": "essence",
+							"type2": null,
+							"assets": {
+								"thumbnail": null,
+								"icon": "https://assets.epicsevendb.com/_source/item/ma_bowman_es.png"
+							},
+							"request_count": 2,
+							"support_count": 1,
+							"shops": [
+								{
+									"chapter": "10. East Taranor",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 2,
+									"period": "week"
+								},
+								{
+									"chapter": "3. Mining City Aakhen",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "5-1. North Fortress City Perland",
+									"continent": "Cidonia",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "10. East Taranor World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								},
+								{
+									"chapter": "4-1. Solayu Swamp World",
+									"continent": "Ritania",
+									"price": 120,
+									"limit_count": 5,
+									"period": "week"
+								}
+							]
+						}
+					],
+					"_id": "skill_2_enh_6"
+				}
+			],
+			"_id": "skill_2",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/skill/sk_c4051_3.png"
+			}
+		}
+	],
+	"specialty_change": {
+		"tree": [
+			[
+				{
+					"id": 1,
+					"position": 1,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "stat",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Attack.",
+							"upgrade": null
+						},
+						{
+							"type": "stat",
+							"stat": "att_rate",
+							"value": 0.03,
+							"description": "Increases Attack by 3%.",
+							"upgrade": "+3% Attack"
+						},
+						{
+							"type": "stat",
+							"stat": "att_rate",
+							"value": 0.05,
+							"description": "Increases Attack by 8%.",
+							"upgrade": "+5% Attack"
+						},
+						{
+							"type": "stat",
+							"stat": "att_rate",
+							"value": 0.07,
+							"description": "Increases Attack by 15%.",
+							"upgrade": "+7% Attack"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"position": 2,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Swing's decrease Speed effect chance.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Swing's decrease Speed effect chance by 2%.",
+							"upgrade": "+2% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Swing's decrease Speed effect chance by 5%.",
+							"upgrade": "+3% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Swing's decrease Speed effect chance by 10%.",
+							"upgrade": "+5% effect chance"
+						}
+					]
+				},
+				{
+					"id": 3,
+					"position": 3,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "stat",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Health.",
+							"upgrade": null
+						},
+						{
+							"type": "stat",
+							"stat": "max_hp_rate",
+							"value": 0.07,
+							"description": "Increases Health by 7%.",
+							"upgrade": "+7% Health"
+						},
+						{
+							"type": "stat",
+							"stat": "max_hp_rate",
+							"value": 0.08,
+							"description": "Increases Health by 15%.",
+							"upgrade": "+8% Health"
+						},
+						{
+							"type": "stat",
+							"stat": "max_hp_rate",
+							"value": 0.1,
+							"description": "Increases Health by 25%.",
+							"upgrade": "+10% Health"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 4,
+					"position": 1,
+					"require_id": 1,
+					"enhancements": [
+						{
+							"type": "stat",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Defense.",
+							"upgrade": null
+						},
+						{
+							"type": "stat",
+							"stat": "def_rate",
+							"value": 0.02,
+							"description": "Increases Defense by 2%.",
+							"upgrade": "+2% Defense"
+						},
+						{
+							"type": "stat",
+							"stat": "def_rate",
+							"value": 0.03,
+							"description": "Increases Defense by 5%.",
+							"upgrade": "+3% Defense"
+						},
+						{
+							"type": "stat",
+							"stat": "def_rate",
+							"value": 0.05,
+							"description": "Increases Defense by 10%.",
+							"upgrade": "+5% Defense"
+						}
+					]
+				},
+				{
+					"id": 5,
+					"position": 3,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Effectiveness of the team.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Effectiveness of allies by 1%.",
+							"upgrade": "+1% Effectiveness"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Effectiveness of allies by 2.5%.",
+							"upgrade": "+1.5% Effectiveness"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Effectiveness of allies by 5%.",
+							"upgrade": "+2.5% Effectiveness"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 6,
+					"position": 1,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "After using Flame Spurt, has a chance to grant continuous healing to the caster for 1 turn.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "After using Flame Spurt, has a 20% chance to grant continuous healing to the caster for 1 turn.",
+							"upgrade": "+20% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "After using Flame Spurt, has a 50% chance to grant continuous healing to the caster for 1 turn.",
+							"upgrade": "+30% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "After using Flame Spurt, has a 100% chance to grant continuous healing to the caster for 1 turn.",
+							"upgrade": "+50% effect chance"
+						}
+					]
+				},
+				{
+					"id": 7,
+					"position": 3,
+					"require_id": 5,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Combat Readiness increases when using Swing.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Combat Readiness increases by 2% when using Swing.",
+							"upgrade": "+2% Combat Readiness"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Combat Readiness increases by 5% when using Swing.",
+							"upgrade": "+3% Combat Readiness"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Combat Readiness increases by 10% when using Swing.",
+							"upgrade": "+5% Combat Readiness"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 8,
+					"position": 2,
+					"require_id": null,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "After being attacked, if the caster is debuffed, has a chance to dispel one debuff from the caster. Can only be activated once per turn.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "After being attacked, if the caster is debuffed, has a 20% chance to dispel one debuff from the caster. Can only be activated once per turn.",
+							"upgrade": "+20% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "After being attacked, if the caster is debuffed, has a 50% chance to dispel one debuff from the caster. Can only be activated once per turn.",
+							"upgrade": "+30% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "After being attacked, if the caster is debuffed, has a 100% chance to dispel one debuff from the caster. Can only be activated once per turn.",
+							"upgrade": "+50% effect chance"
+						}
+					]
+				}
+			],
+			[
+				{
+					"id": 9,
+					"position": 1,
+					"require_id": 6,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Flame Spurt's burn effect chance.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Flame Spurt's burn effect chance by 5%.",
+							"upgrade": "+5% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Flame Spurt's burn effect chance by 13%.",
+							"upgrade": "+8% effect chance"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "Increases Flame Spurt's burn effect chance by 25%.",
+							"upgrade": "+12% effect chance"
+						}
+					]
+				},
+				{
+					"id": 10,
+					"position": 2,
+					"require_id": 8,
+					"enhancements": [
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "If the caster's Health is 80% or more when attacked, decreases damage received. When more than one damage reduction effect is granted, only the strongest effect is applied.",
+							"upgrade": null
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "If the caster's Health is 80% or more when attacked, decreases damage received by 5%. When more than one damage reduction effect is granted, only the strongest effect is applied.",
+							"upgrade": "-5% damage received"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "If the caster's Health is 80% or more when attacked, decreases damage received by 12%. When more than one damage reduction effect is granted, only the strongest effect is applied.",
+							"upgrade": "-7% damage received"
+						},
+						{
+							"type": "skill",
+							"stat": null,
+							"value": 0,
+							"description": "If the caster's Health is 80% or more when attacked, decreases damage received by 20%. When more than one damage reduction effect is granted, only the strongest effect is applied.",
+							"upgrade": "-8% damage received"
+						}
+					]
+				}
+			]
+		]
+	},
+	"assets": {
+		"icon": "https://assets.epicsevendb.com/_source/face/c4051_s.png",
+		"image": "https://assets.epicsevendb.com/_source/face/c4051_su.png",
+		"thumbnail": "https://assets.epicsevendb.com/_source/face/c4051_l.png"
+	},
+	"buffs": [
+		{
+			"_id": "5",
+			"id": 5,
+			"type": "buff",
+			"name": "Barrier",
+			"effect": "Neutralizes some of the damage taken when attacked.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_protect.png"
+			}
+		}
+	],
+	"debuffs": [
+		{
+			"_id": "31",
+			"id": 31,
+			"type": "debuff",
+			"name": "Burn",
+			"effect": "Target receives huge damage proportional to the caster's Attack at the start of the turn.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_blaze.png"
+			}
+		},
+		{
+			"_id": "19",
+			"id": 19,
+			"type": "debuff",
+			"name": "Decrease Speed",
+			"effect": "Decreases Speed by 30%.",
+			"assets": {
+				"icon": "https://assets.epicsevendb.com/_source/buff/stic_speed_dn.png"
+			}
+		}
+	],
+	"common": [
+		{
+			"_id": "51",
+			"id": 51,
+			"type": "common",
+			"name": "Detonate",
+			"effect": "Inflicts damage by activating any DoT effects inflicted on the enemy. Damage is proportional to the number of turns and number of effects.",
+			"assets": {
+				"icon": null
+			}
+		}
+	],
+	"ex_equip": [],
+	"calculatedStatus": {
+		"lv50FiveStarNoAwaken": {
+			"cp": 10185,
+			"atk": 655,
+			"hp": 2788,
+			"spd": 106,
+			"def": 489,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv50FiveStarFullyAwakened": {
+			"cp": 11614,
+			"atk": 833,
+			"hp": 3128,
+			"spd": 110,
+			"def": 489,
+			"chc": 0.19,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarNoAwaken": {
+			"cp": 12691,
+			"atk": 816,
+			"hp": 3505,
+			"spd": 106,
+			"def": 606,
+			"chc": 0.15,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		},
+		"lv60SixStarFullyAwakened": {
+			"cp": 14932,
+			"atk": 1039,
+			"hp": 3925,
+			"spd": 110,
+			"def": 606,
+			"chc": 0.27,
+			"chd": 1.5,
+			"dac": 0.05,
+			"eff": 0,
+			"efr": 0
+		}
+	},
+	"localize": {
+		"name": "研究者 キャロット",
+		"skill1": {
+			"name": "振り回し",
+			"desc": "敵単体に攻撃し、35.0%の確率でスピードDOWNを2ターンの間付与する。ターン終了時、対象の火傷を激爆させる。",
+			"soul_description": ""
+		},
+		"skill2": {
+			"name": "炎のバリア",
+			"desc": "攻撃を受けた時、その攻撃に伴う効果が発生する前に自身にシールドを1ターンの間付与し、攻撃者に火傷を1ターンの間付与する。シールドを付与する効果は1ターンに1回まで発生する。自身の攻撃力が高いほどシールド効果がUPする。",
+			"soul_description": ""
+		},
+		"skill3": {
+			"name": "火炎爆風",
+			"desc": "敵全体に攻撃し、強化効果を1つ解除し、それぞれ60.0%の確率で2つの火傷を1ターンの間付与する。",
+			"soul_description": "敵全体に攻撃し、強化効果を1つ解除し、それぞれ60.0%の確率で2つの火傷を1ターンの間付与する。"
+		}
+	}
+}
